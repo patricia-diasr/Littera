@@ -32,3 +32,4 @@ C:\Users\patid\Área de Trabalho\Projetos\Littera\Littera\obj\Debug\net8.0\refin
 C:\Users\patid\Área de Trabalho\Projetos\Littera\Littera\obj\Debug\net8.0\Littera.pdb
 C:\Users\patid\Área de Trabalho\Projetos\Littera\Littera\obj\Debug\net8.0\Littera.genruntimeconfig.cache
 C:\Users\patid\Área de Trabalho\Projetos\Littera\Littera\obj\Debug\net8.0\ref\Littera.dll
+C:\Users\patid\Área de Trabalho\Projetos\Littera\Littera\obj\Debug\net8.0\Littera.sourcelink.json

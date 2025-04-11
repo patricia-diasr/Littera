@@ -1,0 +1,173 @@
+﻿@{
+    ViewData["Title"] = "Livro";
+}
+
+<style>
+    .book-cover {
+        width: 100%;
+        max-width: 280px;
+        border-radius: 12px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.18);
+        transition: transform 0.3s ease;
+    }
+
+    .book-cover:hover {
+        transform: scale(1.02);
+    }
+
+    .badge-status {
+        font-size: 0.85rem;
+        padding: 5px 14px;
+        border-radius: 20px;
+        font-weight: 500;
+    }
+
+    .star-rating i {
+        color: var(--bs-warning);
+        font-size: 1.3rem;
+        margin-right: 3px;
+    }
+
+    .section-title {
+        font-weight: 600;
+        font-size: 1.25rem;
+        margin-top: 30px;
+        margin-bottom: 12px;
+        border-bottom: 2px solid var(--bs-light);
+        padding-bottom: 8px;
+        color: var(--bs-secondary);
+    }
+
+    .book-info-label {
+        font-weight: 600;
+        color: var(--bs-secondary);
+        margin-bottom: 4px;
+    }
+
+    .book-container {
+        padding: 40px 0;
+        background-color: white;
+        border-radius: 16px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    }
+
+    .badge-custom {
+        background-color: var(--bs-primary);
+        color: white;
+        padding: 6px 12px;
+        font-size: 0.85rem;
+        border-radius: 16px;
+    }
+
+    .badge-collection {
+        background-color: var(--bs-secondary);
+        color: white;
+        padding: 6px 12px;
+        font-size: 0.85rem;
+        border-radius: 16px;
+    }
+
+    .book-title {
+        color: #333;
+        font-weight: 700;
+    }
+
+    .book-author {
+        color: var(--bs-secondary);
+        font-weight: 500;
+    }
+
+    .book-info-value {
+        color: #444;
+        font-size: 0.95rem;
+    }
+
+    .book-summary {
+        line-height: 1.6;
+        color: #444;
+    }
+
+    .button-container {
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+    }
+
+</style>
+
+<div class="container book-container my-4 p-4">
+    <div class="row">
+        <div class="col-md-4 text-center mb-4 mb-md-0">
+            <img src="https://m.media-amazon.com/images/I/81DkKVIavBL._SY425_.jpg" class="book-cover shadow" alt="Assistente do Vilão">
+        </div>
+        <div class="col-md-8">
+            <h2 class="book-title mb-1">Assistente do Vilão</h2>
+            <h5 class="book-author mb-4">Hannah Nicole Maehrer</h5>
+
+            <div class="mb-4">
+                <div class="book-info-label">Tags</div>
+                <span class="badge badge-custom me-2 mb-1">Fantasia</span>
+                <span class="badge badge-custom me-2 mb-1">Romance</span>
+                <span class="badge badge-custom me-2 mb-1">Aventura</span>
+            </div>
+
+            <div class="mb-5">
+                <div class="book-info-label">Coleções</div>
+                <span class="badge badge-collection me-2 mb-1">Romantasias</span>
+                <span class="badge badge-collection me-2 mb-1">Livros do TikTok</span>
+            </div>
+
+            <div class="row mb-5">
+                <div class="col-sm-6 mb-3 mb-sm-0">
+                    <div class="book-info-label">Status</div>
+                    <span class="badge bg-warning text-dark badge-status">Lido</span>
+                </div>
+                <div class="col-sm-6">
+                    <div class="book-info-label">Quantidade de Páginas</div>
+                    <div class="book-info-value">512</div>
+                </div>
+            </div>
+
+            <div class="row mb-5">
+                <div class="col-sm-6 mb-3 mb-sm-0">
+                    <div class="book-info-label">Data de Início</div>
+                    <div class="book-info-value">15/01/2024</div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="book-info-label">Data de Término</div>
+                    <div class="book-info-value">22/01/2024</div>
+                </div>
+            </div>
+
+            <div class="section-title mt-5">Resumo</div>
+            <p class="book-summary mb-4">
+                Evie Sage está desesperada por um emprego para sustentar sua família — então, quando esbarra acidentalmente com o Vilão mais temido de Rennedawn e recebe uma oferta de trabalho, ela aceita sem pensar. O cargo envolve apoiar uma equipe dedicada ao caos e terror, lidar com funções sombrias não especificadas e conviver com globos oculares errantes e cabeças decepadas como parte do cotidiano. Não é exatamente o trabalho dos sonhos… mas os benefícios são ótimos.
+            </p>
+            <p class="book-summary mb-5">
+                Conforme Evie se adapta ao ambiente e tenta não babar pelo chefe aterrorizante e inegavelmente gato, ela percebe que alguém está tentando destruir o império do Vilão. Agora, além de manter o emprego e o coração sob controle, ela precisa salvar o próprio chefe. Assistente do Vilão é uma fantasia romântica cheia de humor, que mistura contos de fadas com escritório corporativo.
+            </p>
+
+            <div class="section-title mt-5">Avaliação</div>
+            <div class="star-rating mb-4">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+            </div>
+
+            <p class="book-summary fst-italic mb-5">
+                Adorei o enredo da história, é bem divertida e leve — ótima pra tirar a gente da ressaca literária.
+            </p>
+
+            <div class="button-container mt-4">
+                <a href="#" class="btn btn-sm" style="background-color: var(--bs-primary); color: white;">
+                    <i class="bi bi-pencil-fill me-1"></i> Editar
+                </a>
+                <a href="#" class="btn btn-sm btn-danger">
+                    <i class="bi bi-trash-fill me-1"></i> Apagar
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
