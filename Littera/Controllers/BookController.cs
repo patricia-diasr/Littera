@@ -9,5 +9,9 @@ namespace Littera.Controllers {
         public IActionResult Details() {
             return View();
         }
+
+        public IActionResult Form() {
+            return View();
+        }
     }
 }

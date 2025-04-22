@@ -1,0 +1,185 @@
+﻿@{
+    ViewData["Title"] = "Livro";
+}
+
+<style>
+    .book-cover {
+        width: 100%;
+        max-width: 280px;
+        border-radius: var(--radius-lg);
+        box-shadow: var(--shadow-md);
+        transition: transform var(--transition-normal), box-shadow var(--transition-normal);
+    }
+
+        .book-cover:hover {
+            transform: translateY(-5px) scale(1.02);
+            box-shadow: var(--shadow-lg);
+        }
+
+    .cover-upload-wrapper {
+        position: relative;
+        width: fit-content;
+        margin: 0 auto;
+    }
+
+    .cover-upload-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: var(--radius-lg);
+        opacity: 0;
+        transition: opacity var(--transition-normal);
+        color: white;
+        font-weight: 500;
+    }
+
+    .cover-upload-wrapper:hover .cover-upload-overlay {
+        opacity: 1;
+    }
+
+    .section-title {
+        font-weight: 600;
+        font-size: 1.25rem;
+        margin-top: 30px;
+        margin-bottom: 12px;
+        border-bottom: 2px solid var(--bs-light);
+        padding-bottom: 8px;
+        color: var(--bs-secondary);
+    }
+
+    .book-info-label {
+        font-weight: 600;
+        color: var(--bs-secondary);
+        margin-bottom: 4px;
+    }
+
+    .book-container {
+        padding: 40px 0;
+        background-color: white;
+        border-radius: 16px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    }
+
+    .book-title {
+        color: #333;
+        font-weight: 700;
+    }
+
+    .book-author {
+        color: var(--bs-secondary);
+        font-weight: 500;
+    }
+
+    .book-info-value {
+        color: #444;
+        font-size: 0.95rem;
+    }
+
+    .book-summary {
+        line-height: 1.6;
+        color: #444;
+    }
+
+    .button-container {
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+    }
+</style>
+
+<form method="post" class="container book-container my-4 p-4">
+    <div class="row">
+        <div class="col-md-4 text-center mb-4 mb-md-0">
+            <div class="cover-upload-wrapper">
+                <input type="file" id="CoverFile" name="CoverFile" accept="image/*" class="d-none">
+                <label for="CoverFile" style="cursor: pointer; display: block;">
+                    <img src="https://m.media-amazon.com/images/I/81DkKVIavBL._SY425_.jpg" class="book-cover" alt="Assistente do Vilão">
+                    <div class="cover-upload-overlay">
+                        <div>
+                            <i class="bi bi-camera-fill fs-2 mb-2"></i>
+                            <div>Alterar imagem</div>
+                        </div>
+                    </div>
+                </label>
+            </div>
+        </div>
+        <div class="col-md-8">
+            <div class="mb-3">
+                <input type="text" name="Title" class="form-control form-control-lg book-title mb-1" placeholder="Título do livro" value="Assistente do Vilão" />
+            </div>
+            <div class="mb-4">
+                <input type="text" name="Author" class="form-control book-author" placeholder="Autor(a)" value="Hannah Nicole Maehrer" />
+            </div>
+
+            <div class="mb-4">
+                <div class="book-info-label">Tags</div>
+                <input type="text" name="Tags" class="form-control" placeholder="Ex: Fantasia, Romance, Aventura" value="Fantasia, Romance, Aventura" />
+            </div>
+
+            <div class="mb-5">
+                <div class="book-info-label">Coleções</div>
+                <input type="text" name="Collections" class="form-control" placeholder="Ex: Romantasias, Livros do TikTok" value="Romantasias, Livros do TikTok" />
+            </div>
+
+            <div class="row mb-5">
+                <div class="col-sm-6 mb-3 mb-sm-0">
+                    <div class="book-info-label">Status</div>
+                    <select name="Status" class="form-select">
+                        <option selected>Lido</option>
+                        <option>Quero Ler</option>
+                        <option>Lendo</option>
+                        <option>Abandonado</option>
+                    </select>
+                </div>
+                <div class="col-sm-6">
+                    <div class="book-info-label">Quantidade de Páginas</div>
+                    <input type="number" name="Pages" class="form-control" value="512" />
+                </div>
+            </div>
+
+            <div class="row mb-5">
+                <div class="col-sm-6 mb-3 mb-sm-0">
+                    <div class="book-info-label">Data de Início</div>
+                    <input type="date" name="StartDate" class="form-control" value="2024-01-15" />
+                </div>
+                <div class="col-sm-6">
+                    <div class="book-info-label">Data de Término</div>
+                    <input type="date" name="EndDate" class="form-control" value="2024-01-22" />
+                </div>
+            </div>
+
+            <div class="section-title mt-5">Resumo</div>
+            <textarea name="Summary" class="form-control mb-5" rows="5">
+Evie Sage está desesperada por um emprego para sustentar sua família — então, quando esbarra acidentalmente com o Vilão mais temido de Rennedawn e recebe uma oferta de trabalho, ela aceita sem pensar...
+            </textarea>
+
+            <div class="section-title mt-5">Avaliação</div>
+            <select name="Rating" class="form-select mb-4">
+                <option selected>5 estrelas</option>
+                <option>4 estrelas</option>
+                <option>3 estrelas</option>
+                <option>2 estrelas</option>
+                <option>1 estrela</option>
+            </select>
+
+            <textarea name="Review" class="form-control fst-italic mb-5" rows="3" placeholder="Escreva sua avaliação...">
+Adorei o enredo da história, é bem divertida e leve — ótima pra tirar a gente da ressaca literária.
+            </textarea>
+
+            <div class="button-container mt-4">
+                <button type="submit" class="btn btn-sm" style="background-color: var(--bs-primary); color: white;">
+                    <i class="bi bi-save-fill me-1"></i> Salvar
+                </button>
+                <a href="#" class="btn btn-sm btn-danger">
+                    <i class="bi bi-x-circle-fill me-1"></i> Cancelar
+                </a>
+            </div>
+        </div>
+    </div>
+</form>
