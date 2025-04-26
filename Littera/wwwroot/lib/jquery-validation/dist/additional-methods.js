@@ -1138,7 +1138,8 @@ $.validator.addMethod( "notEqualTo", function( value, element, param ) {
 	return this.optional( element ) || !$.validator.methods.equalTo.call( this, value, element, param );
 }, "Please enter a different value, values must not be the same." );
 
-$.validator.addMethod( "nowhitespace", function( value, element ) {
+	$.validator.addMethod("no
+space", function( value, element ) {
 	return this.optional( element ) || /^\S+$/i.test( value );
 }, "No white space please." );
 
