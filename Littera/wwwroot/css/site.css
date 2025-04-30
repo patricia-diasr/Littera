@@ -186,3 +186,42 @@ footer {
 .form-control:focus {
     border-color: var(--bs-primary);
 }
+
+.modal-content {
+    border-radius: var(--radius-md);
+    border: none;
+    box-shadow: var(--shadow-lg);
+}
+
+.modal-header {
+    background-color: var(--header-bg);
+    color: var(--bs-light);
+    border-bottom: none;
+    border-radius: calc(var(--radius-md) - 1px) calc(var(--radius-md) - 1px) 0 0;
+}
+
+.modal-footer {
+    border-top: 1px solid rgba(25, 40, 65, 0.1);
+}
+
+.btn-save {
+    background-color: var(--bs-primary);
+    border-color: var(--bs-primary);
+    color: var(--bs-light);
+}
+
+    .btn-save:hover {
+        background-color: var(--bs-primary-hover);
+        border-color: var(--bs-primary-hover);
+    }
+
+.btn-cancel {
+    background-color: #e63946;
+    border-color: #e63946;
+    color: var(--bs-light);
+}
+
+    .btn-cancel:hover {
+        background-color: #d62938;
+        border-color: #d62938;
+    }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "L1D0unDDnXQAC/69QT/XOdXNNF5kJPaXmQPgKWj/2zk=",
+  "Hash": "1DWhJJeBufsYyt/R8TNKcagVkTsCnVGNn8PN8M+pYu8=",
   "Source": "Littera",
   "BasePath": "_content/Littera",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "pyay5v20bh",
-      "Integrity": "AY0PO6/3FSUW02fNYIWsd3U+uWfTbgcdbOPGp2UtqOE=",
+      "Fingerprint": "aq7fmfp9js",
+      "Integrity": "4hb65wWo5opvTBWKRdnptj0FIT3qLXklSmX2zPwG81o=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1321,6 +1321,51 @@
   ],
   "Endpoints": [
     {
+      "Route": "css/site.aq7fmfp9js.css",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5144"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4hb65wWo5opvTBWKRdnptj0FIT3qLXklSmX2zPwG81o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 22:49:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "aq7fmfp9js"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4hb65wWo5opvTBWKRdnptj0FIT3qLXklSmX2zPwG81o="
+        }
+      ]
+    },
+    {
       "Route": "css/site.css",
       "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -1331,7 +1376,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4288"
+          "Value": "5144"
         },
         {
           "Name": "Content-Type",
@@ -1339,11 +1384,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"AY0PO6/3FSUW02fNYIWsd3U+uWfTbgcdbOPGp2UtqOE=\""
+          "Value": "\"4hb65wWo5opvTBWKRdnptj0FIT3qLXklSmX2zPwG81o=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 26 Apr 2025 14:39:44 GMT"
+          "Value": "Tue, 29 Apr 2025 22:49:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1353,52 +1398,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-AY0PO6/3FSUW02fNYIWsd3U+uWfTbgcdbOPGp2UtqOE="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.pyay5v20bh.css",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "4288"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"AY0PO6/3FSUW02fNYIWsd3U+uWfTbgcdbOPGp2UtqOE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 26 Apr 2025 14:39:44 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "pyay5v20bh"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-AY0PO6/3FSUW02fNYIWsd3U+uWfTbgcdbOPGp2UtqOE="
+          "Value": "sha256-4hb65wWo5opvTBWKRdnptj0FIT3qLXklSmX2zPwG81o="
         }
       ]
     },
