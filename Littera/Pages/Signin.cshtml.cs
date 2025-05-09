@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace Littera.Pages.Books
+namespace Littera.Pages
 {
-    public class IndexModel : PageModel
+    public class SigninModel : PageModel
     {
         public void OnGet()
         {

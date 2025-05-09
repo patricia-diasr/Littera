@@ -25,10 +25,7 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav gap-2">
                         <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-page="/Index"><i class="bi bi-house-door me-1"></i>Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-page="/Books/Index"><i class="bi bi-collection me-1"></i>Livros</a>
+                            <a class="nav-link" asp-area="" asp-page="/Index"><i class="bi bi-collection me-1"></i>Livros</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" asp-area="" asp-page="/Index"><i class="bi bi-bar-chart me-1"></i>Estatísticas</a>
@@ -37,7 +34,7 @@
                             <a class="nav-link" asp-area="" asp-page="/Profile"><i class="bi bi-person-circle me-1"></i>Meu Perfil</a>
                         </li>
                         <li class="nav-item ms-2">
-                            <a class="btn btn-warning btn-sm rounded-pill px-3 py-1 mt-1" asp-area="" asp-page="/Index">
+                            <a class="btn btn-warning btn-sm rounded-pill px-3 py-1 mt-1" asp-area="" asp-page="/Signin">
                                 <i class="bi bi-box-arrow-in-right me-1"></i>Entrar
                             </a>
                         </li>
@@ -66,10 +63,9 @@
                 <div class="col-lg-2 col-md-6">
                     <h5 class="mb-3">Links Rápidos</h5>
                     <ul class="list-unstyled">
-                        <li class="mb-2"><a href="/" class="text-decoration-none">Home</a></li>
-                        <li class="mb-2"><a href="/Book" class="text-decoration-none">Livros</a></li>
-                        <li class="mb-2"><a href="/Home/Index" class="text-decoration-none">Estatísticas</a></li>
-                        <li><a href="/Home/Index" class="text-decoration-none">Meu Perfil</a></li>
+                        <li class="mb-2"><a asp-area="" asp-page="/" class="text-decoration-none">Livros</a></li>
+                        <li class="mb-2"><a asp-area="" asp-page="/" class="text-decoration-none">Estatísticas</a></li>
+                        <li><a asp-area="" asp-page="/Profile" class="text-decoration-none">Meu Perfil</a></li>
                     </ul>
                 </div>
             </div>

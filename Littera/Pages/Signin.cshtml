@@ -1,0 +1,178 @@
+﻿@page
+@model Littera.Pages.SigninModel
+@{
+}
+
+<style>
+    .login-container {
+        max-width: 450px;
+        margin: 40px auto;
+        background-color: var(--bs-light);
+        border-radius: var(--radius-lg);
+        box-shadow: var(--shadow-md);
+        overflow: hidden;
+    }
+
+    .login-header {
+        background: linear-gradient(135deg, var(--header-bg) 0%, rgba(25, 40, 65, 0.85) 100%);
+        border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+        padding: 30px;
+        text-align: center;
+        position: relative;
+        color: white;
+        overflow: hidden;
+    }
+
+        .login-header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='%23ffffff' fill-opacity='0.05' fill-rule='evenodd'/%3E%3C/svg%3E");
+            opacity: 0.6;
+            z-index: 0;
+        }
+
+    .login-logo {
+        position: relative;
+        z-index: 1;
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-bottom: 10px;
+        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+
+    .login-subtitle {
+        position: relative;
+        z-index: 1;
+        font-size: 1rem;
+        opacity: 0.9;
+        margin-bottom: 0;
+    }
+
+    .login-body {
+        padding: 30px;
+    }
+
+    .form-floating {
+        margin-bottom: 15px;
+    }
+
+    .form-control {
+        height: calc(3.5rem + 2px);
+        padding: 1rem 0.75rem;
+    }
+
+    .form-floating label {
+        padding: 1rem 0.75rem;
+    }
+
+    .login-options {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .forgot-password {
+        color: var(--bs-primary);
+        font-weight: 500;
+        text-decoration: none;
+        transition: color var(--transition-fast);
+    }
+
+        .forgot-password:hover {
+            color: var(--bs-primary-hover);
+            text-decoration: underline;
+        }
+
+    .btn-login {
+        width: 100%;
+        padding: 12px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+
+    .register-link {
+        text-align: center;
+        margin-top: 15px;
+    }
+
+        .register-link a {
+            color: var(--bs-primary);
+            font-weight: 500;
+            text-decoration: none;
+        }
+
+            .register-link a:hover {
+                color: var(--bs-primary-hover);
+                text-decoration: underline;
+            }
+
+    @@media (max-width: 576px) {
+        .login-container {
+            margin: 20px 15px;
+        }
+
+        .login-header {
+            padding: 25px 15px;
+        }
+
+        .login-body {
+            padding: 25px 15px;
+        }
+
+        .social-login-buttons {
+            flex-direction: column;
+        }
+
+    }
+</style>
+
+<div class="container login-container">
+    <div class="login-header">
+        <div class="login-logo">
+            <i class="bi bi-book me-2"></i>Littera
+        </div>
+        <p class="login-subtitle">Sua biblioteca digital</p>
+    </div>
+
+    <div class="login-body">
+
+        <form method="post">
+            <div class="form-floating">
+                <input type="email" class="form-control" id="email" name="Email" placeholder="nome@exemplo.com" required>
+                <label for="email">Email</label>
+            </div>
+            <div class="form-floating">
+                <input type="password" class="form-control" id="password" name="Password" placeholder="Senha" required>
+                <label for="password">Senha</label>
+            </div>
+
+            <div class="login-options">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="rememberMe" name="RememberMe">
+                    <label class="form-check-label" for="rememberMe">
+                        Lembrar-me
+                    </label>
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-warning btn-login mt-2">
+                <i class="bi bi-box-arrow-in-right me-2"></i>Entrar
+            </button>
+
+            <div asp-validation-summary="All" class="text-danger"></div>
+        </form>
+
+        <div class="register-link">
+            Não tem uma conta? <a href="/Register">Cadastre-se</a>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
