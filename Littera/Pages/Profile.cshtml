@@ -367,18 +367,6 @@
         position: relative;
     }
 
-    .color-picker-preview {
-        width: 36px;
-        height: 36px;
-        border-radius: var(--radius-sm);
-        display: inline-block;
-        border: 1px solid rgba(0,0,0,0.1);
-        box-shadow: var(--shadow-sm);
-        position: absolute;
-        right: 0;
-        top: 0;
-    }
-
     @@media (max-width: 768px) {
         .profile-container {
             padding: 25px;
@@ -706,8 +694,7 @@
                     <div class="mb-3">
                         <label for="collectionColor" class="form-label">Cor</label>
                         <div class="input-group color-picker-wrapper">
-                            <input type="text" class="form-control" id="collectionColor" placeholder="#RRGGBB" value="#6C63FF">
-                            <div class="color-picker-preview" style="background-color: #6C63FF;"></div>
+                            <input type="color" class="form-control form-control-color" id="collectionColor" value="#9B5DE5">
                         </div>
                     </div>
                     <div class="mb-3">
@@ -744,8 +731,7 @@
                     <div class="mb-3">
                         <label for="editCollectionColor" class="form-label">Cor</label>
                         <div class="input-group color-picker-wrapper">
-                            <input type="text" class="form-control" id="editCollectionColor" value="#6C63FF">
-                            <div class="color-picker-preview" style="background-color: #6C63FF;"></div>
+                            <input type="color" class="form-control form-control-color" id="editCollectionColor" value="#9B5DE5">
                         </div>
                     </div>
                     <div class="mb-3">
@@ -800,8 +786,7 @@
                     <div class="mb-3">
                         <label for="tagColor" class="form-label">Cor</label>
                         <div class="input-group color-picker-wrapper">
-                            <input type="text" class="form-control" id="tagColor" placeholder="#RRGGBB" value="#9B5DE5">
-                            <div class="color-picker-preview" style="background-color: #9B5DE5;"></div>
+                            <input type="color" class="form-control form-control-color" id="tagColor" value="#9B5DE5">
                         </div>
                     </div>
                 </form>
@@ -830,8 +815,7 @@
                     <div class="mb-3">
                         <label for="editTagColor" class="form-label">Cor</label>
                         <div class="input-group color-picker-wrapper">
-                            <input type="text" class="form-control" id="editTagColor" value="#9B5DE5">
-                            <div class="color-picker-preview" style="background-color: #9B5DE5;"></div>
+                            <input type="color" class="form-control form-control-color" id="editTagColor" value="#9B5DE5">
                         </div>
                     </div>
                 </form>
