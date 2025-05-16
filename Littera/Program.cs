@@ -1,3 +1,6 @@
+using Littera.Data;
+using Microsoft.EntityFrameworkCore;
+
 namespace Littera
 {
     public class Program
@@ -8,6 +11,8 @@ namespace Littera
 
             // Add services to the container.
             builder.Services.AddRazorPages();
+            builder.Services.AddDbContext<LitteraContext>(options =>
+                options.UseSqlite(builder.Configuration.GetConnectionString("LitteraConnection")));
 
             var app = builder.Build();
 
