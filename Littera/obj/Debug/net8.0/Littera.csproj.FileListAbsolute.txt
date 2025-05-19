@@ -160,3 +160,4 @@ C:\Users\patid\Área de Trabalho\Projetos\Littera\Littera\bin\Debug\net8.0\runti
 C:\Users\patid\Área de Trabalho\Projetos\Littera\Littera\bin\Debug\net8.0\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Users\patid\Área de Trabalho\Projetos\Littera\Littera\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\patid\Área de Trabalho\Projetos\Littera\Littera\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\patid\Área de Trabalho\Projetos\Littera\Littera\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

@@ -323,13 +323,15 @@
         </div>
 
         <form method="post">
+
             <div class="form-floating">
-                <input type="email" class="form-control" id="email" name="Email" placeholder="nome@exemplo.com" required>
-                <label for="email">E-mail</label>
+                <input asp-for="Email" class="form-control" placeholder="nome@exemplo.com" />
+                <label asp-for="Email">E-mail</label>
             </div>
+
             <div class="form-floating">
-                <input type="password" class="form-control" id="password" name="Password" placeholder="Senha" required>
-                <label for="password">Senha</label>
+                <input asp-for="Password" type="password" class="form-control" placeholder="Senha" />
+                <label asp-for="Password">Senha</label>
             </div>
 
             <div class="login-options">
@@ -346,7 +348,7 @@
                 <i class="bi bi-box-arrow-in-right me-2"></i>Entrar
             </button>
 
-            <div asp-validation-summary="All" class="text-danger"></div>
+            <div asp-validation-summary="All" class="text-danger text-center"></div>
         </form>
 
         <div class="register-link">
@@ -354,7 +356,3 @@
         </div>
     </div>
 </div>
-
-@section Scripts {
-    <partial name="_ValidationScriptsPartial" />
-}

@@ -1,4 +1,5 @@
 using Littera.Data;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 
 namespace Littera
@@ -13,6 +14,14 @@ namespace Littera
             builder.Services.AddRazorPages();
             builder.Services.AddDbContext<LitteraContext>(options =>
                 options.UseSqlite(builder.Configuration.GetConnectionString("LitteraConnection")));
+
+            builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+            .AddCookie(options => {
+                options.LoginPath = "/Signin"; 
+                options.LogoutPath = "/Signout"; 
+            });
+
+            builder.Services.AddAuthorization();
 
             var app = builder.Build();
 
@@ -29,6 +38,7 @@ namespace Littera
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.MapRazorPages();

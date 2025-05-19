@@ -323,24 +323,28 @@
 
         <form method="post">
             <div class="form-floating">
-                <input type="text" class="form-control" id="name" name="Name" placeholder="Seu nome" required>
-                <label for="name">Nome</label>
+                <input asp-for="User.Name" class="form-control" placeholder="Seu nome" />
+                <label asp-for="User.Name">Nome</label>
+                <span asp-validation-for="User.Name" class="text-danger"></span>
             </div>
+
             <div class="form-floating">
-                <input type="email" class="form-control" id="email" name="Email" placeholder="nome@exemplo.com" required>
-                <label for="email">E-mail</label>
+                <input asp-for="User.Email" class="form-control" placeholder="nome@exemplo.com" />
+                <label asp-for="User.Email">E-mail</label>
+                <span asp-validation-for="User.Email" class="text-danger"></span>
             </div>
+
             <div class="form-floating">
-                <input type="password" class="form-control" id="password" name="Password" placeholder="Senha" required>
-                <label for="password">Senha</label>
+                <input asp-for="User.Password" type="password" class="form-control" placeholder="Senha" />
+                <label asp-for="User.Password">Senha</label>
+                <span asp-validation-for="User.Password" class="text-danger"></span>
             </div>
 
             <button type="submit" class="btn btn-warning btn-login">
                 <i class="bi bi-box-arrow-in-right me-2"></i>Cadastrar
             </button>
-
-            <div asp-validation-summary="All" class="text-danger"></div>
         </form>
+
 
         <div class="register-link">
             Já possuí uma conta? <a asp-area="" asp-page="/Signin">Faça login</a>
