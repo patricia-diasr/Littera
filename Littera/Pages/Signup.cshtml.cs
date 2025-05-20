@@ -21,9 +21,6 @@ namespace Littera.Pages
         }
 
         public async Task<IActionResult> OnPostAsync() {
-            if (!ModelState.IsValid)
-                return Page();
-
             var existingUser = await _context.Users.FirstOrDefaultAsync(u => u.Email == User.Email);
             if (existingUser != null) {
                 ModelState.AddModelError("User.Email", "E-mail já cadastrado.");

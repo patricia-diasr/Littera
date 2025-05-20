@@ -16,7 +16,7 @@ namespace Littera.Models {
         [StringLength(100, MinimumLength = 6, ErrorMessage = "A senha deve ter pelo menos 6 caracteres.")]
         public string Password { get; set; }
 
-        public string Photo { get; set; }
+        public string? Photo { get; set; }
 
         public List<Book> Books { get; set; }
         public List<Collection> Collections { get; set; }
