@@ -18,7 +18,6 @@ namespace Littera
             builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
             .AddCookie(options => {
                 options.LoginPath = "/Signin"; 
-                options.LogoutPath = "/Signout"; 
             });
 
             builder.Services.AddAuthorization();
