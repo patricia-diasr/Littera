@@ -685,32 +685,33 @@
                 <h5 class="modal-title" id="newCollectionModalLabel">Nova Coleção</h5>
                 <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Fechar"></button>
             </div>
-            <div class="modal-body">
-                <form>
-                    <div class="mb-3">
-                        <label for="collectionName" class="form-label">Nome da Coleção</label>
-                        <input type="text" class="form-control" id="collectionName" placeholder="Digite o nome da coleção">
-                    </div>
-                    <div class="mb-3">
-                        <label for="collectionColor" class="form-label">Cor</label>
-                        <div class="input-group color-picker-wrapper">
-                            <input type="color" class="form-control form-control-color" id="collectionColor" value="#9B5DE5">
+            <form method="post" asp-page-handler="Collection">
+                <div class="modal-body">
+                        <div class="mb-3">
+                            <label for="collectionName" class="form-label">Nome da Coleção</label>
+                            <input type="text" class="form-control" id="collectionName" asp-for="Collection.Name" placeholder="Digite o nome da coleção">
+                            <span asp-validation-for="Collection.Name" class="text-danger"></span>
                         </div>
-                    </div>
-                    <div class="mb-3">
-                        <label for="collectionPriority" class="form-label">Prioridade</label>
-                        <select class="form-select" id="collectionPriority">
-                            <option value="high">Alta</option>
-                            <option value="medium">Média</option>
-                            <option value="low">Baixa</option>
-                        </select>
-                    </div>
-                </form>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                <button type="button" class="btn btn-action btn-save">Salvar</button>
-            </div>
+                        <div class="mb-3">
+                            <label for="collectionColor" class="form-label">Cor</label>
+                            <div class="input-group color-picker-wrapper">
+                                <input type="color" class="form-control form-control-color" id="collectionColor" asp-for="Collection.Color">
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="collectionPriority" class="form-label">Prioridade</label>
+                            <select class="form-select" id="collectionPriority" asp-for="Collection.Priority">
+                                <option value="1">Alta</option>
+                                <option value="2">Média</option>
+                                <option value="3">Baixa</option>
+                            </select>
+                        </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="submit" class="btn btn-action btn-save">Salvar</button>
+                </div>
+            </form>
         </div>
     </div>
 </div>
@@ -777,24 +778,25 @@
                 <h5 class="modal-title" id="newTagModalLabel">Nova Tag</h5>
                 <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Fechar"></button>
             </div>
-            <div class="modal-body">
-                <form>
+            <form method="post" asp-page-handler="Tag">
+                <div class="modal-body">
                     <div class="mb-3">
                         <label for="tagName" class="form-label">Nome da Tag</label>
-                        <input type="text" class="form-control" id="tagName" placeholder="Digite o nome da tag">
+                        <input type="text" class="form-control" id="tagName" asp-for="Tag.Name" placeholder="Digite o nome da tag">
+                        <span asp-validation-for="Tag.Name" class="text-danger"></span>
                     </div>
                     <div class="mb-3">
                         <label for="tagColor" class="form-label">Cor</label>
                         <div class="input-group color-picker-wrapper">
-                            <input type="color" class="form-control form-control-color" id="tagColor" value="#9B5DE5">
+                            <input type="color" class="form-control form-control-color" asp-for="Tag.Color" id="tagColor" value="#9B5DE5">
                         </div>
                     </div>
-                </form>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                <button type="button" class="btn btn-action btn-save">Salvar</button>
-            </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="submit" class="btn btn-action btn-save">Salvar</button>
+                </div>
+            </form>
         </div>
     </div>
 </div>
@@ -942,6 +944,10 @@
         </div>
     </div>
 </div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
 
 <script>
     document.addEventListener('DOMContentLoaded', function() {
