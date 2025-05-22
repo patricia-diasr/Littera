@@ -26,6 +26,22 @@ namespace Littera.Pages
         [BindProperty]
         public Tag Tag { get; set; }
 
+        public IList<Collection> Collections { get; set; }
+        public IList<Tag> Tags { get; set; }
+
+        public async Task OnGetAsync() {
+            var userId = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier).Value);
+
+            Collections = await _context.Collections
+                .Where(c => c.UserId == userId)
+                .OrderBy(c => c.Priority)
+                .ToListAsync();
+
+            Tags = await _context.Tags
+                .Where(t => t.UserId == userId)
+                .ToListAsync();
+        }
+
         public async Task<IActionResult> OnPostCollectionAsync() {
             var userId = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier).Value);
             Collection.UserId = userId;
