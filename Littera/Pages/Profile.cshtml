@@ -487,45 +487,49 @@
                         </tr>
                     </thead>
                     <tbody>
-                        @foreach (var collection in Model.Collections)
+                        @if (Model.Collections != null && Model.Collections.Any())
                         {
-                            var badgeClass = collection.Priority switch
+                            @foreach (var collection in Model.Collections)
                             {
-                                1 => "priority-high",
-                                2 => "priority-medium",
-                                3 => "priority-low",
-                                _ => ""
-                            };
-                            var priorityLabel = collection.Priority switch
-                            {
-                                1 => "Alta",
-                                2 => "Média",
-                                3 => "Baixa",
-                                _ => ""
-                            };
-                            <tr>
-                                <td>@collection.Name</td>
-                                <td>
-                                    <div class="d-flex align-items-center">
-                                        <span class="color-preview" style="background-color: @collection.Color;"></span>
-                                        @collection.Color
-                                    </div>
-                                </td>
-                                <td>
-                                    <span class="badge-priority @badgeClass">@priorityLabel
-                                    </span>
-                                </td>
-                                <td>
-                                    <div class="table-actions">
-                                        <button class="btn btn-icon btn-edit-sm" data-bs-toggle="modal" data-bs-target="#editCollectionModal">
-                                            <i class="bi bi-pencil-fill"></i>
-                                        </button>
-                                        <button class="btn btn-icon btn-delete-sm" data-bs-toggle="modal" data-bs-target="#deleteCollectionModal">
-                                            <i class="bi bi-trash-fill"></i>
-                                        </button>
-                                    </div>
-                                </td>
-                            </tr>
+                                var badgeClass = collection.Priority switch
+                                {
+                                    1 => "priority-high",
+                                    2 => "priority-medium",
+                                    3 => "priority-low",
+                                    _ => ""
+                                };
+                                var priorityLabel = collection.Priority switch
+                                {
+                                    1 => "Alta",
+                                    2 => "Média",
+                                    3 => "Baixa",
+                                    _ => ""
+                                };
+                                <tr>
+                                    <td>@collection.Name</td>
+                                    <td>
+                                        <div class="d-flex align-items-center">
+                                            <span class="color-preview" style="background-color: @collection.Color;"></span>
+                                            @collection.Color
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <span class="badge-priority @badgeClass">
+                                            @priorityLabel
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <div class="table-actions">
+                                            <button class="btn btn-icon btn-edit-sm" data-bs-toggle="modal" data-bs-target="#editCollectionModal" data-id="@collection.Id" data-name="@collection.Name" data-color="@collection.Color" data-priority="@collection.Priority">
+                                                <i class="bi bi-pencil-fill"></i>
+                                            </button>
+                                            <button class="btn btn-icon btn-delete-sm" data-bs-toggle="modal" data-bs-target="#deleteCollectionModal" data-id="@collection.Id">
+                                                <i class="bi bi-trash-fill"></i>
+                                            </button>
+                                        </div>
+                                    </td>
+                                </tr>
+                            }
                         }
                     </tbody>
                 </table>
@@ -550,27 +554,30 @@
                         </tr>
                     </thead>
                     <tbody>
-                        @foreach (var tag in Model.Tags)
+                        @if (Model.Tags != null && Model.Tags.Any())
                         {
-                            <tr>
-                                <td>@tag.Name</td>
-                                <td>
-                                    <div class="d-flex align-items-center">
-                                        <span class="color-preview" style="background-color: @tag.Color;"></span>
-                                        @tag.Color
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="table-actions">
-                                        <button class="btn btn-icon btn-edit-sm" data-bs-toggle="modal" data-bs-target="#editTagModal">
-                                            <i class="bi bi-pencil-fill"></i>
-                                        </button>
-                                        <button class="btn btn-icon btn-delete-sm" data-bs-toggle="modal" data-bs-target="#deleteTagModal">
-                                            <i class="bi bi-trash-fill"></i>
-                                        </button>
-                                    </div>
-                                </td>
-                            </tr>
+                            @foreach (var tag in Model.Tags)
+                            {
+                                <tr>
+                                    <td>@tag.Name</td>
+                                    <td>
+                                        <div class="d-flex align-items-center">
+                                            <span class="color-preview" style="background-color: @tag.Color;"></span>
+                                            @tag.Color
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="table-actions">
+                                            <button class="btn btn-icon btn-edit-sm" data-bs-toggle="modal" data-bs-target="#editTagModal" data-id="@tag.Id" data-name="@tag.Name" data-color="@tag.Color">
+                                                <i class="bi bi-pencil-fill"></i>
+                                            </button>
+                                            <button class="btn btn-icon btn-delete-sm" data-bs-toggle="modal" data-bs-target="#deleteTagModal" data-id="@tag.Id">
+                                                <i class="bi bi-trash-fill"></i>
+                                            </button>
+                                        </div>
+                                    </td>
+                                </tr>
+                            }
                         }
                     </tbody>
                 </table>
@@ -624,32 +631,34 @@
                 <h5 class="modal-title" id="editCollectionModalLabel">Editar Coleção</h5>
                 <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Fechar"></button>
             </div>
-            <div class="modal-body">
-                <form>
+            <form method="post" asp-page-handler="EditCollection">
+                <div class="modal-body">
+                    <input type="hidden" id="editCollectionId" asp-for="CollectionEdit.Id" />
                     <div class="mb-3">
                         <label for="editCollectionName" class="form-label">Nome da Coleção</label>
-                        <input type="text" class="form-control" id="editCollectionName" value="Romantasias">
+                        <input type="text" class="form-control" id="editCollectionName" asp-for="CollectionEdit.Name">
+                        <span asp-validation-for="CollectionEdit.Name" class="text-danger"></span>
                     </div>
                     <div class="mb-3">
                         <label for="editCollectionColor" class="form-label">Cor</label>
                         <div class="input-group color-picker-wrapper">
-                            <input type="color" class="form-control form-control-color" id="editCollectionColor" value="#9B5DE5">
+                            <input type="color" class="form-control form-control-color" id="editCollectionColor" asp-for="CollectionEdit.Color">
                         </div>
                     </div>
                     <div class="mb-3">
                         <label for="editCollectionPriority" class="form-label">Prioridade</label>
-                        <select class="form-select" id="editCollectionPriority">
-                            <option value="high" selected>Alta</option>
-                            <option value="medium">Média</option>
-                            <option value="low">Baixa</option>
+                        <select class="form-select" id="editCollectionPriority" asp-for="CollectionEdit.Priority">
+                            <option value="1">Alta</option>
+                            <option value="2">Média</option>
+                            <option value="3">Baixa</option>
                         </select>
                     </div>
-                </form>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                <button type="button" class="btn btn-action btn-save">Salvar Alterações</button>
-            </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="submit" class="btn btn-action btn-save">Salvar Alterações</button>
+                </div>
+            </form>
         </div>
     </div>
 </div>
@@ -661,13 +670,16 @@
                 <h5 class="modal-title" id="deleteCollectionModalLabel">Excluir Coleção</h5>
                 <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Fechar"></button>
             </div>
-            <div class="modal-body">
-                Tem certeza que deseja excluir este coleção? Esta ação não poderá ser desfeita.
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                <button type="button" class="btn btn-action btn-save">Excluir</button>
-            </div>
+            <form method="post" asp-page-handler="DeleteCollection">
+                <input type="hidden" id="collectionIdToDelete" asp-for="CollectionDeleteId" />
+                <div class="modal-body">
+                    Tem certeza que deseja excluir este coleção? Esta ação não poderá ser desfeita.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="submit" class="btn btn-action btn-save">Excluir</button>
+                </div>
+            </form>
         </div>
     </div>
 </div>
@@ -689,7 +701,7 @@
                     <div class="mb-3">
                         <label for="tagColor" class="form-label">Cor</label>
                         <div class="input-group color-picker-wrapper">
-                            <input type="color" class="form-control form-control-color" asp-for="Tag.Color" id="tagColor" value="#9B5DE5">
+                            <input type="color" class="form-control form-control-color" asp-for="Tag.Color" id="tagColor">
                         </div>
                     </div>
                 </div>
@@ -709,24 +721,26 @@
                 <h5 class="modal-title" id="editTagModalLabel">Editar Tag</h5>
                 <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Fechar"></button>
             </div>
-            <div class="modal-body">
-                <form>
+            <form method="post" asp-page-handler="EditTag">
+                <div class="modal-body">
+                    <input type="hidden" id="editTagId" asp-for="TagEdit.Id" />
                     <div class="mb-3">
                         <label for="editTagName" class="form-label">Nome da Tag</label>
-                        <input type="text" class="form-control" id="editTagName" value="Fantasia">
+                        <input type="text" class="form-control" id="editTagName" asp-for="TagEdit.Name">
+                        <span asp-validation-for="TagEdit.Name" class="text-danger"></span>
                     </div>
                     <div class="mb-3">
                         <label for="editTagColor" class="form-label">Cor</label>
                         <div class="input-group color-picker-wrapper">
-                            <input type="color" class="form-control form-control-color" id="editTagColor" value="#9B5DE5">
+                            <input type="color" class="form-control form-control-color" id="editTagColor" asp-for="TagEdit.Color">
                         </div>
                     </div>
-                </form>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                <button type="button" class="btn btn-action btn-save">Salvar Alterações</button>
-            </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="submit" class="btn btn-action btn-save">Salvar Alterações</button>
+                </div>
+            </form>
         </div>
     </div>
 </div>
@@ -738,13 +752,16 @@
                 <h5 class="modal-title" id="deleteTagModalLabel">Excluir Tag</h5>
                 <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Fechar"></button>
             </div>
-            <div class="modal-body">
-                Tem certeza que deseja excluir esta tag? Esta ação não poderá ser desfeita.
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                <button type="button" class="btn btn-danger">Excluir</button>
-            </div>
+            <form method="post" asp-page-handler="DeleteTag">
+                <input type="hidden" id="tagIdToDelete" asp-for="TagDeleteId" />
+                <div class="modal-body">
+                    Tem certeza que deseja excluir esta tag? Esta ação não poderá ser desfeita.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="submit" class="btn btn-danger">Excluir</button>
+                </div>
+            </form>
         </div>
     </div>
 </div>
@@ -840,7 +857,7 @@
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                <button type="button" class="btn btn-action btn-save">Salvar Alterações</button>
+                <button type="submit" class="btn btn-action btn-save">Salvar Alterações</button>
             </div>
         </div>
     </div>
@@ -883,5 +900,55 @@
                 editProfileModal.show();
             });
         }
+
+        const editCollectionModal = document.getElementById('editCollectionModal');
+
+        editCollectionModal.addEventListener('show.bs.modal', function (event) {
+            const button = event.relatedTarget;
+
+            const id = button.getAttribute('data-id');
+            const name = button.getAttribute('data-name');
+            const color = button.getAttribute('data-color');
+
+            document.getElementById('editCollectionId').value = id;
+            document.getElementById('editCollectionName').value = name;
+            document.getElementById('editCollectionPriority').value = priority;
+            document.getElementById('editCollectionColor').value = color;
+        });
+
+        const deleteCollectionModal = document.getElementById('deleteCollectionModal');
+
+        deleteCollectionModal.addEventListener('show.bs.modal', function (event) {
+            const button = event.relatedTarget;
+            const collectionId = button.getAttribute('data-id');
+
+            const input = deleteCollectionModal.querySelector('#collectionIdToDelete');
+            input.value = collectionId;
+        });
+
+        const editTagModal = document.getElementById('editTagModal');
+
+        editTagModal.addEventListener('show.bs.modal', function (event) {
+            const button = event.relatedTarget;
+
+            const id = button.getAttribute('data-id');
+            const name = button.getAttribute('data-name');
+            const color = button.getAttribute('data-color');
+
+            document.getElementById('editTagId').value = id;
+            document.getElementById('editTagName').value = name;
+            document.getElementById('editTagColor').value = color;
+        });
+
+        const deleteTagModal = document.getElementById('deleteTagModal');
+
+        deleteTagModal.addEventListener('show.bs.modal', function (event) {
+            const button = event.relatedTarget;
+            const collectionId = button.getAttribute('data-id');
+
+            const input = deleteTagModal.querySelector('#tagIdToDelete');
+            input.value = collectionId;
+        });
     });
+
 </script>
