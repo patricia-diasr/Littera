@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "FIP6jLcugRstjCH6w6WkRZpDuCMK1eBUqN/OYTR3Ggw=",
+  "Hash": "sId3n88k1MkWeo/7KIzbpvUKuusQ5aTJJyJqJzGHqqA=",
   "Source": "Littera",
   "BasePath": "_content/Littera",
   "Mode": "Default",
@@ -1319,6 +1319,27 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\avatars\\b189e596-2a43-4868-879e-eb39f0201d7d.jpg",
+      "SourceId": "Littera",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "BasePath": "_content/Littera",
+      "RelativePath": "uploads/avatars/b189e596-2a43-4868-879e-eb39f0201d7d#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "oetjvg8aj3",
+      "Integrity": "YCXHp0DBNGOW4hj5vEPCHGLsNz5BqfDtPF+e3l94gOs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\avatars\\b189e596-2a43-4868-879e-eb39f0201d7d.jpg"
+    },
+    {
       "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\avatars\\default.png",
       "SourceId": "Littera",
       "SourceType": "Discovered",
@@ -1340,12 +1361,12 @@
       "OriginalItemSpec": "wwwroot\\uploads\\avatars\\default.png"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\avatars\\f6e30b25-e5ac-4a5a-80f1-4e4c655262b0.jpg",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\default.png",
       "SourceId": "Littera",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
-      "RelativePath": "uploads/avatars/f6e30b25-e5ac-4a5a-80f1-4e4c655262b0#[.{fingerprint}]?.jpg",
+      "RelativePath": "uploads/books/default#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1354,11 +1375,11 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "oetjvg8aj3",
-      "Integrity": "YCXHp0DBNGOW4hj5vEPCHGLsNz5BqfDtPF+e3l94gOs=",
+      "Fingerprint": "us2i1tkk5d",
+      "Integrity": "rlOeBxU8Ps18ObvjqQG6g4jqt0wXV+qen4YTSQu48uc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\avatars\\f6e30b25-e5ac-4a5a-80f1-4e4c655262b0.jpg"
+      "OriginalItemSpec": "wwwroot\\uploads\\books\\default.png"
     }
   ],
   "Endpoints": [
@@ -6447,6 +6468,88 @@
       ]
     },
     {
+      "Route": "uploads/avatars/b189e596-2a43-4868-879e-eb39f0201d7d.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\avatars\\b189e596-2a43-4868-879e-eb39f0201d7d.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "893225"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YCXHp0DBNGOW4hj5vEPCHGLsNz5BqfDtPF+e3l94gOs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 16:01:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YCXHp0DBNGOW4hj5vEPCHGLsNz5BqfDtPF+e3l94gOs="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/avatars/b189e596-2a43-4868-879e-eb39f0201d7d.oetjvg8aj3.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\avatars\\b189e596-2a43-4868-879e-eb39f0201d7d.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "893225"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YCXHp0DBNGOW4hj5vEPCHGLsNz5BqfDtPF+e3l94gOs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 16:01:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "oetjvg8aj3"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/avatars/b189e596-2a43-4868-879e-eb39f0201d7d.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YCXHp0DBNGOW4hj5vEPCHGLsNz5BqfDtPF+e3l94gOs="
+        }
+      ]
+    },
+    {
       "Route": "uploads/avatars/default.j5w8f6aczt.png",
       "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\avatars\\default.png",
       "Selectors": [],
@@ -6529,8 +6632,8 @@
       ]
     },
     {
-      "Route": "uploads/avatars/f6e30b25-e5ac-4a5a-80f1-4e4c655262b0.jpg",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\avatars\\f6e30b25-e5ac-4a5a-80f1-4e4c655262b0.jpg",
+      "Route": "uploads/books/default.png",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\default.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6539,19 +6642,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "893225"
+          "Value": "467911"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/jpeg"
+          "Value": "image/png"
         },
         {
           "Name": "ETag",
-          "Value": "\"YCXHp0DBNGOW4hj5vEPCHGLsNz5BqfDtPF+e3l94gOs=\""
+          "Value": "\"rlOeBxU8Ps18ObvjqQG6g4jqt0wXV+qen4YTSQu48uc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 24 May 2025 15:47:39 GMT"
+          "Value": "Sat, 24 May 2025 16:11:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6561,13 +6664,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-YCXHp0DBNGOW4hj5vEPCHGLsNz5BqfDtPF+e3l94gOs="
+          "Value": "sha256-rlOeBxU8Ps18ObvjqQG6g4jqt0wXV+qen4YTSQu48uc="
         }
       ]
     },
     {
-      "Route": "uploads/avatars/f6e30b25-e5ac-4a5a-80f1-4e4c655262b0.oetjvg8aj3.jpg",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\avatars\\f6e30b25-e5ac-4a5a-80f1-4e4c655262b0.jpg",
+      "Route": "uploads/books/default.us2i1tkk5d.png",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\default.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6576,19 +6679,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "893225"
+          "Value": "467911"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/jpeg"
+          "Value": "image/png"
         },
         {
           "Name": "ETag",
-          "Value": "\"YCXHp0DBNGOW4hj5vEPCHGLsNz5BqfDtPF+e3l94gOs=\""
+          "Value": "\"rlOeBxU8Ps18ObvjqQG6g4jqt0wXV+qen4YTSQu48uc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 24 May 2025 15:47:39 GMT"
+          "Value": "Sat, 24 May 2025 16:11:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6598,15 +6701,15 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "oetjvg8aj3"
+          "Value": "us2i1tkk5d"
         },
         {
           "Name": "label",
-          "Value": "uploads/avatars/f6e30b25-e5ac-4a5a-80f1-4e4c655262b0.jpg"
+          "Value": "uploads/books/default.png"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-YCXHp0DBNGOW4hj5vEPCHGLsNz5BqfDtPF+e3l94gOs="
+          "Value": "sha256-rlOeBxU8Ps18ObvjqQG6g4jqt0wXV+qen4YTSQu48uc="
         }
       ]
     }

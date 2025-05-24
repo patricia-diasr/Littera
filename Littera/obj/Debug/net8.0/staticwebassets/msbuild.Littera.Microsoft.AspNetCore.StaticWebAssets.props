@@ -1098,6 +1098,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Littera.358u3vwepv.bundle.scp.css'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\avatars\b189e596-2a43-4868-879e-eb39f0201d7d.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Littera</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Littera</BasePath>
+      <RelativePath>uploads/avatars/b189e596-2a43-4868-879e-eb39f0201d7d.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>oetjvg8aj3</Fingerprint>
+      <Integrity>YCXHp0DBNGOW4hj5vEPCHGLsNz5BqfDtPF+e3l94gOs=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\avatars\b189e596-2a43-4868-879e-eb39f0201d7d.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\avatars\default.png'))">
       <SourceType>Package</SourceType>
       <SourceId>Littera</SourceId>
@@ -1116,23 +1134,23 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\avatars\default.png'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\avatars\f6e30b25-e5ac-4a5a-80f1-4e4c655262b0.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\default.png'))">
       <SourceType>Package</SourceType>
       <SourceId>Littera</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Littera</BasePath>
-      <RelativePath>uploads/avatars/f6e30b25-e5ac-4a5a-80f1-4e4c655262b0.jpg</RelativePath>
+      <RelativePath>uploads/books/default.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>oetjvg8aj3</Fingerprint>
-      <Integrity>YCXHp0DBNGOW4hj5vEPCHGLsNz5BqfDtPF+e3l94gOs=</Integrity>
+      <Fingerprint>us2i1tkk5d</Fingerprint>
+      <Integrity>rlOeBxU8Ps18ObvjqQG6g4jqt0wXV+qen4YTSQu48uc=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\avatars\f6e30b25-e5ac-4a5a-80f1-4e4c655262b0.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\default.png'))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>
