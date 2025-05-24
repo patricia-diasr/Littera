@@ -245,6 +245,14 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\avatars\\default.png",
+      "PackagePath": "staticwebassets\\uploads\\avatars\\default.png"
+    },
+    {
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\avatars\\f6e30b25-e5ac-4a5a-80f1-4e4c655262b0.jpg",
+      "PackagePath": "staticwebassets\\uploads\\avatars\\f6e30b25-e5ac-4a5a-80f1-4e4c655262b0.jpg"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Littera.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },

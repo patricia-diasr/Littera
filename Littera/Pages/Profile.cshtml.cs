@@ -22,6 +22,9 @@ namespace Littera.Pages
         }
 
         [BindProperty]
+        public IFormFile AvatarFile { get; set; }
+
+        [BindProperty]
         public User AuthenticatedUser { get; set; }
 
         [BindProperty]
@@ -114,6 +117,27 @@ namespace Littera.Pages
                 userInDb.Password = PasswordUpdate.NewPassword;
             }
 
+            if (AvatarFile != null && AvatarFile.Length > 0) {
+                var uploadsFolder = Path.Combine("wwwroot", "uploads", "avatars");
+                Directory.CreateDirectory(uploadsFolder);
+
+                var uniqueFileName = $"{Guid.NewGuid()}{Path.GetExtension(AvatarFile.FileName)}";
+                var filePath = Path.Combine(uploadsFolder, uniqueFileName);
+
+                if (!string.IsNullOrEmpty(userInDb.Photo)) {
+                    var oldFilePath = Path.Combine("wwwroot", userInDb.Photo.TrimStart('/'));
+                    if (System.IO.File.Exists(oldFilePath)) {
+                        System.IO.File.Delete(oldFilePath);
+                    }
+                }
+
+                using (var fileStream = new FileStream(filePath, FileMode.Create)) {
+                    await AvatarFile.CopyToAsync(fileStream);
+                }
+
+                userInDb.Photo = $"/uploads/avatars/{uniqueFileName}";
+            }
+
             _context.Users.Update(userInDb);
             await _context.SaveChangesAsync();
 
@@ -195,18 +219,21 @@ namespace Littera.Pages
             return RedirectToPage("/Signin"); 
         }
 
-        public override void OnPageHandlerExecuting(PageHandlerExecutingContext context) {
-            base.OnPageHandlerExecuting(context);
-
-            var userClaims = User;
+        public override async Task OnPageHandlerExecutionAsync(PageHandlerExecutingContext context, PageHandlerExecutionDelegate next) {
+            var userClaims = context.HttpContext.User;
+            int userId = int.Parse(userClaims.FindFirst(ClaimTypes.NameIdentifier)?.Value ?? "0");
+            var user = await _context.Users.FindAsync(userId);
 
             if (userClaims.Identity != null && userClaims.Identity.IsAuthenticated) {
                 AuthenticatedUser = new User {
-                    Id = int.Parse(userClaims.FindFirst(ClaimTypes.NameIdentifier)?.Value ?? "0"),
-                    Name = userClaims.FindFirst(ClaimTypes.Name)?.Value,
-                    Email = userClaims.FindFirst(ClaimTypes.Email)?.Value
+                    Id = userId,
+                    Name = user.Name,
+                    Email = user.Email,
+                    Photo = user.Photo ?? ""
                 };
             }
+
+            await next(); 
         }
 
         public class PasswordUpdateModel {

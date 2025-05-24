@@ -464,7 +464,7 @@
         <div class="row align-items-center">
             <div class="col-lg-3 col-md-4 mb-4 mb-md-0 text-center">
                 <div class="avatar-upload-wrapper">
-                    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="user-avatar" alt="Foto de perfil">
+                    <img src="@(!string.IsNullOrEmpty(Model.AuthenticatedUser.Photo) ? Model.AuthenticatedUser.Photo : "/uploads/avatars/default.png")" class="user-avatar" alt="Foto de perfil">
                 </div>
                 <div class="profile-details">
                     <h3 class="profile-username">@Model.AuthenticatedUser.Name</h3>
@@ -861,13 +861,13 @@
                 <h5 class="modal-title" id="editProfileModalLabel">Editar Perfil</h5>
                 <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Fechar"></button>
             </div>
-            <form method="post" asp-page-handler="EditUser" id="updateUserForm">
+            <form method="post" enctype="multipart/form-data" asp-page-handler="EditUser" id="updateUserForm">
                 <div class="modal-body">
                     <div class="text-center mb-4">
                         <div class="avatar-upload-wrapper">
                             <input type="file" id="avatarFile" name="avatarFile" accept="image/*" class="d-none">
                             <label for="avatarFile" style="cursor: pointer; display: block;">
-                                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="user-avatar" alt="Foto de perfil">
+                                <img src="@(!string.IsNullOrEmpty(Model.AuthenticatedUser.Photo) ? Model.AuthenticatedUser.Photo : "/uploads/avatars/default.png")" id="avatarPreview" class="user-avatar" alt="Foto de perfil">
                                 <div class="avatar-upload-overlay">
                                     <div>
                                         <i class="bi bi-camera-fill fs-2 mb-1"></i>
@@ -946,6 +946,15 @@
 
 <script>
     document.addEventListener('DOMContentLoaded', function() {
+
+        document.getElementById("avatarFile").addEventListener("change", function () {
+
+            const file = this.files[0];
+            if (file) {
+                const preview = document.getElementById("avatarPreview");
+                preview.src = URL.createObjectURL(file);
+            }
+        });
 
         document.getElementById("updateUserForm").addEventListener("submit", async function (e) {
             e.preventDefault();
