@@ -130,6 +130,8 @@
     background-color: rgba(255, 255, 255, 0.25);
     }
 
+
+
     .stats-wrapper {
     position: relative;
     z-index: 1;
@@ -269,6 +271,72 @@
     box-shadow: 0 0 0 0.15rem rgba(67, 97, 238, 0.25);
     }
 
+    .password-toggle-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 20px 0;
+        padding: 12px 0;
+        border-top: 1px solid rgba(25, 40, 65, 0.1);
+    }
+
+    .password-toggle-label {
+        font-size: 0.95rem;
+        color: var(--header-bg);
+        font-weight: 500;
+        margin: 0;
+    }
+
+    .toggle-switch {
+        position: relative;
+        display: inline-block;
+        width: 50px;
+        height: 26px;
+    }
+
+        .toggle-switch input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+
+    .toggle-slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #ccc;
+        transition: 0.3s;
+        border-radius: 26px;
+    }
+
+        .toggle-slider:before {
+            position: absolute;
+            content: "";
+            height: 20px;
+            width: 20px;
+            left: 3px;
+            bottom: 3px;
+            background-color: white;
+            transition: 0.3s;
+            border-radius: 50%;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+    input:checked + .toggle-slider {
+        background-color: var(--bs-primary);
+    }
+
+        input:checked + .toggle-slider:before {
+            transform: translateX(24px);
+        }
+
+    .toggle-slider:hover {
+        box-shadow: 0 0 8px rgba(67, 97, 238, 0.3);
+    }
+
     .table {
     border-collapse: separate;
     border-spacing: 0;
@@ -399,8 +467,8 @@
                     <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="user-avatar" alt="Foto de perfil">
                 </div>
                 <div class="profile-details">
-                    <h3 class="profile-username">Ana Silva</h3>
-                    <p class="profile-email">ana.silva@email.com</p>
+                    <h3 class="profile-username">@Model.AuthenticatedUser.Name</h3>
+                    <p class="profile-email">@Model.AuthenticatedUser.Email</p>
                     <div class="d-flex justify-content-center gap-2">
                         <button class="btn btn-profile-action btn-edit-profile" data-bs-target="#editProfileModal">
                             <i class="bi bi-pencil-fill me-2"></i>Editar
@@ -793,8 +861,8 @@
                 <h5 class="modal-title" id="editProfileModalLabel">Editar Perfil</h5>
                 <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Fechar"></button>
             </div>
-            <div class="modal-body">
-                <form>
+            <form method="post" asp-page-handler="EditUser" id="updateUserForm">
+                <div class="modal-body">
                     <div class="text-center mb-4">
                         <div class="avatar-upload-wrapper">
                             <input type="file" id="avatarFile" name="avatarFile" accept="image/*" class="d-none">
@@ -812,53 +880,62 @@
 
                     <div class="mb-3">
                         <label for="profileName" class="form-label">Nome</label>
-                        <input type="text" class="form-control" id="profileName" value="Ana Silva">
+                        <input type="text" class="form-control" id="profileName" asp-for="EditUser.Name" value="@Model.AuthenticatedUser.Name">
                     </div>
 
                     <div class="mb-3">
                         <label for="profileEmail" class="form-label">E-mail</label>
-                        <input type="email" class="form-control" id="profileEmail" value="ana.silva@email.com" readonly>
+                        <input type="email" class="form-control" id="profileEmail" value="@Model.AuthenticatedUser.Email" readonly>
                         <div class="small text-muted mt-1">O e-mail não pode ser alterado</div>
                     </div>
 
-                    <hr class="my-4">
-
-                    <div class="mb-3">
-                        <label for="currentPassword" class="form-label">Senha Atual</label>
-                        <div class="input-group">
-                            <input type="password" class="form-control" id="currentPassword" placeholder="Digite sua senha atual">
-                            <button class="btn btn-outline-secondary" type="button" id="toggleCurrentPassword">
-                                <i class="bi bi-eye"></i>
-                            </button>
-                        </div>
+                    <div class="password-toggle-wrapper">
+                        <label class="password-toggle-label">Alterar senha</label>
+                        <label class="toggle-switch">
+                            <input type="checkbox" id="passwordToggle">
+                            <span class="toggle-slider"></span>
+                        </label>
                     </div>
 
-                    <div class="mb-3">
-                        <label for="newPassword" class="form-label">Nova Senha</label>
-                        <div class="input-group">
-                            <input type="password" class="form-control" id="newPassword" placeholder="Digite sua nova senha">
-                            <button class="btn btn-outline-secondary" type="button" id="toggleNewPassword">
-                                <i class="bi bi-eye"></i>
-                            </button>
+                    <div id="passwordFields" style="display: none;">
+                        <div class="mb-3">
+                            <label for="currentPassword" class="form-label">Senha Atual</label>
+                            <div class="input-group">
+                                <input type="password" class="form-control" id="currentPassword" asp-for="PasswordUpdate.CurrentPassword" placeholder="Digite sua senha atual">
+                                <button class="btn btn-outline-secondary" type="button" id="toggleCurrentPassword">
+                                    <i class="bi bi-eye"></i>
+                                </button>
+                            </div>
                         </div>
-                        <div class="small text-muted mt-1">Mínimo de 8 caracteres</div>
-                    </div>
 
-                    <div class="mb-3">
-                        <label for="confirmPassword" class="form-label">Confirmar Nova Senha</label>
-                        <div class="input-group">
-                            <input type="password" class="form-control" id="confirmPassword" placeholder="Confirme sua nova senha">
-                            <button class="btn btn-outline-secondary" type="button" id="toggleConfirmPassword">
-                                <i class="bi bi-eye"></i>
-                            </button>
+                        <div class="mb-3">
+                            <label for="newPassword" class="form-label">Nova Senha</label>
+                            <div class="input-group">
+                                <input type="password" class="form-control" id="newPassword" asp-for="PasswordUpdate.NewPassword" placeholder="Digite sua nova senha">
+                                <button class="btn btn-outline-secondary" type="button" id="toggleNewPassword">
+                                    <i class="bi bi-eye"></i>
+                                </button>
+                            </div>
+                            <div class="small text-muted mt-1">Mínimo de 8 caracteres</div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="confirmPassword" class="form-label">Confirmar Nova Senha</label>
+                            <div class="input-group">
+                                <input type="password" class="form-control" id="confirmPassword" asp-for="PasswordUpdate.ConfirmPassword" placeholder="Confirme sua nova senha">
+                                <button class="btn btn-outline-secondary" type="button" id="toggleConfirmPassword">
+                                    <i class="bi bi-eye"></i>
+                                </button>
+                            </div>
                         </div>
                     </div>
-                </form>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                <button type="submit" class="btn btn-action btn-save">Salvar Alterações</button>
-            </div>
+                    <span class="text-danger" id="errorMessage"></span>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="submit" class="btn btn-action btn-save">Salvar Alterações</button>
+                </div>
+            </form>
         </div>
     </div>
 </div>
@@ -869,7 +946,52 @@
 
 <script>
     document.addEventListener('DOMContentLoaded', function() {
-        const togglePasswordVisibility = function(buttonId, inputId) {
+
+        document.getElementById("updateUserForm").addEventListener("submit", async function (e) {
+            e.preventDefault();
+
+            const form = e.target;
+            const formData = new FormData(form);
+            const response = await fetch('?handler=EditUser', {
+                method: 'POST',
+                body: formData
+            });
+
+            const result = await response.json();
+
+            const errorMessage = document.getElementById("errorMessage");
+            errorMessage.textContent = '';
+
+            if (result.success) {
+                location.reload();
+            } else {
+                errorMessage.textContent = result.error;
+            }
+        });
+
+        const passwordToggle = document.getElementById('passwordToggle');
+        const passwordFields = document.getElementById('passwordFields');
+
+        passwordToggle.addEventListener('change', function() {
+            if (this.checked) {
+                passwordFields.classList.remove('hide');
+                passwordFields.classList.add('show');
+                passwordFields.style.display = 'block';
+            } else {
+                passwordFields.classList.remove('show');
+                passwordFields.classList.add('hide');
+                document.getElementById('currentPassword').value = '';
+                document.getElementById('newPassword').value = '';
+                document.getElementById('confirmPassword').value = '';
+                setTimeout(() => {
+                    if (passwordFields.classList.contains('hide')) {
+                        passwordFields.style.display = 'none';
+                    }
+                }, 400);
+            }
+        });
+
+        const togglePasswordVisibility = (buttonId, inputId) => {
             const button = document.getElementById(buttonId);
             if (button) {
                 button.addEventListener('click', function() {
@@ -950,5 +1072,4 @@
             input.value = collectionId;
         });
     });
-
 </script>

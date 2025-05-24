@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using Littera.Data;
 using System.Security.Claims;
+using Microsoft.AspNetCore.Mvc.Filters;
 
 namespace Littera.Pages
 {
@@ -19,6 +20,15 @@ namespace Littera.Pages
         public ProfileModel(LitteraContext context) {
             _context = context;
         }
+
+        [BindProperty]
+        public User AuthenticatedUser { get; set; }
+
+        [BindProperty]
+        public User EditUser { get; set; }
+
+        [BindProperty]
+        public PasswordUpdateModel PasswordUpdate { get; set; }
 
         [BindProperty]
         public Collection Collection { get; set; }
@@ -43,7 +53,7 @@ namespace Littera.Pages
         public IList<Tag> Tags { get; set; }
 
         public async Task OnGetAsync() {
-            var userId = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier).Value);
+            var userId = AuthenticatedUser.Id;
 
             Collections = await _context.Collections
                 .Where(c => c.UserId == userId)
@@ -56,13 +66,69 @@ namespace Littera.Pages
         }
 
         public async Task<IActionResult> OnPostCollectionAsync() {
-            var userId = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier).Value);
+            var userId = AuthenticatedUser.Id;
             Collection.UserId = userId;
 
             _context.Collections.Add(Collection);
             await _context.SaveChangesAsync();
 
             return RedirectToPage(); 
+        }
+        public async Task<IActionResult> OnPostEditUserAsync() {
+            var userId = AuthenticatedUser.Id;
+
+            var userInDb = await _context.Users.FindAsync(userId);
+            if (userInDb == null) {
+                ModelState.AddModelError(string.Empty, "Usuário não encontrado.");
+                return Page();
+            }
+
+            if (string.IsNullOrWhiteSpace(EditUser.Name)) {
+                return new JsonResult(new { success = false, error = "O nome é obrigatório." });
+            }
+
+            userInDb.Name = EditUser.Name;
+
+            bool wantsToChangePassword = !string.IsNullOrWhiteSpace(PasswordUpdate.NewPassword) ||
+                                         !string.IsNullOrWhiteSpace(PasswordUpdate.ConfirmPassword);
+
+            if (wantsToChangePassword) {
+                if (string.IsNullOrWhiteSpace(PasswordUpdate.CurrentPassword)) {
+                    return new JsonResult(new { success = false, error = "A senha atual é obrigatória para alterar a senha." });
+                }
+
+                if (PasswordUpdate.NewPassword.Length < 8) {
+                    return new JsonResult(new { success = false, error = "A nova senha deve ter no mínimo 8 caracteres." });
+                }
+
+                if (PasswordUpdate.NewPassword != PasswordUpdate.ConfirmPassword) {
+                    return new JsonResult(new { success = false, error = "As senhas não coincidem." });
+
+                }
+
+                if (userInDb.Password != PasswordUpdate.CurrentPassword) {
+                    return new JsonResult(new { success = false, error = "Senha atual incorreta." });
+
+                }
+
+                userInDb.Password = PasswordUpdate.NewPassword;
+            }
+
+            _context.Users.Update(userInDb);
+            await _context.SaveChangesAsync();
+
+            var claims = new List<Claim>
+            {
+                new Claim(ClaimTypes.NameIdentifier, userInDb.Id.ToString()),
+                new Claim(ClaimTypes.Name, userInDb.Name),
+                new Claim(ClaimTypes.Email, userInDb.Email)
+            };
+
+            var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+            var principal = new ClaimsPrincipal(identity);
+            await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal);
+
+            return new JsonResult(new { success = true });
         }
 
         public async Task<IActionResult> OnPostEditCollectionAsync() {
@@ -91,7 +157,7 @@ namespace Littera.Pages
         }
 
         public async Task<IActionResult> OnPostTagAsync() {
-            var userId = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier).Value);
+            var userId = AuthenticatedUser.Id;
             Tag.UserId = userId;
 
             _context.Tags.Add(Tag);
@@ -127,6 +193,26 @@ namespace Littera.Pages
         public async Task<IActionResult> OnPostLogoutAsync() {
             await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
             return RedirectToPage("/Signin"); 
+        }
+
+        public override void OnPageHandlerExecuting(PageHandlerExecutingContext context) {
+            base.OnPageHandlerExecuting(context);
+
+            var userClaims = User;
+
+            if (userClaims.Identity != null && userClaims.Identity.IsAuthenticated) {
+                AuthenticatedUser = new User {
+                    Id = int.Parse(userClaims.FindFirst(ClaimTypes.NameIdentifier)?.Value ?? "0"),
+                    Name = userClaims.FindFirst(ClaimTypes.Name)?.Value,
+                    Email = userClaims.FindFirst(ClaimTypes.Email)?.Value
+                };
+            }
+        }
+
+        public class PasswordUpdateModel {
+            public string CurrentPassword { get; set; }
+            public string NewPassword { get; set; }
+            public string ConfirmPassword { get; set; }
         }
     }
 }
