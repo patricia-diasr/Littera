@@ -16,10 +16,6 @@ namespace Littera.Pages
     {
         
         private readonly LitteraContext _context;
-        
-        public ProfileModel(LitteraContext context) {
-            _context = context;
-        }
 
         [BindProperty]
         public IFormFile AvatarFile { get; set; }
@@ -54,6 +50,10 @@ namespace Littera.Pages
         public int TagDeleteId { get; set; }
 
         public IList<Tag> Tags { get; set; }
+
+        public ProfileModel(LitteraContext context) {
+            _context = context;
+        }
 
         public async Task OnGetAsync() {
             var userId = AuthenticatedUser.Id;

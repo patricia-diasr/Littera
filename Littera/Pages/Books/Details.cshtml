@@ -178,31 +178,50 @@
         .badge-status i {
             margin-right: 5px;
         }
+
+    .status-reading {
+        background-color: var(--bs-warning);
+    }
+
+    .status-read {
+        background-color: var(--bs-primary);
+    }
 </style>
 
 <div class="container book-container">
     <div class="row">
         <div class="col-md-4 text-center mb-4 mb-md-0">
-            <img src="https://m.media-amazon.com/images/I/81DkKVIavBL._SY425_.jpg" class="book-cover" alt="Assistente do Vilão">
+            <img src="@(!string.IsNullOrEmpty(Model.Book.Cover) ? Model.Book.Cover : "/uploads/books/default.png")" class="book-cover" alt=Model.Book.Title>
         </div>
 
         <div class="col-md-8">
             <div class="title-container">
-                <h2 class="book-title">Assistente do Vilão</h2>
-                <span class="badge-status">
-                    <i class="bi bi-check-circle-fill"></i>Lido
+                <h2 class="book-title">@Model.Book.Title</h2>
+                @{
+                    string statusClass = Model.Book.Status switch
+                    {
+                        "Lendo" => "status-reading",
+                        "Lido" => "status-read",
+                        _ => ""
+                    };
+                }
+
+                <span class="badge-status @statusClass">
+                    <i class="bi bi-check-circle-fill"></i> @Model.Book.Status
                 </span>
             </div>
-            <h5 class="book-author">por Hannah Nicole Maehrer</h5>
+            <h5 class="book-author">por @Model.Author.Name</h5>
 
             <div class="d-flex flex-wrap mb-4">
-                <div class="book-metadata">
-                    <i class="bi bi-calendar-event"></i>
-                    <span>15/01/2024 - 22/01/2024</span>
-                </div>
+                @if (Model.Book.StartDate != null) {
+                    <div class="book-metadata">
+                        <i class="bi bi-calendar-event"></i>
+                        <span>@Model.Book.StartDate?.ToString("dd/MM/yyyy") - @Model.Book.EndDate?.ToString("dd/MM/yyyy")</span>
+                    </div>
+                }
                 <div class="book-metadata">
                     <i class="bi bi-file-text"></i>
-                    <span>512 páginas</span>
+                    <span>@Model.Book.PageCount páginas</span>
                 </div>
             </div>
 
@@ -230,28 +249,36 @@
             </div>
 
             <div class="section-title">Resumo</div>
-            <p class="book-summary">
-                Evie Sage está desesperada por um emprego para sustentar sua família — então, quando esbarra acidentalmente com o Vilão mais temido de Rennedawn e recebe uma oferta de trabalho, ela aceita sem pensar. O cargo envolve apoiar uma equipe dedicada ao caos e terror, lidar com funções sombrias não especificadas e conviver com globos oculares errantes e cabeças decepadas como parte do cotidiano. Não é exatamente o trabalho dos sonhos… mas os benefícios são ótimos.
-            </p>
-            <p class="book-summary mb-4">
-                Conforme Evie se adapta ao ambiente e tenta não babar pelo chefe aterrorizante e inegavelmente gato, ela percebe que alguém está tentando destruir o império do Vilão. Agora, além de manter o emprego e o coração sob controle, ela precisa salvar o próprio chefe. Assistente do Vilão é uma fantasia romântica cheia de humor, que mistura contos de fadas com escritório corporativo.
-            </p>
+            @foreach (var paragraph in Model.Book.Summary.Split(Environment.NewLine))
+            {
+                if (!string.IsNullOrWhiteSpace(paragraph))
+                {
+                    <p class="book-summary">@paragraph</p>
+                }
+            }
+
 
             <div class="section-title">Minha Avaliação</div>
             <div class="review-container">
-                <div class="star-rating mb-2">
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                </div>
+                @if (Model.Book.Rating != null)
+                {
+                    <div class="star-rating mb-2">
+
+                    @for (int i = 0; i < Model.Book.Rating; i++)
+                    {
+                        <i class="bi bi-star-fill"></i>
+                    }
+
+                    </div>
+
+                }
                 <p class="book-summary fst-italic mb-0">
-                    Adorei o enredo da história, é bem divertida e leve — ótima pra tirar a gente da ressaca literária.
+                    @(!string.IsNullOrWhiteSpace(Model.Book.Comment) ? @Model.Book.Comment : "...")
                 </p>
             </div>
 
             <div class="button-container mt-5">
+
                 <a class="btn btn-action btn-edit" asp-page="/Books/Edit">
                     <i class="bi bi-pencil-fill me-2"></i>Editar
                 </a>
