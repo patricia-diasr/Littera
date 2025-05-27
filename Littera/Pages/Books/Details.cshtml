@@ -191,7 +191,10 @@
 <div class="container book-container">
     <div class="row">
         <div class="col-md-4 text-center mb-4 mb-md-0">
-            <img src="@(!string.IsNullOrEmpty(Model.Book.Cover) ? Model.Book.Cover : "/uploads/books/default.png")" class="book-cover" alt=Model.Book.Title>
+            <img src="@(!string.IsNullOrEmpty(Model.Book.Cover) ? Model.Book.Cover : "/uploads/books/default.png")"
+                 class="book-cover"
+                 alt="Model.Book.Title"
+                 onerror="this.onerror=null;this.src='/uploads/books/default.png';">
         </div>
 
         <div class="col-md-8">
@@ -279,7 +282,7 @@
 
             <div class="button-container mt-5">
 
-                <a class="btn btn-action btn-edit" asp-page="/Books/Edit">
+                <a class="btn btn-action btn-edit" asp-page="/Books/Edit" asp-route-id="@Model.Book.Id">
                     <i class="bi bi-pencil-fill me-2"></i>Editar
                 </a>
                 <a class="btn btn-action btn-delete" data-bs-toggle="modal" data-bs-target="#deleteModal">
@@ -298,13 +301,17 @@
                 <h5 class="modal-title" id="deleteModalLabel">Excluir Livro</h5>
                 <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Fechar"></button>
             </div>
-            <div class="modal-body">
-                Tem certeza que deseja excluir este livro? Esta ação não poderá ser desfeita.
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                <button type="button" class="btn btn-action btn-save">Excluir</button>
-            </div>
+            <form method="post" asp-page-handler="DeleteBook">
+                <input type="hidden" name="bookId" value="@Model.Book.Id" />
+
+                <div class="modal-body">
+                    Tem certeza que deseja excluir este livro? Esta ação não poderá ser desfeita.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="submit" class="btn btn-action btn-save">Excluir</button>
+                </div>
+            </form>
         </div>
     </div>
 </div>

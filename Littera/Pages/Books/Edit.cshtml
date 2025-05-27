@@ -157,6 +157,35 @@
         padding-bottom: 1rem;
     }
 
+    .rating-section {
+        transition: opacity 0.3s ease, height 0.3s ease;
+        overflow: hidden;
+    }
+
+        .rating-section.hidden {
+            opacity: 0;
+            height: 0;
+            margin: 0;
+            padding: 0;
+        }
+
+    .date-section {
+        transition: opacity 0.3s ease;
+    }
+
+        .date-section.hidden {
+            display: none;
+        }
+
+    #datesSection.hidden {
+        display: none;
+    }
+
+    #startDateSection.hidden,
+    #endDateSection.hidden {
+        display: none;
+    }
+
     @@media (max-width: 768px) {
         .book-container {
             padding: 25px;
@@ -165,17 +194,24 @@
 
 </style>
 
-<form method="post" class="container book-container">
+<form method="post" enctype="multipart/form-data" class="container book-container">
+    <input type="hidden" asp-for="Book.Id" />
+    <input type="hidden" asp-for="Book.Cover" />
+
     <div class="row">
         <div class="col-md-4 text-center mb-4 mb-md-0">
             <div class="cover-upload-wrapper">
-                <input type="file" id="CoverFile" name="CoverFile" accept="image/*" class="d-none">
-                <label for="CoverFile" style="cursor: pointer; display: block;">
-                    <img src="https://m.media-amazon.com/images/I/81DkKVIavBL._SY425_.jpg" class="book-cover" alt="Assistente do Vilão">
+                <input type="file" id="bookCoverFile" asp-for="BookCoverFile" accept="image/*" class="d-none">
+                <label for="bookCoverFile" style="cursor: pointer; display: block;">
+                    <img src="@(!string.IsNullOrEmpty(Model.Book.Cover) ? Model.Book.Cover : "/uploads/books/default.png")"
+                         class="book-cover"
+                         alt="Model.Book.Title"
+                         id="bookCoverPreview"
+                         onerror="this.onerror=null;this.src='/uploads/books/default.png';">
                     <div class="cover-upload-overlay">
                         <div>
                             <i class="bi bi-camera-fill fs-2 mb-2"></i>
-                            <div>Alterar imagem</div>
+                            <div>Selecionar imagem</div>
                         </div>
                     </div>
                 </label>
@@ -186,12 +222,14 @@
             <div class="form-section">
                 <div class="mb-3">
                     <div class="book-info-label">Título</div>
-                    <input type="text" name="Title" class="form-control form-control-lg" placeholder="Título do livro" value="Assistente do Vilão" />
+                    <input type="text" class="form-control form-control-lg" placeholder="Título do livro" asp-for=Book.Title />
+                     <span asp-validation-for="Book.Title" class="text-danger"></span>
                 </div>
 
                 <div class="mb-4">
                     <div class="book-info-label">Autor(a)</div>
-                    <input type="text" name="Author" class="form-control" placeholder="Autor(a)" value="Hannah Nicole Maehrer" />
+                    <input type="text" asp-for="Author.Name" class="form-control" placeholder="Autor(a)" />
+                    <span asp-validation-for="Author.Name" class="text-danger"></span>
                 </div>
             </div>
 
@@ -223,11 +261,10 @@
                 <div class="row mb-4">
                     <div class="col-sm-6 mb-3 mb-sm-0">
                         <div class="book-info-label">Status</div>
-                        <select name="Status" class="form-select">
-                            <option selected>Lido</option>
+                        <select asp-for="Book.Status" id="bookStatus" class="form-select">
                             <option>Quero Ler</option>
                             <option>Lendo</option>
-                            <option>Abandonado</option>
+                            <option>Lido</option>
                         </select>
                     </div>
                     <div class="col-sm-6">
@@ -236,28 +273,28 @@
                             <span class="input-group-text bg-transparent">
                                 <i class="bi bi-file-text"></i>
                             </span>
-                            <input type="number" name="Pages" class="form-control" value="512" />
+                            <input type="number" asp-for="Book.PageCount" class="form-control" />
                         </div>
                     </div>
                 </div>
 
-                <div class="row mb-4">
-                    <div class="col-sm-6 mb-3 mb-sm-0">
+                <div class="row mb-4" id="datesSection">
+                    <div class="col-sm-6 mb-3 mb-sm-0" id="startDateSection">
                         <div class="book-info-label">Data de Início</div>
                         <div class="input-group">
                             <span class="input-group-text bg-transparent">
                                 <i class="bi bi-calendar-event"></i>
                             </span>
-                            <input type="date" name="StartDate" class="form-control" value="2024-01-15" />
+                            <input type="date" asp-for="Book.StartDate" class="form-control" />
                         </div>
                     </div>
-                    <div class="col-sm-6">
+                    <div class="col-sm-6" id="endDateSection">
                         <div class="book-info-label">Data de Término</div>
                         <div class="input-group">
                             <span class="input-group-text bg-transparent">
                                 <i class="bi bi-calendar-check"></i>
                             </span>
-                            <input type="date" name="EndDate" class="form-control" value="2024-01-22" />
+                            <input type="date" asp-for="Book.EndDate" class="form-control" />
                         </div>
                     </div>
                 </div>
@@ -265,27 +302,29 @@
 
             <div class="section-title">Resumo</div>
             <div class="form-group">
-                <textarea name="Summary" class="form-control mb-4" rows="5" placeholder="Escreva um breve resumo do livro...">Evie Sage está desesperada por um emprego para sustentar sua família — então, quando esbarra acidentalmente com o Vilão mais temido de Rennedawn e recebe uma oferta de trabalho, ela aceita sem pensar...</textarea>
+                <textarea asp-for="Book.Summary" class="form-control mb-4" rows="5" placeholder="Escreva um breve resumo do livro..."></textarea>
             </div>
 
-            <div class="section-title">Avaliação</div>
-            <div class="form-group mb-3">
-                <div class="input-group">
-                    <span class="input-group-text bg-transparent">
-                        <i class="bi bi-star-fill text-warning"></i>
-                    </span>
-                    <select name="Rating" class="form-select">
-                        <option selected>5 estrelas</option>
-                        <option>4 estrelas</option>
-                        <option>3 estrelas</option>
-                        <option>2 estrelas</option>
-                        <option>1 estrela</option>
-                    </select>
+            <div class="rating-section hidden" id="ratingSection">
+                <div class="section-title">Avaliação</div>
+                <div class="form-group mb-3">
+                    <div class="input-group">
+                        <span class="input-group-text bg-transparent">
+                            <i class="bi bi-star-fill text-warning"></i>
+                        </span>
+                        <select asp-for="Book.Rating" class="form-select">
+                            <option value="5">5 estrelas</option>
+                            <option value="4">4 estrelas</option>
+                            <option value="3">3 estrelas</option>
+                            <option value="2">2 estrelas</option>
+                            <option value="1">1 estrela</option>
+                        </select>
+                    </div>
                 </div>
-            </div>
 
-            <div class="form-group mb-5">
-                <textarea name="Review" class="form-control" rows="3" placeholder="Escreva sua avaliação...">Adorei o enredo da história, é bem divertida e leve — ótima pra tirar a gente da ressaca literária.</textarea>
+                <div class="form-group mb-5">
+                    <textarea asp-for="Book.Comment" class="form-control" rows="3" placeholder="Escreva sua avaliação..."></textarea>
+                </div>
             </div>
 
             <div class="button-container mt-4">
@@ -299,3 +338,72 @@
         </div>
     </div>
 </form>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        document.getElementById("bookCoverFile").addEventListener("change", function () {
+            const file = this.files[0];
+
+            if (file) {
+                const preview = document.getElementById("bookCoverPreview");
+                preview.src = URL.createObjectURL(file);
+            }
+        });
+
+        const bookStatus = document.getElementById("bookStatus");
+        const ratingSection = document.getElementById("ratingSection");
+        const datesSection = document.getElementById("datesSection");
+        const startDateSection = document.getElementById("startDateSection");
+        const endDateSection = document.getElementById("endDateSection");
+
+        function toggleSections() {
+            const status = bookStatus.value;
+
+            if (status === "Lido") {
+                ratingSection.classList.remove("hidden");
+            } else {
+                ratingSection.classList.add("hidden");
+
+                const ratingSelect = ratingSection.querySelector("select");
+                const commentTextarea = ratingSection.querySelector("textarea");
+
+                if (ratingSelect) ratingSelect.selectedIndex = 0;
+                if (commentTextarea) commentTextarea.value = "";
+            }
+
+            if (status === "Quero Ler") {
+                datesSection.classList.add("hidden");
+                clearDateFields();
+            } else if (status === "Lendo" ) {
+                datesSection.classList.remove("hidden");
+                startDateSection.classList.remove("hidden");
+                endDateSection.classList.add("hidden");
+                clearEndDate();
+            } else if (status === "Lido") {
+                datesSection.classList.remove("hidden");
+                startDateSection.classList.remove("hidden");
+                endDateSection.classList.remove("hidden");
+            }
+        }
+
+        function clearDateFields() {
+            const startDateInput = startDateSection.querySelector("input[type='date']");
+            const endDateInput = endDateSection.querySelector("input[type='date']");
+
+            if (startDateInput) startDateInput.value = "";
+            if (endDateInput) endDateInput.value = "";
+        }
+
+        function clearEndDate() {
+            const endDateInput = endDateSection.querySelector("input[type='date']");
+            if (endDateInput) endDateInput.value = "";
+        }
+
+        toggleSections();
+        bookStatus.addEventListener("change", toggleSections);
+    });
+</script>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

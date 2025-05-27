@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
+using System.Net;
 using System.Security.Claims;
 
 namespace Littera.Pages.Books
@@ -35,5 +36,22 @@ namespace Littera.Pages.Books
                 .Where(a => a.Id == Book.AuthorId)
                 .FirstOrDefaultAsync();
         }
+
+        public async Task<IActionResult> OnPostDeleteBookAsync(int bookId) {
+            var bookToDelete = await _context.Books.FindAsync(bookId);
+
+            if (!string.IsNullOrEmpty(bookToDelete.Cover)) {
+                var oldFilePath = Path.Combine("wwwroot", bookToDelete.Cover.TrimStart('/'));
+                if (System.IO.File.Exists(oldFilePath)) {
+                    System.IO.File.Delete(oldFilePath);
+                }
+            }
+
+            _context.Books.Remove(bookToDelete);
+            await _context.SaveChangesAsync();
+
+            return RedirectToPage("/Index");
+        }
+
     }
 }

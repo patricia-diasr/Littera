@@ -116,8 +116,11 @@
             {
                 @foreach (var book in Model.Reading)
                 {
-                    <a asp-page="/Books/Details" asp-route-id="@book.Id"  asp-route-title=@book.Title>
-                        <img src=@book.Cover class="book-cover" alt=@book.Title>
+                    <a asp-page="/Books/Details" asp-route-id="@book.Id">
+                        <img src="@(!string.IsNullOrEmpty(book.Cover) ? book.Cover : "/uploads/books/default.png")"
+                             class="book-cover"
+                             alt="@book.Title"
+                             onerror="this.onerror=null;this.src='/uploads/books/default.png';">
                     </a>
                 }
 
@@ -132,8 +135,11 @@
             {
                 @foreach (var book in Model.ToBeRead)
                 {
-                    <a asp-page="/Books/Details" asp-route-id="@book.Id" asp-route-title=@book.Title>
-                        <img src=@book.Cover class="book-cover" alt=@book.Title>
+                    <a asp-page="/Books/Details" asp-route-id="@book.Id">
+                        <img src="@(!string.IsNullOrEmpty(book.Cover) ? book.Cover : "/uploads/books/default.png")"
+                             class="book-cover"
+                             alt="@book.Title"
+                             onerror="this.onerror=null;this.src='/uploads/books/default.png';">
                     </a>
                 }
 
@@ -148,8 +154,11 @@
             {
                 @foreach (var book in Model.AlreadyRead)
                 {
-                    <a asp-page="/Books/Details" asp-route-id="@book.Id" asp-route-title=@book.Title>
-                        <img src="@(!string.IsNullOrEmpty(book.Cover) ? book.Cover : "/uploads/books/default.png")" class="book-cover" alt=@book.Title>
+                    <a asp-page="/Books/Details" asp-route-id="@book.Id">
+                        <img src="@(!string.IsNullOrEmpty(book.Cover) ? book.Cover : "/uploads/books/default.png")"
+                             class="book-cover"
+                             alt="@book.Title"
+                             onerror="this.onerror=null;this.src='/uploads/books/default.png';">
                     </a>
                 }
 
