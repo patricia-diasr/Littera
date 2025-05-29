@@ -22,8 +22,33 @@ namespace Littera.Pages.Books
         [BindProperty]
         public Author Author { get; set; }
 
+        [BindProperty]
+        public List<Tag> Tags { get; set; }
+
+        [BindProperty]
+        public string SelectedTagIds { get; set; }
+
+        [BindProperty]
+        public List<Collection> Collections { get; set; }
+
+        [BindProperty]
+        public string SelectedCollectionsIds { get; set; }
+
         public CreateModel(LitteraContext context) {
             _context = context;
+        }
+
+        public async Task OnGetAsync() {
+            var claim = User.FindFirst(ClaimTypes.NameIdentifier);
+            int userId = int.Parse(claim.Value);
+
+            Tags = await _context.Tags
+                .Where(t => t.UserId == userId)
+                .ToListAsync() ?? new List<Tag>();
+
+            Collections = await _context.Collections
+                .Where(c => c.UserId == userId)
+                .ToListAsync() ?? new List<Collection>();
         }
 
         public async Task<IActionResult> OnPostAsync() {
@@ -60,6 +85,32 @@ namespace Littera.Pages.Books
             }
 
             _context.Books.Add(Book);
+            await _context.SaveChangesAsync();
+
+            var tagIds = SelectedTagIds.Split(',', StringSplitOptions.RemoveEmptyEntries)
+                           .Select(int.Parse)
+                           .ToList();
+
+            foreach (var tagId in tagIds) {
+                var bookTag = new BookTag {
+                    BookId = Book.Id,
+                    TagId = tagId
+                };
+                _context.BookTags.Add(bookTag);
+            }
+
+            var collectionsIds = SelectedTagIds.Split(',', StringSplitOptions.RemoveEmptyEntries)
+               .Select(int.Parse)
+               .ToList();
+
+            foreach (var collectionId in collectionsIds) {
+                var bookCollection = new BookCollection {
+                    BookId = Book.Id,
+                    CollectionId = collectionId
+                };
+                _context.BookCollections.Add(bookCollection);
+            }
+
             await _context.SaveChangesAsync();
 
             return RedirectToPage();

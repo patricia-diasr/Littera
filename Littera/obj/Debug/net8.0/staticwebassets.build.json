@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "sgp/L50lvZaSbs6WuwovTqIbJF0xcpFLsZJY7sbjLvk=",
+  "Hash": "dIfiM2wE8/CbrtzshSEJQUTsmbMTCJ39su4RbND566g=",
   "Source": "Littera",
   "BasePath": "_content/Littera",
   "Mode": "Default",
@@ -1464,27 +1464,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\books\\693fe686-9844-46b4-8342-2aba76bfbe5a.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\c57b0f96-0099-45da-a19b-3ef2006b8515.jpg",
-      "SourceId": "Littera",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
-      "BasePath": "_content/Littera",
-      "RelativePath": "uploads/books/c57b0f96-0099-45da-a19b-3ef2006b8515#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "ft89uchnic",
-      "Integrity": "HQ3fXR6uqI77HOcpHAPTJAGqA9Mk+YtRA5tKVe9qasg=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\books\\c57b0f96-0099-45da-a19b-3ef2006b8515.jpg"
     },
     {
       "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\default.png",
@@ -7185,88 +7164,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-I9p0WXYRsLczI0d7WURKY2sf4C+FwKkTPtES41ZvJX4="
-        }
-      ]
-    },
-    {
-      "Route": "uploads/books/c57b0f96-0099-45da-a19b-3ef2006b8515.ft89uchnic.jpg",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\c57b0f96-0099-45da-a19b-3ef2006b8515.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "117984"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"HQ3fXR6uqI77HOcpHAPTJAGqA9Mk+YtRA5tKVe9qasg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 27 May 2025 21:07:40 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ft89uchnic"
-        },
-        {
-          "Name": "label",
-          "Value": "uploads/books/c57b0f96-0099-45da-a19b-3ef2006b8515.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-HQ3fXR6uqI77HOcpHAPTJAGqA9Mk+YtRA5tKVe9qasg="
-        }
-      ]
-    },
-    {
-      "Route": "uploads/books/c57b0f96-0099-45da-a19b-3ef2006b8515.jpg",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\c57b0f96-0099-45da-a19b-3ef2006b8515.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "117984"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"HQ3fXR6uqI77HOcpHAPTJAGqA9Mk+YtRA5tKVe9qasg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 27 May 2025 21:07:40 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-HQ3fXR6uqI77HOcpHAPTJAGqA9Mk+YtRA5tKVe9qasg="
         }
       ]
     },
