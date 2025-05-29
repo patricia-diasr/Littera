@@ -99,7 +99,7 @@ namespace Littera.Pages.Books
                 _context.BookTags.Add(bookTag);
             }
 
-            var collectionsIds = SelectedTagIds.Split(',', StringSplitOptions.RemoveEmptyEntries)
+            var collectionsIds = SelectedCollectionsIds.Split(',', StringSplitOptions.RemoveEmptyEntries)
                .Select(int.Parse)
                .ToList();
 

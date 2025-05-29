@@ -20,6 +20,12 @@ namespace Littera.Pages.Books
         [BindProperty]
         public Author Author { get; set; }
 
+        [BindProperty]
+        public List<Tag> Tags { get; set; }
+
+        [BindProperty]
+        public List<Collection> Collections { get; set; }
+
         public DetailsModel(LitteraContext context) {
             _context = context;
         }
@@ -35,6 +41,18 @@ namespace Littera.Pages.Books
             Author = await _context.Authors
                 .Where(a => a.Id == Book.AuthorId)
                 .FirstOrDefaultAsync();
+
+            Tags = await _context.BookTags
+                .Where(bt => bt.BookId == id)
+                .Include(bt => bt.Tag)
+                .Select(bt => bt.Tag)
+                .ToListAsync();
+
+            Collections = await _context.BookCollections
+                .Where(bc => bc.BookId == id)
+                .Include(bc => bc.Collection)
+                .Select(bc => bc.Collection)
+                .ToListAsync();
         }
 
         public async Task<IActionResult> OnPostDeleteBookAsync(int bookId) {

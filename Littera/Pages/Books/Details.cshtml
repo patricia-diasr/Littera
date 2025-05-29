@@ -228,28 +228,32 @@
                 </div>
             </div>
 
-            <div class="mb-4">
-                <div class="book-info-label">Tags</div>
-                <span class="badge badge-custom me-2 mb-2">
-                    <i class="bi bi-tag-fill me-1"></i>Fantasia
-                </span>
-                <span class="badge badge-custom me-2 mb-2">
-                    <i class="bi bi-tag-fill me-1"></i>Romance
-                </span>
-                <span class="badge badge-custom me-2 mb-2">
-                    <i class="bi bi-tag-fill me-1"></i>Aventura
-                </span>
-            </div>
+            @if (Model.Tags != null && Model.Tags.Any())
+            {
+                <div class="mb-4">
+                    <div class="book-info-label">Tags</div>
 
-            <div class="mb-4">
-                <div class="book-info-label">Coleções</div>
-                <span class="badge badge-collection me-2 mb-2">
-                    <i class="bi bi-collection-fill me-1"></i>Romantasias
-                </span>
-                <span class="badge badge-collection me-2 mb-2">
-                    <i class="bi bi-collection-fill me-1"></i>Livros do TikTok
-                </span>
-            </div>
+                    @foreach (var tag in Model.Tags)
+                    {
+                    <span class="badge badge-custom me-2 mb-2" style="background: @tag.Color">
+                        <i class="bi bi-tag-fill me-1"></i>@tag.Name
+                    </span>
+                    }
+                </div>
+            }
+
+            @if (Model.Collections != null && Model.Collections.Any())
+            {
+                <div class="mb-4">
+                    <div class="book-info-label">Coleções</div>
+                    @foreach (var collection in Model.Collections)
+                    {
+                    <span class="badge badge-collection me-2 mb-2" style="background: @collection.Color">
+                        <i class="bi bi-collection-fill me-1"></i>@collection.Name
+                    </span>
+                    }
+                </div>
+            }
 
             <div class="section-title">Resumo</div>
             @foreach (var paragraph in Model.Book.Summary.Split(Environment.NewLine))
