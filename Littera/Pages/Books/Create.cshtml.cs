@@ -121,7 +121,7 @@ namespace Littera.Pages.Books
 
             await _context.SaveChangesAsync();
 
-            return RedirectToPage();
+            return RedirectToPage("/Books/Details", new { id = Book.Id });
         }
     }
 }

@@ -1,8 +1,6 @@
 ﻿@page
 @model Littera.Pages.Books.EditModel
-@{
-}
-
+@using System.Text.Json
 
 <style>
     .book-cover {
@@ -186,6 +184,130 @@
         display: none;
     }
 
+
+    .tags-selector-container, .collections-selector-container {
+        position: relative;
+    }
+
+    .tags-dropdown {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: white;
+        border: 1px solid rgba(25, 40, 65, 0.2);
+        border-radius: var(--radius-sm);
+        box-shadow: var(--shadow-md);
+        z-index: 1000;
+        max-height: 250px;
+        overflow-y: auto;
+        display: none;
+    }
+
+        .tags-dropdown.show {
+            display: block;
+        }
+
+    .tag-option {
+        padding: 0.75rem 1rem;
+        cursor: pointer;
+        transition: all var(--transition-fast);
+        border-bottom: 1px solid rgba(25, 40, 65, 0.05);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+        .tag-option:hover {
+            background-color: rgba(85, 214, 190, 0.1);
+        }
+
+        .tag-option.selected {
+            background-color: rgba(85, 214, 190, 0.15);
+            color: var(--header-bg);
+            font-weight: 500;
+        }
+
+        .tag-option:last-child {
+            border-bottom: none;
+        }
+
+    .selected-tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        margin-top: 0.75rem;
+        min-height: 2rem;
+        align-items: flex-start;
+    }
+
+        .selected-tags:empty {
+            display: none;
+        }
+
+    .selected-tag {
+        background-color: var(--bs-primary);
+        color: white;
+        padding: 0.25rem 0.75rem;
+        border-radius: var(--radius-sm);
+        font-size: 0.875rem;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        transition: all var(--transition-fast);
+        box-shadow: var(--shadow-sm);
+    }
+
+        .selected-tag:hover {
+            background-color: var(--bs-primary-hover);
+            transform: translateY(-1px);
+        }
+
+        .selected-tag .remove-tag {
+            cursor: pointer;
+            font-weight: bold;
+            opacity: 0.8;
+            transition: opacity var(--transition-fast);
+        }
+
+            .selected-tag .remove-tag:hover {
+                opacity: 1;
+            }
+
+    .tags-input-field, .collections-input-field {
+        cursor: pointer;
+    }
+
+    .dropdown-search {
+        padding: 0.75rem 1rem;
+        border-bottom: 1px solid rgba(25, 40, 65, 0.1);
+        position: sticky;
+        top: 0;
+        background: white;
+        z-index: 1;
+    }
+
+        .dropdown-search input {
+            border: none;
+            outline: none;
+            width: 100%;
+            padding: 0.5rem;
+            border-radius: var(--radius-sm);
+            background-color: rgba(25, 40, 65, 0.05);
+            font-size: 0.875rem;
+        }
+
+            .dropdown-search input:focus {
+                background-color: rgba(25, 40, 65, 0.08);
+            }
+
+    .no-results {
+        padding: 1rem;
+        text-align: center;
+        color: var(--bs-secondary);
+        font-style: italic;
+    }
+
     @@media (max-width: 768px) {
         .book-container {
             padding: 25px;
@@ -236,24 +358,52 @@
             <div class="form-section">
                 <div class="mb-4">
                     <div class="book-info-label">Tags</div>
-                    <div class="input-group">
+                    <div class="input-group tags-selector-container">
                         <span class="input-group-text bg-transparent">
                             <i class="bi bi-tags"></i>
                         </span>
-                        <input type="text" name="Tags" class="form-control tags-input" placeholder="Ex: Fantasia, Romance, Aventura" value="Fantasia, Romance, Aventura" />
+                        <input type="text"
+                               class="form-control tags-input tags-input-field"
+                               placeholder="Clique para selecionar tags..."
+                               readonly />
+                        <div class="tags-dropdown" id="tagsDropdown">
+                            <div class="dropdown-search">
+                                <input type="text"
+                                       placeholder="Buscar tags..."
+                                       id="tagSearch">
+                            </div>
+                            <div id="tagOptions">
+                            </div>
+                        </div>
                     </div>
-                    <small class="text-muted">Separe as tags por vírgulas</small>
+                    <div class="selected-tags" id="selectedTags">
+                    </div>
+                    <input type="hidden" name="SelectedTagIds" id="tagsHiddenInput">
                 </div>
 
                 <div class="mb-4">
                     <div class="book-info-label">Coleções</div>
-                    <div class="input-group">
+                    <div class="input-group collections-selector-container">
                         <span class="input-group-text bg-transparent">
-                            <i class="bi bi-collection"></i>
+                            <i class="bi bi-tags"></i>
                         </span>
-                        <input type="text" name="Collections" class="form-control collections-input" placeholder="Ex: Romantasias, Livros do TikTok" value="Romantasias, Livros do TikTok" />
+                        <input type="text"
+                               class="form-control tags-input collections-input-field"
+                               placeholder="Clique para selecionar coleções..."
+                               readonly />
+                        <div class="tags-dropdown" id="collectionsDropdown">
+                            <div class="dropdown-search">
+                                <input type="text"
+                                       placeholder="Buscar coleções..."
+                                       id="collectionSearch">
+                            </div>
+                            <div id="collectionOptions">
+                            </div>
+                        </div>
                     </div>
-                    <small class="text-muted">Separe as coleções por vírgulas</small>
+                    <div class="selected-tags" id="selectedCollections">
+                    </div>
+                    <input type="hidden" name="SelectedCollectionIds" id="collectionsHiddenInput">
                 </div>
             </div>
 
@@ -331,7 +481,7 @@
                 <button type="submit" class="btn btn-action btn-save">
                     <i class="bi bi-save-fill me-2"></i> Salvar
                 </button>
-                <a href="#" class="btn btn-action btn-cancel">
+                <a class="btn btn-action btn-cancel" asp-page="/Books/Details" asp-route-id="@Model.Book.Id">
                     <i class="bi bi-x-circle-fill me-2"></i> Cancelar
                 </a>
             </div>
@@ -401,7 +551,257 @@
 
         toggleSections();
         bookStatus.addEventListener("change", toggleSections);
+
+        renderTagOptions();
+        updateTagDisplay();
+
+        renderCollectionOptions();
+        updateCollectionDisplay();
     });
+
+    const availableTags = @Html.Raw(JsonSerializer.Serialize(Model.Tags.Select(t => new { id = t.Id, name = t.Name, color = t.Color })));
+    const availableCollections = @Html.Raw(JsonSerializer.Serialize(Model.Collections.Select(c => new { id = c.Id, name = c.Name, color = c.Color })));
+
+    let selectedTags = @Html.Raw(JsonSerializer.Serialize(Model.InitialTags.Select(c => new { id = c.Id, name = c.Name, color = c.Color })));
+    let filteredTags = [...availableTags];
+
+    let selectedCollections = @Html.Raw(JsonSerializer.Serialize(Model.InitialCollections.Select(c => new { id = c.Id, name = c.Name, color = c.Color })));
+    let filteredCollections = [...availableCollections];
+
+    const tagsInput = document.querySelector('.tags-input-field');
+    const tagsDropdown = document.getElementById('tagsDropdown');
+    const tagOptions = document.getElementById('tagOptions');
+    const selectedTagsContainer = document.getElementById('selectedTags');
+    const tagSearch = document.getElementById('tagSearch');
+    const hiddenTagInput = document.getElementById('tagsHiddenInput');
+
+    const collectionsInput = document.querySelector('.collections-input-field');
+    const collectionsDropdown = document.getElementById('collectionsDropdown');
+    const collectionOptions = document.getElementById('collectionOptions');
+    const selectedCollectionsContainer = document.getElementById('selectedCollections');
+    const collectionSearch = document.getElementById('collectionSearch');
+    const hiddenCollectionInput = document.getElementById('collectionsHiddenInput');
+
+    tagsInput.addEventListener('click', function(e) {
+        e.stopPropagation();
+        toggleTagDropdown();
+    });
+
+    collectionsInput.addEventListener('click', function(e) {
+        e.stopPropagation();
+        toggleCollectionDropdown();
+    });
+
+    tagSearch.addEventListener('input', function() {
+        const searchTerm = this.value.toLowerCase().trim();
+        filteredTags = availableTags.filter(tag =>
+            tag.name.toLowerCase().includes(searchTerm)
+        );
+        renderTagOptions();
+    });
+
+    collectionSearch.addEventListener('input', function() {
+        const searchTerm = this.value.toLowerCase().trim();
+        filteredCollections = availableCollections.filter(tag =>
+            tag.name.toLowerCase().includes(searchTerm)
+        );
+        renderCollectionOptions();
+    });
+
+    document.addEventListener('click', function(e) {
+        if (!e.target.closest('.tags-selector-container')) {
+            closeTagDropdown();
+        }
+
+        if (!e.target.closest('.collections-selector-container')) {
+            closeCollectionDropdown();
+        }
+    });
+
+    tagsDropdown.addEventListener('click', function(e) {
+        e.stopPropagation();
+    });
+
+    collectionsDropdown.addEventListener('click', function(e) {
+        e.stopPropagation();
+    });
+
+    function toggleTagDropdown() {
+        tagsDropdown.classList.toggle('show');
+        if (tagsDropdown.classList.contains('show')) {
+            tagSearch.focus();
+        }
+    }
+
+    function toggleCollectionDropdown() {
+        collectionsDropdown.classList.toggle('show');
+        if (collectionsDropdown.classList.contains('show')) {
+            collectionSearch.focus();
+        }
+    }
+
+    function closeTagDropdown() {
+        tagsDropdown.classList.remove('show');
+        tagSearch.value = '';
+        filteredTags = [...availableTags];
+        renderTagOptions();
+    }
+
+
+    function closeCollectionDropdown() {
+        collectionsDropdown.classList.remove('show');
+        collectionSearch.value = '';
+        filteredCollections = [...availableCollections];
+        renderCollectionOptions();
+    }
+
+    function renderTagOptions() {
+        tagOptions.innerHTML = '';
+
+        if (filteredTags.length === 0) {
+            tagOptions.innerHTML = '<div class="no-results">Nenhuma tag encontrada</div>';
+            return;
+        }
+
+        filteredTags.forEach(tag => {
+            const isSelected = selectedTags.some(t => t.id === tag.id);
+
+            const option = document.createElement('div');
+            option.className = 'tag-option';
+            option.innerHTML = `
+                <span>${tag.name}</span>
+                ${isSelected ? '<i class="bi bi-check-circle-fill" style="color: var(--bs-primary);"></i>' : ''}
+            `;
+
+            if (isSelected) {
+                option.classList.add('selected');
+            }
+
+            option.addEventListener('click', function () {
+                toggleTag(tag);
+            });
+
+            tagOptions.appendChild(option);
+        });
+    }
+
+    function renderCollectionOptions() {
+        collectionOptions.innerHTML = '';
+
+        if (filteredCollections.length === 0) {
+            collectionOptions.innerHTML = '<div class="no-results">Nenhuma tag encontrada</div>';
+            return;
+        }
+
+        filteredCollections.forEach(collection => {
+            const isSelected = selectedCollections.some(c => c.id === collection.id);
+
+            const option = document.createElement('div');
+            option.className = 'tag-option';
+            option.innerHTML = `
+                <span>${collection.name}</span>
+                ${isSelected ? '<i class="bi bi-check-circle-fill" style="color: var(--bs-primary);"></i>' : ''}
+            `;
+
+            if (isSelected) {
+                option.classList.add('selected');
+            }
+
+            option.addEventListener('click', function () {
+                toggleCollection(collection);
+            });
+
+            collectionOptions.appendChild(option);
+        });
+    }
+
+    function toggleTag(tag) {
+        const index = selectedTags.findIndex(t => t.id === tag.id);
+
+        if (index > -1) {
+            selectedTags.splice(index, 1);
+        } else {
+            selectedTags.push(tag);
+        }
+
+        updateTagDisplay();
+        renderTagOptions();
+    }
+
+    function toggleCollection(collection) {
+        const index = selectedCollections.findIndex(c => c.id === collection.id);
+
+        if (index > -1) {
+            selectedCollections.splice(index, 1);
+        } else {
+            selectedCollections.push(collection);
+        }
+
+        updateCollectionDisplay();
+        renderCollectionOptions();
+    }
+
+    function removeTag(tagId) {
+        const index = selectedTags.findIndex(t => t.id === tagId);
+        if (index > -1) {
+            selectedTags.splice(index, 1);
+            updateTagDisplay();
+            renderTagOptions();
+        }
+    }
+
+    function removeCollection(collectionId) {
+        const index = selectedCollections.findIndex(c => c.id === collectionId);
+        if (index > -1) {
+            selectedCollections.splice(index, 1);
+            updateCollectionDisplay();
+            renderCollectionOptions();
+        }
+    }
+
+    function updateTagDisplay() {
+        if (selectedTags.length === 0) {
+            tagsInput.placeholder = 'Clique para selecionar tags...';
+        } else {
+            tagsInput.placeholder = `${selectedTags.length} tag${selectedTags.length > 1 ? 's' : ''} selecionada${selectedTags.length > 1 ? 's' : ''}`;
+        }
+
+        selectedTagsContainer.innerHTML = '';
+        selectedTags.forEach(tag => {
+            const tagElement = document.createElement('div');
+            tagElement.className = 'selected-tag';
+            tagElement.style.background = tag.color;
+            tagElement.innerHTML = `
+                <span>${tag.name}</span>
+                <span class="remove-tag" onclick="removeTag(${tag.id})">&times;</span>
+            `;
+            selectedTagsContainer.appendChild(tagElement);
+        });
+
+        hiddenTagInput.value = selectedTags.map(t => t.id).join(',');
+    }
+
+    function updateCollectionDisplay() {
+        if (selectedCollections.length === 0) {
+            collectionsInput.placeholder = 'Clique para selecionar tags...';
+        } else {
+            collectionsInput.placeholder = `${selectedCollections.length} tag${selectedCollections.length > 1 ? 's' : ''} selecionada${selectedCollections.length > 1 ? 's' : ''}`;
+        }
+
+        selectedCollectionsContainer.innerHTML = '';
+        selectedCollections.forEach(collection => {
+            const collectionElement = document.createElement('div');
+            collectionElement.className = 'selected-tag';
+            collectionElement.style.background = collection.color;
+            collectionElement.innerHTML = `
+                <span>${collection.name}</span>
+                <span class="remove-tag" onclick="removeCollection(${collection.id})">&times;</span>
+            `;
+            selectedCollectionsContainer.appendChild(collectionElement);
+        });
+
+        hiddenCollectionInput.value = selectedCollections.map(c => c.id).join(',');
+    }
 </script>
 
 @section Scripts {

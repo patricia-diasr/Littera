@@ -22,6 +22,22 @@ namespace Littera.Pages.Books
         [BindProperty]
         public IFormFile BookCoverFile { get; set; }
 
+        [BindProperty]
+        public List<Tag> Tags { get; set; }
+
+        public List<Tag> InitialTags { get; set; }
+
+        [BindProperty]
+        public string SelectedTagIds { get; set; }
+
+        [BindProperty]
+        public List<Collection> Collections { get; set; }
+
+        public List<Collection> InitialCollections { get; set; }
+
+        [BindProperty]
+        public string SelectedCollectionIds { get; set; }
+
         public EditModel(LitteraContext context) {
             _context = context;
         }
@@ -37,6 +53,24 @@ namespace Littera.Pages.Books
             Author = await _context.Authors
                 .Where(a => a.Id == Book.AuthorId)
                 .FirstOrDefaultAsync();
+
+            Tags = await _context.Tags
+                .Where(t => t.UserId == userId)
+                .ToListAsync() ?? new List<Tag>();
+
+            Collections = await _context.Collections
+                .Where(c => c.UserId == userId)
+                .ToListAsync() ?? new List<Collection>();
+
+            InitialTags = await _context.BookTags
+                .Where(bt => bt.BookId == id)
+                .Select(bt => bt.Tag)
+                .ToListAsync();
+
+            InitialCollections = await _context.BookCollections
+                .Where(bc => bc.BookId == id)
+                .Select(bc => bc.Collection)
+                .ToListAsync();
         }
 
         public async Task<IActionResult> OnPostAsync() {
@@ -80,6 +114,74 @@ namespace Littera.Pages.Books
             }
 
             _context.Books.Update(Book);
+            await _context.SaveChangesAsync();
+
+            InitialTags = await _context.BookTags
+                .Where(bt => bt.BookId == Book.Id)
+                .Select(bt => bt.Tag)
+                .ToListAsync();
+
+            var initialTagIds = InitialTags?.Select(t => t.Id).ToList() ?? new List<int>();
+
+            List<int> selectedTagIds = new List<int>();
+            if (!string.IsNullOrWhiteSpace(SelectedTagIds)) {
+                selectedTagIds = SelectedTagIds
+                    .Split(',', StringSplitOptions.RemoveEmptyEntries)
+                    .Select(int.Parse)
+                    .ToList();
+            }
+
+            var tagsToAdd = selectedTagIds.Except(initialTagIds);
+            foreach (var tagId in tagsToAdd) {
+                var bookTag = new BookTag {
+                    BookId = Book.Id,
+                    TagId = tagId
+                };
+                _context.BookTags.Add(bookTag);
+            }
+
+            var tagsToRemove = initialTagIds.Except(selectedTagIds);
+            foreach (var tagId in tagsToRemove) {
+                var bookTagToRemove = _context.BookTags
+                    .FirstOrDefault(bt => bt.BookId == Book.Id && bt.TagId == tagId);
+                if (bookTagToRemove != null) {
+                    _context.BookTags.Remove(bookTagToRemove);
+                }
+            }
+
+            InitialCollections = await _context.BookCollections
+                .Where(bc => bc.BookId == Book.Id)
+                .Select(bc => bc.Collection)
+                .ToListAsync();
+
+            var initialCollectionIds = InitialCollections?.Select(c => c.Id).ToList() ?? new List<int>();
+
+            List<int> selectedCollectionIds = new List<int>();
+            if (!string.IsNullOrWhiteSpace(SelectedCollectionIds)) {
+                selectedCollectionIds = SelectedCollectionIds
+                    .Split(',', StringSplitOptions.RemoveEmptyEntries)
+                    .Select(int.Parse)
+                    .ToList();
+            }
+
+            var collectionsToAdd = selectedCollectionIds.Except(initialCollectionIds);
+            foreach (var collectionId in collectionsToAdd) {
+                var bookCollection = new BookCollection {
+                    BookId = Book.Id,
+                    CollectionId = collectionId
+                };
+                _context.BookCollections.Add(bookCollection);
+            }
+
+            var collectionsToRemove = initialCollectionIds.Except(selectedCollectionIds);
+            foreach (var collectionId in collectionsToRemove) {
+                var bookCollectonToRemove = _context.BookCollections
+                    .FirstOrDefault(bc => bc.BookId == Book.Id && bc.CollectionId == collectionId);
+                if (bookCollectonToRemove != null) {
+                    _context.BookCollections.Remove(bookCollectonToRemove);
+                }
+            }
+
             await _context.SaveChangesAsync();
 
             return RedirectToPage("/Books/Details", new { id = Book.Id });
