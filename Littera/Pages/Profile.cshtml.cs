@@ -17,6 +17,12 @@ namespace Littera.Pages
         
         private readonly LitteraContext _context;
 
+        public int TotalBooksRead { get; set; }
+
+        public int TotalTags { get; set; }
+        
+        public int TotalCollections { get; set; }
+
         [BindProperty]
         public IFormFile AvatarFile { get; set; }
 
@@ -58,6 +64,10 @@ namespace Littera.Pages
         public async Task OnGetAsync() {
             var userId = AuthenticatedUser.Id;
 
+            TotalBooksRead = await _context.Books
+                .Where(b => b.UserId == userId && b.Status == "Lido")
+                .CountAsync();
+
             Collections = await _context.Collections
                 .Where(c => c.UserId == userId)
                 .OrderBy(c => c.Priority)
@@ -66,6 +76,9 @@ namespace Littera.Pages
             Tags = await _context.Tags
                 .Where(t => t.UserId == userId)
                 .ToListAsync() ?? new List<Tag>();
+
+            TotalTags = Tags.Count;
+            TotalCollections = Collections.Count;
         }
 
         public async Task<IActionResult> OnPostCollectionAsync() {
