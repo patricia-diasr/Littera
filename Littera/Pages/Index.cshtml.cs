@@ -14,14 +14,13 @@ namespace Littera.Pages
     {
         private readonly LitteraContext _context;
 
-        [BindProperty]
         public List<Book> AlreadyRead { get; set; }
 
-        [BindProperty]
         public List<Book> Reading { get; set; }
 
-        [BindProperty]
         public List<Book> ToBeRead { get; set; }
+
+        public Dictionary<Collection, List<Book>> CollectionsWithBooks { get; set; }
 
         public IndexModel(LitteraContext context) {
             _context = context;
@@ -45,6 +44,28 @@ namespace Littera.Pages
                 .Where(b => b.UserId == userId)
                 .Where(b => b.Status == "Quero Ler")
             .ToListAsync() ?? new List<Book>();
+
+            var collections = await _context.Collections
+                .Where(c => c.UserId == userId)
+                .OrderBy(c => c.Priority)
+                .ToListAsync();
+
+            var collectionIds = collections.Select(c => c.Id).ToList();
+
+            var booksInCollections = await _context.BookCollections
+                .Where(bc => collectionIds.Contains(bc.CollectionId))
+                .Include(bc => bc.Book)
+                .ToListAsync();
+
+            CollectionsWithBooks = collections
+                .Where(c => booksInCollections.Any(bc => bc.CollectionId == c.Id))
+                .ToDictionary(
+                    collection => collection,
+                    collection => booksInCollections
+                                    .Where(bc => bc.CollectionId == collection.Id)
+                                    .Select(bc => bc.Book)
+                                    .ToList()
+                );
         }
     }
 }

@@ -106,7 +106,7 @@
 
 <div class="container">
     <div class="mb-4 d-flex justify-content-center mt-4">
-        <input type="text" class="form-control w-50 search-input" placeholder="Pesquisar">
+        <input type="text" id="searchInput" class="form-control w-50 search-input" placeholder="Pesquisar">
     </div>
 
     <div>
@@ -116,11 +116,11 @@
             {
                 @foreach (var book in Model.Reading)
                 {
-                    <a asp-page="/Books/Details" asp-route-id="@book.Id">
+                    <a asp-page="/Books/Details" asp-route-id="@book.Id" class="book-item" data-title="@book.Title.ToLowerInvariant()">
                         <img src="@(!string.IsNullOrEmpty(book.Cover) ? book.Cover : "/uploads/books/default.png")"
-                             class="book-cover"
-                             alt="@book.Title"
-                             onerror="this.onerror=null;this.src='/uploads/books/default.png';">
+                        class="book-cover"
+                        alt="@book.Title"
+                        onerror="this.onerror=null;this.src='/uploads/books/default.png';">
                     </a>
                 }
 
@@ -135,11 +135,11 @@
             {
                 @foreach (var book in Model.ToBeRead)
                 {
-                    <a asp-page="/Books/Details" asp-route-id="@book.Id">
+                    <a asp-page="/Books/Details" asp-route-id="@book.Id" class="book-item" data-title="@book.Title.ToLowerInvariant()">
                         <img src="@(!string.IsNullOrEmpty(book.Cover) ? book.Cover : "/uploads/books/default.png")"
-                             class="book-cover"
-                             alt="@book.Title"
-                             onerror="this.onerror=null;this.src='/uploads/books/default.png';">
+                        class="book-cover"
+                        alt="@book.Title"
+                        onerror="this.onerror=null;this.src='/uploads/books/default.png';">
                     </a>
                 }
 
@@ -154,19 +154,58 @@
             {
                 @foreach (var book in Model.AlreadyRead)
                 {
-                    <a asp-page="/Books/Details" asp-route-id="@book.Id">
+                    <a asp-page="/Books/Details" asp-route-id="@book.Id" class="book-item" data-title="@book.Title.ToLowerInvariant()">
                         <img src="@(!string.IsNullOrEmpty(book.Cover) ? book.Cover : "/uploads/books/default.png")"
-                             class="book-cover"
-                             alt="@book.Title"
-                             onerror="this.onerror=null;this.src='/uploads/books/default.png';">
+                        class="book-cover"
+                        alt="@book.Title"
+                        onerror="this.onerror=null;this.src='/uploads/books/default.png';">
                     </a>
                 }
-
             }
         </div>
     </div>
+
+    @if (Model.CollectionsWithBooks != null && Model.CollectionsWithBooks.Any())
+        @foreach (var pair in Model.CollectionsWithBooks)
+        {
+            var collection = pair.Key;
+            var books = pair.Value;
+            <div>
+                <div class="section-title mt-5">@collection.Name</div>
+                <div class="d-flex gap-3 flex-wrap">
+                    @foreach (var book in books)
+                    {
+                        <a asp-page="/Books/Details" asp-route-id="@book.Id" class="book-item" data-title="@book.Title.ToLowerInvariant()">
+                            <img src="@(!string.IsNullOrEmpty(book.Cover) ? book.Cover : "/uploads/books/default.png")"
+                                    class="book-cover"
+                                    alt="@book.Title"
+                                    onerror="this.onerror=null;this.src='/uploads/books/default.png';">
+                        </a>
+                    }
+                </div>
+            </div>
+        }
 </div>
 
 <a asp-page="/Books/Create" class="btn floating-button">
     <i class="bi bi-plus-lg text-white fs-5"></i>
 </a>
+
+
+<script>
+    const searchInput = document.getElementById('searchInput');
+
+    searchInput.addEventListener('input', function () {
+        const query = this.value.toLowerCase().trim();
+        const books = document.querySelectorAll('.book-item');
+
+        books.forEach(book => {
+            const title = book.getAttribute('data-title');
+            if (title.includes(query)) {
+                book.style.display = '';
+            } else {
+                book.style.display = 'none';
+            }
+        });
+    });
+</script>

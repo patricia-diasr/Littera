@@ -256,14 +256,19 @@
             }
 
             <div class="section-title">Resumo</div>
-            @foreach (var paragraph in Model.Book.Summary.Split(Environment.NewLine))
+            @if (!string.IsNullOrWhiteSpace(Model.Book.Summary))
             {
-                if (!string.IsNullOrWhiteSpace(paragraph))
+                foreach (var paragraph in Model.Book.Summary.Split(Environment.NewLine))
                 {
-                    <p class="book-summary">@paragraph</p>
+                    if (!string.IsNullOrWhiteSpace(paragraph))
+                    {
+                        <p class="book-summary">@paragraph</p>
+                    }
                 }
             }
-
+            else {
+                <p class="book-summary">Sem resumo</p>
+            }
 
             <div class="section-title">Minha Avaliação</div>
             <div class="review-container">

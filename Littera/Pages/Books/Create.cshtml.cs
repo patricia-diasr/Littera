@@ -87,9 +87,13 @@ namespace Littera.Pages.Books
             _context.Books.Add(Book);
             await _context.SaveChangesAsync();
 
-            var tagIds = SelectedTagIds.Split(',', StringSplitOptions.RemoveEmptyEntries)
-                           .Select(int.Parse)
-                           .ToList();
+            List<int> tagIds = new List<int>();
+
+            if (!string.IsNullOrWhiteSpace(SelectedTagIds)) {
+                tagIds = SelectedTagIds.Split(',', StringSplitOptions.RemoveEmptyEntries)
+                   .Select(int.Parse)
+                   .ToList();
+            }
 
             foreach (var tagId in tagIds) {
                 var bookTag = new BookTag {
@@ -99,9 +103,13 @@ namespace Littera.Pages.Books
                 _context.BookTags.Add(bookTag);
             }
 
-            var collectionsIds = SelectedCollectionsIds.Split(',', StringSplitOptions.RemoveEmptyEntries)
-               .Select(int.Parse)
-               .ToList();
+            List<int> collectionsIds = new List<int>();
+
+            if (!string.IsNullOrWhiteSpace(SelectedCollectionsIds)) {
+                collectionsIds = SelectedCollectionsIds.Split(',', StringSplitOptions.RemoveEmptyEntries)
+                   .Select(int.Parse)
+                   .ToList();
+            }
 
             foreach (var collectionId in collectionsIds) {
                 var bookCollection = new BookCollection {
