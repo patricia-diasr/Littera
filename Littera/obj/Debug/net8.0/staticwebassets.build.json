@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "m7nSfkS5Nu/e3eutqRxQ8n3o2WJM4iQ/2/6figTkVns=",
+  "Hash": "y/IyiLj706eenPgqrdT6Cq8XjfbqNhxjXkRNrmHmGKs=",
   "Source": "Littera",
   "BasePath": "_content/Littera",
   "Mode": "Default",
@@ -1361,12 +1361,12 @@
       "OriginalItemSpec": "wwwroot\\uploads\\avatars\\default.png"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\028b4474-85b0-48fe-b8e0-a62f5124f16c.jpg",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\1cc03f40-9054-4458-8108-48725c4f471c.jpg",
       "SourceId": "Littera",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
-      "RelativePath": "uploads/books/028b4474-85b0-48fe-b8e0-a62f5124f16c#[.{fingerprint}]?.jpg",
+      "RelativePath": "uploads/books/1cc03f40-9054-4458-8108-48725c4f471c#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1375,19 +1375,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "xr5k13g8rc",
-      "Integrity": "PeclumqPsThN+WrPJHZAuUhm/M/Tu+9aitbWeTxK22w=",
+      "Fingerprint": "s0lqz6mc35",
+      "Integrity": "FNiuyD5gUhampySXu0bHqxg0ZQ4KzSinaivzsNG1gcY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\books\\028b4474-85b0-48fe-b8e0-a62f5124f16c.jpg"
+      "OriginalItemSpec": "wwwroot\\uploads\\books\\1cc03f40-9054-4458-8108-48725c4f471c.jpg"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\12e78812-0364-433d-a28a-f944377193b6.jpg",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\1e322def-cde8-4026-9b3d-7167d3b738b6.jpg",
       "SourceId": "Littera",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
-      "RelativePath": "uploads/books/12e78812-0364-433d-a28a-f944377193b6#[.{fingerprint}]?.jpg",
+      "RelativePath": "uploads/books/1e322def-cde8-4026-9b3d-7167d3b738b6#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1396,11 +1396,53 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ft89uchnic",
-      "Integrity": "HQ3fXR6uqI77HOcpHAPTJAGqA9Mk+YtRA5tKVe9qasg=",
+      "Fingerprint": "7k0dzoj7c1",
+      "Integrity": "6WhkiQvWHXXwC8aewjNcOe69SGtEQwkz4TI+W6dkdJM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\books\\12e78812-0364-433d-a28a-f944377193b6.jpg"
+      "OriginalItemSpec": "wwwroot\\uploads\\books\\1e322def-cde8-4026-9b3d-7167d3b738b6.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\2f23f60c-d6ba-4cb6-b978-5a3fd7259d30.jpg",
+      "SourceId": "Littera",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "BasePath": "_content/Littera",
+      "RelativePath": "uploads/books/2f23f60c-d6ba-4cb6-b978-5a3fd7259d30#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "m5m9hy5bw0",
+      "Integrity": "lp5DZFjPkxig/ppjK6r1Sf+yAGE9SPHEq6esnSxjfXE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\books\\2f23f60c-d6ba-4cb6-b978-5a3fd7259d30.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\491d3c13-94d8-4dd9-9d2b-c29e85708bd3.jpg",
+      "SourceId": "Littera",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "BasePath": "_content/Littera",
+      "RelativePath": "uploads/books/491d3c13-94d8-4dd9-9d2b-c29e85708bd3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nquib9c8tg",
+      "Integrity": "4SSVeXu/OXWNw30CKFcgiqKBfy9kDxmQJ9GrBTMESSQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\books\\491d3c13-94d8-4dd9-9d2b-c29e85708bd3.jpg"
     },
     {
       "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\4f0396b2-36ca-4fa1-8e99-d428f6afc048.jpg",
@@ -1424,6 +1466,69 @@
       "OriginalItemSpec": "wwwroot\\uploads\\books\\4f0396b2-36ca-4fa1-8e99-d428f6afc048.jpg"
     },
     {
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\5160a3a8-9637-423c-9821-ef896e204779.jpg",
+      "SourceId": "Littera",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "BasePath": "_content/Littera",
+      "RelativePath": "uploads/books/5160a3a8-9637-423c-9821-ef896e204779#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2i1z5ucsb1",
+      "Integrity": "pvBEsJbMeOLgI9dGJIfpMHpm3z7WvYdiwTT0mpPkRwI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\books\\5160a3a8-9637-423c-9821-ef896e204779.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\54cff213-105a-44bd-bfc8-eff59a7f5dba.jpg",
+      "SourceId": "Littera",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "BasePath": "_content/Littera",
+      "RelativePath": "uploads/books/54cff213-105a-44bd-bfc8-eff59a7f5dba#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jjtylmn8xa",
+      "Integrity": "8XhNjadXXWaI8PM/CJUwpYZDFIDwFDqgaSwuBlL53Lw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\books\\54cff213-105a-44bd-bfc8-eff59a7f5dba.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\5a9c222f-b327-427a-aecd-081e15bc1a2f.jpg",
+      "SourceId": "Littera",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "BasePath": "_content/Littera",
+      "RelativePath": "uploads/books/5a9c222f-b327-427a-aecd-081e15bc1a2f#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "uz0htaa4fj",
+      "Integrity": "tpunG8KIUAOSaPSHR645I/mPgC/pG5OGQ7l9VxaljDQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\books\\5a9c222f-b327-427a-aecd-081e15bc1a2f.jpg"
+    },
+    {
       "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\5fc99535-4a2e-414d-8b4b-4224bc3ec967.jpg",
       "SourceId": "Littera",
       "SourceType": "Discovered",
@@ -1443,6 +1548,69 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\books\\5fc99535-4a2e-414d-8b4b-4224bc3ec967.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\61021849-adc7-4ba8-87de-a836d1e049fd.jpg",
+      "SourceId": "Littera",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "BasePath": "_content/Littera",
+      "RelativePath": "uploads/books/61021849-adc7-4ba8-87de-a836d1e049fd#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hg8s5cqk9d",
+      "Integrity": "L3GqDQPRHSvmklMR1ReAMOy73X75V/AeOZQBu8xwLz4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\books\\61021849-adc7-4ba8-87de-a836d1e049fd.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\6173c24e-5f07-4e01-bc43-7ef3a42ae7f5.jpg",
+      "SourceId": "Littera",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "BasePath": "_content/Littera",
+      "RelativePath": "uploads/books/6173c24e-5f07-4e01-bc43-7ef3a42ae7f5#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wvrojtlmth",
+      "Integrity": "1AVsh6m1pfzaVRATDrUD6gO1WRJzI2HUGd4imeSUtx8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\books\\6173c24e-5f07-4e01-bc43-7ef3a42ae7f5.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\63455b99-e703-4207-a1d1-04fdef666a29.jpg",
+      "SourceId": "Littera",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "BasePath": "_content/Littera",
+      "RelativePath": "uploads/books/63455b99-e703-4207-a1d1-04fdef666a29#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "q31buclhda",
+      "Integrity": "VvgLP2sVEdgu2QzgC3eOJdud5aWcSZ4qPwZurMmzlRc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\books\\63455b99-e703-4207-a1d1-04fdef666a29.jpg"
     },
     {
       "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\693fe686-9844-46b4-8342-2aba76bfbe5a.jpg",
@@ -1466,6 +1634,237 @@
       "OriginalItemSpec": "wwwroot\\uploads\\books\\693fe686-9844-46b4-8342-2aba76bfbe5a.jpg"
     },
     {
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\7a58d05f-cb46-4882-8afa-c79cca6db017.jpg",
+      "SourceId": "Littera",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "BasePath": "_content/Littera",
+      "RelativePath": "uploads/books/7a58d05f-cb46-4882-8afa-c79cca6db017#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2q9xq4y5rn",
+      "Integrity": "hgbFlF+6pSatvUtOx6DfeowY3U3+Oo+IeLBhlSwAvrk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\books\\7a58d05f-cb46-4882-8afa-c79cca6db017.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\7eefd3ba-c7d7-48d1-a3fc-f818d590605b.jpg",
+      "SourceId": "Littera",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "BasePath": "_content/Littera",
+      "RelativePath": "uploads/books/7eefd3ba-c7d7-48d1-a3fc-f818d590605b#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dlkt1mrygj",
+      "Integrity": "fwmAvHCu+PTqOoz4GBN/iMjHsvmA7DBcCWaQmdBO3yo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\books\\7eefd3ba-c7d7-48d1-a3fc-f818d590605b.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\83ff8cf0-3277-4c15-8ed9-e68e8fbd0218.jpg",
+      "SourceId": "Littera",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "BasePath": "_content/Littera",
+      "RelativePath": "uploads/books/83ff8cf0-3277-4c15-8ed9-e68e8fbd0218#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9hz52btd1r",
+      "Integrity": "3aBHxaxmX+AeqFweVaq9e2x2s7TBuR8RqCNWGTcUSZg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\books\\83ff8cf0-3277-4c15-8ed9-e68e8fbd0218.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\87dca0c9-990a-4406-ba77-44946f452315.jpg",
+      "SourceId": "Littera",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "BasePath": "_content/Littera",
+      "RelativePath": "uploads/books/87dca0c9-990a-4406-ba77-44946f452315#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "m86w1xpzc3",
+      "Integrity": "agN9hSplLer/GYl+dZ8Bj38wPKgJQjKOn/oqh8TydSo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\books\\87dca0c9-990a-4406-ba77-44946f452315.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\98acadfb-f73d-4ec8-954f-e8e25e647eb0.jpg",
+      "SourceId": "Littera",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "BasePath": "_content/Littera",
+      "RelativePath": "uploads/books/98acadfb-f73d-4ec8-954f-e8e25e647eb0#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "483jevnkto",
+      "Integrity": "FLFy0t36xeViPEmRoL1LnMq+TYo+1C9IOY+qTDwHuso=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\books\\98acadfb-f73d-4ec8-954f-e8e25e647eb0.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\a455e0f9-cd20-414c-9a8a-c75cbf2c6826.jpg",
+      "SourceId": "Littera",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "BasePath": "_content/Littera",
+      "RelativePath": "uploads/books/a455e0f9-cd20-414c-9a8a-c75cbf2c6826#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3c1rpc6e7p",
+      "Integrity": "fXcftKMVYViYphbxAfwe218+D+p6KrgX+xh9cejahj0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\books\\a455e0f9-cd20-414c-9a8a-c75cbf2c6826.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\a52efbf0-2fc4-44ab-b82e-b0782bf9463c.jpg",
+      "SourceId": "Littera",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "BasePath": "_content/Littera",
+      "RelativePath": "uploads/books/a52efbf0-2fc4-44ab-b82e-b0782bf9463c#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "r5dnct0jqi",
+      "Integrity": "oX3m7/q+F8LaCdHCaiHC7lrlMv1IK7Nn9Pnm6X7VdPE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\books\\a52efbf0-2fc4-44ab-b82e-b0782bf9463c.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\b2e9e99e-567f-4e29-81f4-cd5675e3a3e3.jpg",
+      "SourceId": "Littera",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "BasePath": "_content/Littera",
+      "RelativePath": "uploads/books/b2e9e99e-567f-4e29-81f4-cd5675e3a3e3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "thuo6wy9i7",
+      "Integrity": "YVYu1CKWg+whMwOM+tDns/nz4927yGZRbBfOymZpTRw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\books\\b2e9e99e-567f-4e29-81f4-cd5675e3a3e3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\c24003f1-860c-4d0f-ad94-df8dccc08958.jpg",
+      "SourceId": "Littera",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "BasePath": "_content/Littera",
+      "RelativePath": "uploads/books/c24003f1-860c-4d0f-ad94-df8dccc08958#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "24u1dr2sna",
+      "Integrity": "ThgGeuLAtGbOd2eGabgAG34S5FxEqd1OdgC/+3coW3E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\books\\c24003f1-860c-4d0f-ad94-df8dccc08958.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\c3b686c6-87a4-4c3e-b564-e6886d2e9fcd.jpg",
+      "SourceId": "Littera",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "BasePath": "_content/Littera",
+      "RelativePath": "uploads/books/c3b686c6-87a4-4c3e-b564-e6886d2e9fcd#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1hatww9bfm",
+      "Integrity": "RcpoE9tVJhoi7oMuAIsXKmfYNHjnIobt/tOr+zcztQE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\books\\c3b686c6-87a4-4c3e-b564-e6886d2e9fcd.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\ceceda9b-4726-4aae-835a-a5cd3e5bb765.jpg",
+      "SourceId": "Littera",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "BasePath": "_content/Littera",
+      "RelativePath": "uploads/books/ceceda9b-4726-4aae-835a-a5cd3e5bb765#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wtwhf16guw",
+      "Integrity": "dDN0EugKPmt85mPUBuzXGyaYEmoAEXpLvBNUOF3/zik=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\books\\ceceda9b-4726-4aae-835a-a5cd3e5bb765.jpg"
+    },
+    {
       "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\default.png",
       "SourceId": "Littera",
       "SourceType": "Discovered",
@@ -1485,27 +1884,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\books\\default.png"
-    },
-    {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\e9b3d84a-6d50-4668-b6cb-a30c17f6b808.jpg",
-      "SourceId": "Littera",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
-      "BasePath": "_content/Littera",
-      "RelativePath": "uploads/books/e9b3d84a-6d50-4668-b6cb-a30c17f6b808#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "0von2zqszk",
-      "Integrity": "ZNQttNrLu5KBMvZjnis+9uNPKs6REoNAW2/VgY3Jh1A=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\books\\e9b3d84a-6d50-4668-b6cb-a30c17f6b808.jpg"
     }
   ],
   "Endpoints": [
@@ -6758,8 +7136,8 @@
       ]
     },
     {
-      "Route": "uploads/books/028b4474-85b0-48fe-b8e0-a62f5124f16c.jpg",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\028b4474-85b0-48fe-b8e0-a62f5124f16c.jpg",
+      "Route": "uploads/books/1cc03f40-9054-4458-8108-48725c4f471c.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\1cc03f40-9054-4458-8108-48725c4f471c.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6768,7 +7146,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "17468"
+          "Value": "36104"
         },
         {
           "Name": "Content-Type",
@@ -6776,11 +7154,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"PeclumqPsThN+WrPJHZAuUhm/M/Tu+9aitbWeTxK22w=\""
+          "Value": "\"FNiuyD5gUhampySXu0bHqxg0ZQ4KzSinaivzsNG1gcY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 27 May 2025 21:02:30 GMT"
+          "Value": "Sat, 31 May 2025 21:24:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6790,13 +7168,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-PeclumqPsThN+WrPJHZAuUhm/M/Tu+9aitbWeTxK22w="
+          "Value": "sha256-FNiuyD5gUhampySXu0bHqxg0ZQ4KzSinaivzsNG1gcY="
         }
       ]
     },
     {
-      "Route": "uploads/books/028b4474-85b0-48fe-b8e0-a62f5124f16c.xr5k13g8rc.jpg",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\028b4474-85b0-48fe-b8e0-a62f5124f16c.jpg",
+      "Route": "uploads/books/1cc03f40-9054-4458-8108-48725c4f471c.s0lqz6mc35.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\1cc03f40-9054-4458-8108-48725c4f471c.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6805,7 +7183,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "17468"
+          "Value": "36104"
         },
         {
           "Name": "Content-Type",
@@ -6813,11 +7191,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"PeclumqPsThN+WrPJHZAuUhm/M/Tu+9aitbWeTxK22w=\""
+          "Value": "\"FNiuyD5gUhampySXu0bHqxg0ZQ4KzSinaivzsNG1gcY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 27 May 2025 21:02:30 GMT"
+          "Value": "Sat, 31 May 2025 21:24:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6827,21 +7205,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "xr5k13g8rc"
+          "Value": "s0lqz6mc35"
         },
         {
           "Name": "label",
-          "Value": "uploads/books/028b4474-85b0-48fe-b8e0-a62f5124f16c.jpg"
+          "Value": "uploads/books/1cc03f40-9054-4458-8108-48725c4f471c.jpg"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-PeclumqPsThN+WrPJHZAuUhm/M/Tu+9aitbWeTxK22w="
+          "Value": "sha256-FNiuyD5gUhampySXu0bHqxg0ZQ4KzSinaivzsNG1gcY="
         }
       ]
     },
     {
-      "Route": "uploads/books/12e78812-0364-433d-a28a-f944377193b6.ft89uchnic.jpg",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\12e78812-0364-433d-a28a-f944377193b6.jpg",
+      "Route": "uploads/books/1e322def-cde8-4026-9b3d-7167d3b738b6.7k0dzoj7c1.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\1e322def-cde8-4026-9b3d-7167d3b738b6.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6850,7 +7228,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "117984"
+          "Value": "25595"
         },
         {
           "Name": "Content-Type",
@@ -6858,11 +7236,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"HQ3fXR6uqI77HOcpHAPTJAGqA9Mk+YtRA5tKVe9qasg=\""
+          "Value": "\"6WhkiQvWHXXwC8aewjNcOe69SGtEQwkz4TI+W6dkdJM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 27 May 2025 21:02:45 GMT"
+          "Value": "Sat, 31 May 2025 21:53:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6872,21 +7250,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ft89uchnic"
+          "Value": "7k0dzoj7c1"
         },
         {
           "Name": "label",
-          "Value": "uploads/books/12e78812-0364-433d-a28a-f944377193b6.jpg"
+          "Value": "uploads/books/1e322def-cde8-4026-9b3d-7167d3b738b6.jpg"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-HQ3fXR6uqI77HOcpHAPTJAGqA9Mk+YtRA5tKVe9qasg="
+          "Value": "sha256-6WhkiQvWHXXwC8aewjNcOe69SGtEQwkz4TI+W6dkdJM="
         }
       ]
     },
     {
-      "Route": "uploads/books/12e78812-0364-433d-a28a-f944377193b6.jpg",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\12e78812-0364-433d-a28a-f944377193b6.jpg",
+      "Route": "uploads/books/1e322def-cde8-4026-9b3d-7167d3b738b6.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\1e322def-cde8-4026-9b3d-7167d3b738b6.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6895,7 +7273,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "117984"
+          "Value": "25595"
         },
         {
           "Name": "Content-Type",
@@ -6903,11 +7281,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"HQ3fXR6uqI77HOcpHAPTJAGqA9Mk+YtRA5tKVe9qasg=\""
+          "Value": "\"6WhkiQvWHXXwC8aewjNcOe69SGtEQwkz4TI+W6dkdJM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 27 May 2025 21:02:45 GMT"
+          "Value": "Sat, 31 May 2025 21:53:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6917,7 +7295,171 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-HQ3fXR6uqI77HOcpHAPTJAGqA9Mk+YtRA5tKVe9qasg="
+          "Value": "sha256-6WhkiQvWHXXwC8aewjNcOe69SGtEQwkz4TI+W6dkdJM="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/books/2f23f60c-d6ba-4cb6-b978-5a3fd7259d30.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\2f23f60c-d6ba-4cb6-b978-5a3fd7259d30.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "123222"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lp5DZFjPkxig/ppjK6r1Sf+yAGE9SPHEq6esnSxjfXE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 21:30:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lp5DZFjPkxig/ppjK6r1Sf+yAGE9SPHEq6esnSxjfXE="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/books/2f23f60c-d6ba-4cb6-b978-5a3fd7259d30.m5m9hy5bw0.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\2f23f60c-d6ba-4cb6-b978-5a3fd7259d30.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "123222"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lp5DZFjPkxig/ppjK6r1Sf+yAGE9SPHEq6esnSxjfXE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 21:30:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "m5m9hy5bw0"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/books/2f23f60c-d6ba-4cb6-b978-5a3fd7259d30.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lp5DZFjPkxig/ppjK6r1Sf+yAGE9SPHEq6esnSxjfXE="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/books/491d3c13-94d8-4dd9-9d2b-c29e85708bd3.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\491d3c13-94d8-4dd9-9d2b-c29e85708bd3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19921"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4SSVeXu/OXWNw30CKFcgiqKBfy9kDxmQJ9GrBTMESSQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 22:00:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4SSVeXu/OXWNw30CKFcgiqKBfy9kDxmQJ9GrBTMESSQ="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/books/491d3c13-94d8-4dd9-9d2b-c29e85708bd3.nquib9c8tg.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\491d3c13-94d8-4dd9-9d2b-c29e85708bd3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19921"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4SSVeXu/OXWNw30CKFcgiqKBfy9kDxmQJ9GrBTMESSQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 22:00:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nquib9c8tg"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/books/491d3c13-94d8-4dd9-9d2b-c29e85708bd3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4SSVeXu/OXWNw30CKFcgiqKBfy9kDxmQJ9GrBTMESSQ="
         }
       ]
     },
@@ -7004,6 +7546,252 @@
       ]
     },
     {
+      "Route": "uploads/books/5160a3a8-9637-423c-9821-ef896e204779.2i1z5ucsb1.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\5160a3a8-9637-423c-9821-ef896e204779.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "26970"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pvBEsJbMeOLgI9dGJIfpMHpm3z7WvYdiwTT0mpPkRwI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 22:48:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2i1z5ucsb1"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/books/5160a3a8-9637-423c-9821-ef896e204779.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pvBEsJbMeOLgI9dGJIfpMHpm3z7WvYdiwTT0mpPkRwI="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/books/5160a3a8-9637-423c-9821-ef896e204779.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\5160a3a8-9637-423c-9821-ef896e204779.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "26970"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pvBEsJbMeOLgI9dGJIfpMHpm3z7WvYdiwTT0mpPkRwI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 22:48:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pvBEsJbMeOLgI9dGJIfpMHpm3z7WvYdiwTT0mpPkRwI="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/books/54cff213-105a-44bd-bfc8-eff59a7f5dba.jjtylmn8xa.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\54cff213-105a-44bd-bfc8-eff59a7f5dba.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "54885"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8XhNjadXXWaI8PM/CJUwpYZDFIDwFDqgaSwuBlL53Lw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 21:13:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jjtylmn8xa"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/books/54cff213-105a-44bd-bfc8-eff59a7f5dba.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8XhNjadXXWaI8PM/CJUwpYZDFIDwFDqgaSwuBlL53Lw="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/books/54cff213-105a-44bd-bfc8-eff59a7f5dba.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\54cff213-105a-44bd-bfc8-eff59a7f5dba.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "54885"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8XhNjadXXWaI8PM/CJUwpYZDFIDwFDqgaSwuBlL53Lw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 21:13:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8XhNjadXXWaI8PM/CJUwpYZDFIDwFDqgaSwuBlL53Lw="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/books/5a9c222f-b327-427a-aecd-081e15bc1a2f.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\5a9c222f-b327-427a-aecd-081e15bc1a2f.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27799"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tpunG8KIUAOSaPSHR645I/mPgC/pG5OGQ7l9VxaljDQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 22:45:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tpunG8KIUAOSaPSHR645I/mPgC/pG5OGQ7l9VxaljDQ="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/books/5a9c222f-b327-427a-aecd-081e15bc1a2f.uz0htaa4fj.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\5a9c222f-b327-427a-aecd-081e15bc1a2f.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27799"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tpunG8KIUAOSaPSHR645I/mPgC/pG5OGQ7l9VxaljDQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 22:45:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uz0htaa4fj"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/books/5a9c222f-b327-427a-aecd-081e15bc1a2f.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tpunG8KIUAOSaPSHR645I/mPgC/pG5OGQ7l9VxaljDQ="
+        }
+      ]
+    },
+    {
       "Route": "uploads/books/5fc99535-4a2e-414d-8b4b-4224bc3ec967.e4gqdn7xse.jpg",
       "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\5fc99535-4a2e-414d-8b4b-4224bc3ec967.jpg",
       "Selectors": [],
@@ -7082,6 +7870,252 @@
         {
           "Name": "integrity",
           "Value": "sha256-4pLHQ0hIcY/yxyGWUBqgCIpEk2je26dAi6AJnUuARqo="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/books/61021849-adc7-4ba8-87de-a836d1e049fd.hg8s5cqk9d.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\61021849-adc7-4ba8-87de-a836d1e049fd.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29444"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"L3GqDQPRHSvmklMR1ReAMOy73X75V/AeOZQBu8xwLz4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 22:21:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hg8s5cqk9d"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/books/61021849-adc7-4ba8-87de-a836d1e049fd.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-L3GqDQPRHSvmklMR1ReAMOy73X75V/AeOZQBu8xwLz4="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/books/61021849-adc7-4ba8-87de-a836d1e049fd.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\61021849-adc7-4ba8-87de-a836d1e049fd.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29444"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"L3GqDQPRHSvmklMR1ReAMOy73X75V/AeOZQBu8xwLz4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 22:21:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-L3GqDQPRHSvmklMR1ReAMOy73X75V/AeOZQBu8xwLz4="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/books/6173c24e-5f07-4e01-bc43-7ef3a42ae7f5.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\6173c24e-5f07-4e01-bc43-7ef3a42ae7f5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "102709"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1AVsh6m1pfzaVRATDrUD6gO1WRJzI2HUGd4imeSUtx8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 21:16:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1AVsh6m1pfzaVRATDrUD6gO1WRJzI2HUGd4imeSUtx8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/books/6173c24e-5f07-4e01-bc43-7ef3a42ae7f5.wvrojtlmth.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\6173c24e-5f07-4e01-bc43-7ef3a42ae7f5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "102709"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1AVsh6m1pfzaVRATDrUD6gO1WRJzI2HUGd4imeSUtx8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 21:16:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wvrojtlmth"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/books/6173c24e-5f07-4e01-bc43-7ef3a42ae7f5.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1AVsh6m1pfzaVRATDrUD6gO1WRJzI2HUGd4imeSUtx8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/books/63455b99-e703-4207-a1d1-04fdef666a29.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\63455b99-e703-4207-a1d1-04fdef666a29.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "69723"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VvgLP2sVEdgu2QzgC3eOJdud5aWcSZ4qPwZurMmzlRc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 21:20:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VvgLP2sVEdgu2QzgC3eOJdud5aWcSZ4qPwZurMmzlRc="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/books/63455b99-e703-4207-a1d1-04fdef666a29.q31buclhda.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\63455b99-e703-4207-a1d1-04fdef666a29.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "69723"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VvgLP2sVEdgu2QzgC3eOJdud5aWcSZ4qPwZurMmzlRc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 21:20:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "q31buclhda"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/books/63455b99-e703-4207-a1d1-04fdef666a29.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VvgLP2sVEdgu2QzgC3eOJdud5aWcSZ4qPwZurMmzlRc="
         }
       ]
     },
@@ -7168,6 +8202,908 @@
       ]
     },
     {
+      "Route": "uploads/books/7a58d05f-cb46-4882-8afa-c79cca6db017.2q9xq4y5rn.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\7a58d05f-cb46-4882-8afa-c79cca6db017.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32288"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hgbFlF+6pSatvUtOx6DfeowY3U3+Oo+IeLBhlSwAvrk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 21:36:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2q9xq4y5rn"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/books/7a58d05f-cb46-4882-8afa-c79cca6db017.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hgbFlF+6pSatvUtOx6DfeowY3U3+Oo+IeLBhlSwAvrk="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/books/7a58d05f-cb46-4882-8afa-c79cca6db017.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\7a58d05f-cb46-4882-8afa-c79cca6db017.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32288"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hgbFlF+6pSatvUtOx6DfeowY3U3+Oo+IeLBhlSwAvrk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 21:36:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hgbFlF+6pSatvUtOx6DfeowY3U3+Oo+IeLBhlSwAvrk="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/books/7eefd3ba-c7d7-48d1-a3fc-f818d590605b.dlkt1mrygj.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\7eefd3ba-c7d7-48d1-a3fc-f818d590605b.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29818"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fwmAvHCu+PTqOoz4GBN/iMjHsvmA7DBcCWaQmdBO3yo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 22:23:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dlkt1mrygj"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/books/7eefd3ba-c7d7-48d1-a3fc-f818d590605b.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fwmAvHCu+PTqOoz4GBN/iMjHsvmA7DBcCWaQmdBO3yo="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/books/7eefd3ba-c7d7-48d1-a3fc-f818d590605b.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\7eefd3ba-c7d7-48d1-a3fc-f818d590605b.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29818"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fwmAvHCu+PTqOoz4GBN/iMjHsvmA7DBcCWaQmdBO3yo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 22:23:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fwmAvHCu+PTqOoz4GBN/iMjHsvmA7DBcCWaQmdBO3yo="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/books/83ff8cf0-3277-4c15-8ed9-e68e8fbd0218.9hz52btd1r.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\83ff8cf0-3277-4c15-8ed9-e68e8fbd0218.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "283761"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3aBHxaxmX+AeqFweVaq9e2x2s7TBuR8RqCNWGTcUSZg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 22:58:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9hz52btd1r"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/books/83ff8cf0-3277-4c15-8ed9-e68e8fbd0218.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3aBHxaxmX+AeqFweVaq9e2x2s7TBuR8RqCNWGTcUSZg="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/books/83ff8cf0-3277-4c15-8ed9-e68e8fbd0218.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\83ff8cf0-3277-4c15-8ed9-e68e8fbd0218.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "283761"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3aBHxaxmX+AeqFweVaq9e2x2s7TBuR8RqCNWGTcUSZg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 22:58:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3aBHxaxmX+AeqFweVaq9e2x2s7TBuR8RqCNWGTcUSZg="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/books/87dca0c9-990a-4406-ba77-44946f452315.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\87dca0c9-990a-4406-ba77-44946f452315.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31472"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"agN9hSplLer/GYl+dZ8Bj38wPKgJQjKOn/oqh8TydSo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 21:55:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-agN9hSplLer/GYl+dZ8Bj38wPKgJQjKOn/oqh8TydSo="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/books/87dca0c9-990a-4406-ba77-44946f452315.m86w1xpzc3.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\87dca0c9-990a-4406-ba77-44946f452315.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31472"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"agN9hSplLer/GYl+dZ8Bj38wPKgJQjKOn/oqh8TydSo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 21:55:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "m86w1xpzc3"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/books/87dca0c9-990a-4406-ba77-44946f452315.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-agN9hSplLer/GYl+dZ8Bj38wPKgJQjKOn/oqh8TydSo="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/books/98acadfb-f73d-4ec8-954f-e8e25e647eb0.483jevnkto.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\98acadfb-f73d-4ec8-954f-e8e25e647eb0.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30594"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FLFy0t36xeViPEmRoL1LnMq+TYo+1C9IOY+qTDwHuso=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 22:50:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "483jevnkto"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/books/98acadfb-f73d-4ec8-954f-e8e25e647eb0.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FLFy0t36xeViPEmRoL1LnMq+TYo+1C9IOY+qTDwHuso="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/books/98acadfb-f73d-4ec8-954f-e8e25e647eb0.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\98acadfb-f73d-4ec8-954f-e8e25e647eb0.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30594"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FLFy0t36xeViPEmRoL1LnMq+TYo+1C9IOY+qTDwHuso=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 22:50:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FLFy0t36xeViPEmRoL1LnMq+TYo+1C9IOY+qTDwHuso="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/books/a455e0f9-cd20-414c-9a8a-c75cbf2c6826.3c1rpc6e7p.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\a455e0f9-cd20-414c-9a8a-c75cbf2c6826.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33303"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fXcftKMVYViYphbxAfwe218+D+p6KrgX+xh9cejahj0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 21:27:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3c1rpc6e7p"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/books/a455e0f9-cd20-414c-9a8a-c75cbf2c6826.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fXcftKMVYViYphbxAfwe218+D+p6KrgX+xh9cejahj0="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/books/a455e0f9-cd20-414c-9a8a-c75cbf2c6826.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\a455e0f9-cd20-414c-9a8a-c75cbf2c6826.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33303"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fXcftKMVYViYphbxAfwe218+D+p6KrgX+xh9cejahj0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 21:27:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fXcftKMVYViYphbxAfwe218+D+p6KrgX+xh9cejahj0="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/books/a52efbf0-2fc4-44ab-b82e-b0782bf9463c.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\a52efbf0-2fc4-44ab-b82e-b0782bf9463c.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "117013"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oX3m7/q+F8LaCdHCaiHC7lrlMv1IK7Nn9Pnm6X7VdPE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 21:09:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-oX3m7/q+F8LaCdHCaiHC7lrlMv1IK7Nn9Pnm6X7VdPE="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/books/a52efbf0-2fc4-44ab-b82e-b0782bf9463c.r5dnct0jqi.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\a52efbf0-2fc4-44ab-b82e-b0782bf9463c.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "117013"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oX3m7/q+F8LaCdHCaiHC7lrlMv1IK7Nn9Pnm6X7VdPE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 21:09:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r5dnct0jqi"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/books/a52efbf0-2fc4-44ab-b82e-b0782bf9463c.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-oX3m7/q+F8LaCdHCaiHC7lrlMv1IK7Nn9Pnm6X7VdPE="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/books/b2e9e99e-567f-4e29-81f4-cd5675e3a3e3.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\b2e9e99e-567f-4e29-81f4-cd5675e3a3e3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25286"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YVYu1CKWg+whMwOM+tDns/nz4927yGZRbBfOymZpTRw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 22:56:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YVYu1CKWg+whMwOM+tDns/nz4927yGZRbBfOymZpTRw="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/books/b2e9e99e-567f-4e29-81f4-cd5675e3a3e3.thuo6wy9i7.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\b2e9e99e-567f-4e29-81f4-cd5675e3a3e3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25286"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YVYu1CKWg+whMwOM+tDns/nz4927yGZRbBfOymZpTRw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 22:56:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "thuo6wy9i7"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/books/b2e9e99e-567f-4e29-81f4-cd5675e3a3e3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YVYu1CKWg+whMwOM+tDns/nz4927yGZRbBfOymZpTRw="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/books/c24003f1-860c-4d0f-ad94-df8dccc08958.24u1dr2sna.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\c24003f1-860c-4d0f-ad94-df8dccc08958.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31543"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ThgGeuLAtGbOd2eGabgAG34S5FxEqd1OdgC/+3coW3E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 22:03:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "24u1dr2sna"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/books/c24003f1-860c-4d0f-ad94-df8dccc08958.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ThgGeuLAtGbOd2eGabgAG34S5FxEqd1OdgC/+3coW3E="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/books/c24003f1-860c-4d0f-ad94-df8dccc08958.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\c24003f1-860c-4d0f-ad94-df8dccc08958.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31543"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ThgGeuLAtGbOd2eGabgAG34S5FxEqd1OdgC/+3coW3E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 22:03:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ThgGeuLAtGbOd2eGabgAG34S5FxEqd1OdgC/+3coW3E="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/books/c3b686c6-87a4-4c3e-b564-e6886d2e9fcd.1hatww9bfm.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\c3b686c6-87a4-4c3e-b564-e6886d2e9fcd.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "39873"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RcpoE9tVJhoi7oMuAIsXKmfYNHjnIobt/tOr+zcztQE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 21:52:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1hatww9bfm"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/books/c3b686c6-87a4-4c3e-b564-e6886d2e9fcd.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RcpoE9tVJhoi7oMuAIsXKmfYNHjnIobt/tOr+zcztQE="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/books/c3b686c6-87a4-4c3e-b564-e6886d2e9fcd.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\c3b686c6-87a4-4c3e-b564-e6886d2e9fcd.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "39873"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RcpoE9tVJhoi7oMuAIsXKmfYNHjnIobt/tOr+zcztQE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 21:52:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RcpoE9tVJhoi7oMuAIsXKmfYNHjnIobt/tOr+zcztQE="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/books/ceceda9b-4726-4aae-835a-a5cd3e5bb765.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\ceceda9b-4726-4aae-835a-a5cd3e5bb765.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25903"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dDN0EugKPmt85mPUBuzXGyaYEmoAEXpLvBNUOF3/zik=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 21:34:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dDN0EugKPmt85mPUBuzXGyaYEmoAEXpLvBNUOF3/zik="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/books/ceceda9b-4726-4aae-835a-a5cd3e5bb765.wtwhf16guw.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\ceceda9b-4726-4aae-835a-a5cd3e5bb765.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25903"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dDN0EugKPmt85mPUBuzXGyaYEmoAEXpLvBNUOF3/zik=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 21:34:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wtwhf16guw"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/books/ceceda9b-4726-4aae-835a-a5cd3e5bb765.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dDN0EugKPmt85mPUBuzXGyaYEmoAEXpLvBNUOF3/zik="
+        }
+      ]
+    },
+    {
       "Route": "uploads/books/default.png",
       "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\default.png",
       "Selectors": [],
@@ -7246,88 +9182,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-rlOeBxU8Ps18ObvjqQG6g4jqt0wXV+qen4YTSQu48uc="
-        }
-      ]
-    },
-    {
-      "Route": "uploads/books/e9b3d84a-6d50-4668-b6cb-a30c17f6b808.0von2zqszk.jpg",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\e9b3d84a-6d50-4668-b6cb-a30c17f6b808.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "26227"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ZNQttNrLu5KBMvZjnis+9uNPKs6REoNAW2/VgY3Jh1A=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 27 May 2025 21:03:31 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "0von2zqszk"
-        },
-        {
-          "Name": "label",
-          "Value": "uploads/books/e9b3d84a-6d50-4668-b6cb-a30c17f6b808.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ZNQttNrLu5KBMvZjnis+9uNPKs6REoNAW2/VgY3Jh1A="
-        }
-      ]
-    },
-    {
-      "Route": "uploads/books/e9b3d84a-6d50-4668-b6cb-a30c17f6b808.jpg",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\e9b3d84a-6d50-4668-b6cb-a30c17f6b808.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "26227"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ZNQttNrLu5KBMvZjnis+9uNPKs6REoNAW2/VgY3Jh1A=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 27 May 2025 21:03:31 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-ZNQttNrLu5KBMvZjnis+9uNPKs6REoNAW2/VgY3Jh1A="
         }
       ]
     }
