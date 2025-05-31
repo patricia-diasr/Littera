@@ -1,0 +1,433 @@
+﻿@page
+@model Littera.Pages.DashboardModel
+
+<style>
+
+    body {
+        background-color: var(--bs-light);
+    }
+
+    .stats-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1.5rem;
+        margin: 2rem 0 3em 0;
+    }
+
+    .stat-card {
+        background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+        padding: 1.5rem;
+        border-radius: var(--radius-lg);
+        box-shadow: var(--shadow-sm);
+        text-align: center;
+        transition: all var(--transition-normal);
+        border: 1px solid rgba(0, 0, 0, 0.05);
+        position: relative;
+        overflow: hidden;
+    }
+
+        .stat-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, var(--bs-primary) 0%, var(--bs-accent) 100%);
+        }
+
+        .stat-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .stat-card:nth-child(even)::before {
+            background: linear-gradient(90deg, var(--bs-warning) 0%, var(--bs-primary) 100%);
+        }
+
+        .stat-card h3 {
+            font-family: var(--font-heading);
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: var(--bs-secondary);
+            margin-bottom: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+    .stat-number {
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: var(--bs-dark);
+        margin: 0;
+        font-family: var(--font-heading);
+        line-height: 1;
+    }
+
+    .charts-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 3rem;
+        gap: 2em;
+    }
+
+    .chart-row {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        gap: 2rem;
+    }
+
+    .chart-container {
+        background: #ffffff;
+        padding: 1.5rem;
+        border-radius: var(--radius-lg);
+        box-shadow: var(--shadow-sm);
+        transition: all var(--transition-normal);
+        border: 1px solid rgba(0, 0, 0, 0.05);
+        position: relative;
+        height: 400px;
+    }
+
+        .chart-container:hover {
+            box-shadow: var(--shadow-md);
+            transform: translateY(-2px);
+        }
+
+        .chart-container h3 {
+            font-family: var(--font-heading);
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--bs-dark);
+            margin-bottom: 1rem;
+            padding-bottom: 0.75rem;
+            border-bottom: 2px solid var(--bs-gray-200);
+            position: relative;
+        }
+
+            .chart-container h3::after {
+                content: '';
+                position: absolute;
+                bottom: -2px;
+                left: 0;
+                width: 50px;
+                height: 2px;
+                background: linear-gradient(90deg, var(--bs-primary) 0%, var(--bs-accent) 100%);
+            }
+
+        .chart-container canvas {
+            max-height: 300px !important;
+            width: 100% !important;
+        }
+
+    @@media (max-width: 1200px) {
+        .chart-row {
+            grid-template-columns: 1fr;
+        }
+
+        .chart-container {
+            min-width: unset;
+        }
+    }
+
+    @@media (max-width: 768px) {
+        .dashboard-header {
+            padding: 1.5rem 1rem;
+            margin: 0 -15px 2rem -15px;
+            border-radius: 0;
+        }
+
+        .dashboard-header h1 {
+            font-size: 2rem;
+        }
+
+        .stats-container {
+            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+            gap: 1rem;
+        }
+
+        .stat-card {
+            padding: 1rem;
+        }
+
+        .stat-number {
+            font-size: 2rem;
+        }
+
+        .chart-container {
+            padding: 1rem;
+            height: 350px;
+        }
+
+        .chart-container canvas {
+            max-height: 250px !important;
+        }
+
+    }
+
+    @@media (max-width: 480px) {
+        .stats-container {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        .stat-card h3 {
+            font-size: 0.8rem;
+        }
+
+        .stat-number {
+            font-size: 1.75rem;
+        }
+
+        .chart-container {
+            height: 300px;
+        }
+
+        .chart-container canvas {
+            max-height: 200px !important;
+        }
+
+    }
+
+    .stat-card,
+    .chart-container {
+        animation: fadeInUp 0.6s ease-out;
+    }
+
+        .stat-card:nth-child(2) {
+            animation-delay: 0.1s;
+        }
+
+        .stat-card:nth-child(3) {
+            animation-delay: 0.2s;
+        }
+
+        .stat-card:nth-child(4) {
+            animation-delay: 0.3s;
+        }
+
+        .stat-card:nth-child(5) {
+            animation-delay: 0.4s;
+        }
+
+        .stat-card:nth-child(6) {
+            animation-delay: 0.5s;
+        }
+
+    @@keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .chart-container:nth-child(odd) {
+        background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+    }
+
+    .chart-container:nth-child(even) {
+        background: linear-gradient(135deg, #ffffff 0%, #f1f3f4 100%);
+    }
+</style>
+
+<div class="container dashboard-container">
+    <div class="charts-container">
+        <div class="chart-row">
+            <div class="chart-container">
+                <h3>Livros Lidos por Mês</h3>
+                <canvas id="booksPerMonthChart"></canvas>
+            </div>
+            <div class="chart-container">
+                <h3>Status dos Livros</h3>
+                <canvas id="booksByStatusChart"></canvas>
+            </div>
+        </div>
+
+        <div class="chart-row">
+            <div class="chart-container">
+                <h3>Distribuição de Avaliações</h3>
+                <canvas id="booksByRatingChart"></canvas>
+            </div>
+            <div class="chart-container">
+                <h3>Top 5 Autores</h3>
+                <canvas id="topAuthorsChart"></canvas>
+            </div>
+        </div>
+
+        <div class="chart-row">
+            <div class="chart-container">
+                <h3>Progresso de Leitura (Páginas/Mês)</h3>
+                <canvas id="readingProgressChart"></canvas>
+            </div>
+            <div class="chart-container">
+                <h3>Top 10 Tags</h3>
+                <canvas id="tagDistributionChart"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <div class="stats-container">
+        <div class="stat-card">
+            <h3>Total de Livros</h3>
+            <p class="stat-number">@Model.TotalBooks</p>
+        </div>
+        <div class="stat-card">
+            <h3>Livros Lidos</h3>
+            <p class="stat-number">@Model.BooksRead</p>
+        </div>
+        <div class="stat-card">
+            <h3>Lendo Atualmente</h3>
+            <p class="stat-number">@Model.BooksReading</p>
+        </div>
+        <div class="stat-card">
+            <h3>Para Ler</h3>
+            <p class="stat-number">@Model.BooksToRead</p>
+        </div>
+        <div class="stat-card">
+            <h3>Total de Páginas</h3>
+            <p class="stat-number">@Model.TotalPages.ToString("N0")</p>
+        </div>
+        <div class="stat-card">
+            <h3>Avaliação Média</h3>
+            <p class="stat-number">@Model.AverageRating.ToString("F1")</p>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+<script>
+    const booksPerMonthData = @Html.Raw(Model.BooksPerMonthJson ?? "{}");
+    const booksByStatusData = @Html.Raw(Model.BooksByStatusJson ?? "{}");
+    const booksByRatingData = @Html.Raw(Model.BooksByRatingJson ?? "{}");
+    const topAuthorsData = @Html.Raw(Model.TopAuthorsJson ?? "{}");
+    const readingProgressData = @Html.Raw(Model.ReadingProgressJson ?? "{}");
+    const tagDistributionData = @Html.Raw(Model.TagDistributionJson ?? "{}");
+
+    const booksPerMonthCtx = document.getElementById('booksPerMonthChart').getContext('2d');
+    new Chart(booksPerMonthCtx, {
+        type: 'line',
+        data: booksPerMonthData,
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    ticks: {
+                        stepSize: 1
+                    }
+                }
+            },
+            plugins: {
+                legend: {
+                    display: false
+                }
+            }
+        }
+    });
+
+    const booksByStatusCtx = document.getElementById('booksByStatusChart').getContext('2d');
+    new Chart(booksByStatusCtx, {
+        type: 'doughnut',
+        data: booksByStatusData,
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: {
+                    position: 'bottom'
+                }
+            }
+        }
+    });
+
+    const booksByRatingCtx = document.getElementById('booksByRatingChart').getContext('2d');
+    new Chart(booksByRatingCtx, {
+        type: 'bar',
+        data: booksByRatingData,
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    ticks: {
+                        stepSize: 1
+                    }
+                }
+            },
+            plugins: {
+                legend: {
+                    display: false
+                }
+            }
+        }
+    });
+
+    const topAuthorsCtx = document.getElementById('topAuthorsChart').getContext('2d');
+    new Chart(topAuthorsCtx, {
+        type: 'bar',
+        data: topAuthorsData,
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            indexAxis: 'y',
+            scales: {
+                x: {
+                    beginAtZero: true,
+                    ticks: {
+                        stepSize: 1
+                    }
+                }
+            },
+            plugins: {
+                legend: {
+                    display: false
+                }
+            }
+        }
+    });
+
+    const readingProgressCtx = document.getElementById('readingProgressChart').getContext('2d');
+    new Chart(readingProgressCtx, {
+        type: 'line',
+        data: readingProgressData,
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            scales: {
+                y: {
+                    beginAtZero: true
+                }
+            },
+            plugins: {
+                legend: {
+                    display: false
+                }
+            }
+        }
+    });
+
+    const tagDistributionCtx = document.getElementById('tagDistributionChart').getContext('2d');
+    new Chart(tagDistributionCtx, {
+        type: 'pie',
+        data: tagDistributionData,
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: {
+                    position: 'right',
+                    labels: {
+                        boxWidth: 12,
+                        font: {
+                            size: 10
+                        }
+                    }
+                }
+            }
+        }
+    });
+</script>

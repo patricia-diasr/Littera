@@ -43,7 +43,7 @@ html {
 body {
     margin: 0;
     font-family: var(--font-body);
-    background-color: #ffffff;
+    background-color: #fefefe;
     color: #2b2b2b;
     line-height: 1.6;
     display: flex;

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Littera")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7d6a40afcf5ee09044d1fe0eaf4a516afb85739e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+86d6d50e0497ea0bb6e1f9abf9b0e472c9841515")]
 [assembly: System.Reflection.AssemblyProductAttribute("Littera")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Littera")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
