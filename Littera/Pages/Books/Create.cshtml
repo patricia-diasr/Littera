@@ -472,7 +472,7 @@
                 <button type="submit" class="btn btn-action btn-save">
                     <i class="bi bi-save-fill me-2"></i> Salvar
                 </button>
-                <a href="#" class="btn btn-action btn-cancel">
+                <a class="btn btn-action btn-cancel" asp-page="/Index">
                     <i class="bi bi-x-circle-fill me-2"></i> Cancelar
                 </a>
             </div>
@@ -752,7 +752,7 @@
 
     function updateTagDisplay() {
         if (selectedTags.length === 0) {
-            tagsInput.placeholder = 'Clique para selecionar tags...';
+            tagsInput.placeholder = 'Clique para selecionar coleções...';
         } else {
             tagsInput.placeholder = `${selectedTags.length} tag${selectedTags.length > 1 ? 's' : ''} selecionada${selectedTags.length > 1 ? 's' : ''}`;
         }
@@ -774,7 +774,7 @@
 
     function updateCollectionDisplay() {
         if (selectedCollections.length === 0) {
-            collectionsInput.placeholder = 'Clique para selecionar tags...';
+            collectionsInput.placeholder = 'Clique para selecionar a...';
         } else {
             collectionsInput.placeholder = `${selectedCollections.length} tag${selectedCollections.length > 1 ? 's' : ''} selecionada${selectedCollections.length > 1 ? 's' : ''}`;
         }

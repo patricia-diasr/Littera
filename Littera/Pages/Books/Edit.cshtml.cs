@@ -42,13 +42,17 @@ namespace Littera.Pages.Books
             _context = context;
         }
 
-        public async Task OnGetAsync(int id) {
+        public async Task<IActionResult> OnGetAsync(int id) {
             var claim = User.FindFirst(ClaimTypes.NameIdentifier);
             int userId = int.Parse(claim.Value);
 
             Book = await _context.Books
                 .Where(b => b.UserId == userId && b.Id == id)
                 .FirstOrDefaultAsync();
+
+            if (Book == null) {
+                return RedirectToPage("Index");
+            }
 
             Author = await _context.Authors
                 .Where(a => a.Id == Book.AuthorId)
@@ -71,6 +75,8 @@ namespace Littera.Pages.Books
                 .Where(bc => bc.BookId == id)
                 .Select(bc => bc.Collection)
                 .ToListAsync();
+
+            return Page();
         }
 
         public async Task<IActionResult> OnPostAsync() {

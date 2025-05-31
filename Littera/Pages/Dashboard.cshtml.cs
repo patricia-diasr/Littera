@@ -1,5 +1,6 @@
 using Littera.Data;
 using Littera.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
@@ -8,6 +9,7 @@ using System.Text.Json;
 
 namespace Littera.Pages
 {
+    [Authorize]
     public class DashboardModel : PageModel
     {
         private readonly LitteraContext _context;
@@ -38,13 +40,16 @@ namespace Littera.Pages
                 .Where(b => b.UserId == userId)
                 .ToListAsync();
 
+            var ratedBooks = books.Where(b => b.Rating.HasValue).ToList();
+
             TotalBooks = books.Count;
             BooksRead = books.Count(b => b.Status == "Lido");
             BooksReading = books.Count(b => b.Status == "Lendo");
             BooksToRead = books.Count(b => b.Status == "Quero Ler");
             TotalPages = books.Sum(b => b.PageCount);
-            AverageRating = books.Where(b => b.Rating.HasValue).Average(b => b.Rating.Value);
-
+            AverageRating = ratedBooks.Any()
+                ? ratedBooks.Average(b => b.Rating.Value)
+                : 0;
             var booksPerMonth = books
                 .Where(b => b.EndDate.HasValue && b.Status == "Lido")
                 .GroupBy(b => new { b.EndDate.Value.Year, b.EndDate.Value.Month })

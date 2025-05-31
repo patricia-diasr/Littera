@@ -24,13 +24,21 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav gap-2">
-                        <li class="nav-item">
+                        @{
+                            var currentPage = ViewContext.ActionDescriptor.RouteValues["page"];
+                            var isActive = currentPage == "/Index" ||
+                            currentPage == "/Books/Create" ||
+                            currentPage == "/Books/Details"||
+                            currentPage == "/Books/Edit";
+                        }
+
+                        <li class="nav-item @(isActive ? "active" : "")">
                             <a class="nav-link" asp-area="" asp-page="/Index"><i class="bi bi-collection me-1"></i>Livros</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item @(ViewContext.ActionDescriptor.RouteValues["page"] == "/Dashboard" ? "active" : "")">
                             <a class="nav-link" asp-area="" asp-page="/Dashboard"><i class="bi bi-bar-chart me-1"></i>Estatísticas</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item @(ViewContext.ActionDescriptor.RouteValues["page"] == "/Profile" ? "active" : "")">
                             <a class="nav-link" asp-area="" asp-page="/Profile"><i class="bi bi-person-circle me-1"></i>Meu Perfil</a>
                         </li>
                         <li class="nav-item ms-2">

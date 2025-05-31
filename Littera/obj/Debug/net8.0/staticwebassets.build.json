@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "fW3aydlRPhdE1jfPmyits5ut+nyS9ZxUHFDBWuq3sh8=",
+  "Hash": "m7nSfkS5Nu/e3eutqRxQ8n3o2WJM4iQ/2/6figTkVns=",
   "Source": "Littera",
   "BasePath": "_content/Littera",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "opqo37ae7r",
-      "Integrity": "xOPlxGyOgez7bxRVKQ/S445n7BM27wfqTklKwapgsl0=",
+      "Fingerprint": "1i307j6ph7",
+      "Integrity": "uURJAecxCo9+D54evzShEBKjebuFagjlfgfX2n/SGoo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1510,6 +1510,51 @@
   ],
   "Endpoints": [
     {
+      "Route": "css/site.1i307j6ph7.css",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5240"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uURJAecxCo9+D54evzShEBKjebuFagjlfgfX2n/SGoo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 20:10:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1i307j6ph7"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-uURJAecxCo9+D54evzShEBKjebuFagjlfgfX2n/SGoo="
+        }
+      ]
+    },
+    {
       "Route": "css/site.css",
       "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -1520,7 +1565,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5140"
+          "Value": "5240"
         },
         {
           "Name": "Content-Type",
@@ -1528,11 +1573,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"xOPlxGyOgez7bxRVKQ/S445n7BM27wfqTklKwapgsl0=\""
+          "Value": "\"uURJAecxCo9+D54evzShEBKjebuFagjlfgfX2n/SGoo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 31 May 2025 16:44:27 GMT"
+          "Value": "Sat, 31 May 2025 20:10:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1542,52 +1587,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-xOPlxGyOgez7bxRVKQ/S445n7BM27wfqTklKwapgsl0="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.opqo37ae7r.css",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5140"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"xOPlxGyOgez7bxRVKQ/S445n7BM27wfqTklKwapgsl0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 31 May 2025 16:44:27 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "opqo37ae7r"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-xOPlxGyOgez7bxRVKQ/S445n7BM27wfqTklKwapgsl0="
+          "Value": "sha256-uURJAecxCo9+D54evzShEBKjebuFagjlfgfX2n/SGoo="
         }
       ]
     },

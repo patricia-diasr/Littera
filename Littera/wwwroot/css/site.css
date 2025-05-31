@@ -117,6 +117,12 @@ body {
         background-color: rgba(255, 255, 255, 0.1);
     }
 
+.navbar .nav-item.active .nav-link {
+    color: #ffffff !important;
+    font-weight: 600;
+}
+
+
 .navbar-toggler {
     border-color: rgba(255, 255, 255, 0.3);
 }
