@@ -437,6 +437,7 @@
                             </span>
                             <input type="date" asp-for="Book.StartDate" class="form-control" />
                         </div>
+                        <span asp-validation-for="Book.StartDate" id="errorStartDate" class="text-danger"></span>
                     </div>
                     <div class="col-sm-6" id="endDateSection">
                         <div class="book-info-label">Data de Término</div>
@@ -446,6 +447,7 @@
                             </span>
                             <input type="date" asp-for="Book.EndDate" class="form-control" />
                         </div>
+                        <span asp-validation-for="Book.EndDate" id="errorEndDate" class="text-danger"></span>
                     </div>
                 </div>
             </div>
@@ -802,6 +804,42 @@
 
         hiddenCollectionInput.value = selectedCollections.map(c => c.id).join(',');
     }
+
+    document.querySelector("form").addEventListener("submit", (e) => {
+        const status = bookStatus.value;
+
+        const startDate = document.querySelector("#startDateSection input[type='date']").value;
+        const endDate = document.querySelector("#endDateSection input[type='date']").value;
+
+        const errorStartDate = document.querySelector("#errorStartDate");
+        const errorEndDate = document.querySelector("#errorEndDate");
+        let isValid = true;
+
+        errorStartDate.textContent = "";
+        errorEndDate.textContent = "";
+
+        if (status === "Lendo") {
+            if (!startDate) {
+                errorStartDate.textContent = "A data de início não pode estar vazia.";
+                isValid = false;
+            }
+        }
+
+        if (status === "Lido") {
+            if (!startDate) {
+                errorStartDate.textContent = "A data de início não pode estar vazia.";
+                isValid = false;
+            }
+            if (!endDate) {
+                errorEndDate.textContent = "A data de término não pode estar vazia.";
+                isValid = false;
+            }
+        }
+
+        if (!isValid) {
+            e.preventDefault();
+        }
+    })
 </script>
 
 @section Scripts {

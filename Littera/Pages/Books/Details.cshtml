@@ -162,6 +162,8 @@
         justify-content: space-between;
         align-items: center;
         width: 100%;
+        flex-direction: row;
+        gap: 0.5rem;
     }
 
     .badge-status {
@@ -185,6 +187,13 @@
 
     .status-read {
         background-color: var(--bs-primary);
+    }
+
+    @@media (max-width: 1200px) {
+        .title-container {
+            flex-direction: column-reverse;
+            align-items: flex-start;
+        }
     }
 </style>
 

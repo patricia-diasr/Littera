@@ -98,6 +98,10 @@ namespace Littera.Pages.Books
                 Book.AuthorId = Author.Id;
             }
 
+            if (Book.Status != "Lido") {
+                Book.Rating = null;
+            }
+
             if (BookCoverFile != null && BookCoverFile.Length > 0) {
                 var uploadsFolder = Path.Combine("wwwroot", "uploads", "books");
                 Directory.CreateDirectory(uploadsFolder);
