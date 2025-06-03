@@ -72,7 +72,6 @@ wwwroot\uploads\books\5fc99535-4a2e-414d-8b4b-4224bc3ec967.jpg
 wwwroot\uploads\books\61021849-adc7-4ba8-87de-a836d1e049fd.jpg
 wwwroot\uploads\books\6173c24e-5f07-4e01-bc43-7ef3a42ae7f5.jpg
 wwwroot\uploads\books\63455b99-e703-4207-a1d1-04fdef666a29.jpg
-wwwroot\uploads\books\693fe686-9844-46b4-8342-2aba76bfbe5a.jpg
 wwwroot\uploads\books\7a58d05f-cb46-4882-8afa-c79cca6db017.jpg
 wwwroot\uploads\books\7eefd3ba-c7d7-48d1-a3fc-f818d590605b.jpg
 wwwroot\uploads\books\83ff8cf0-3277-4c15-8ed9-e68e8fbd0218.jpg

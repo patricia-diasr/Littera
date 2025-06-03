@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "y/IyiLj706eenPgqrdT6Cq8XjfbqNhxjXkRNrmHmGKs=",
+  "Hash": "C0B2PSVmPcOkqS0FoDPK8dj/Wj/VXGpDMXHMED+f82A=",
   "Source": "Littera",
   "BasePath": "_content/Littera",
   "Mode": "Default",
@@ -1611,27 +1611,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\books\\63455b99-e703-4207-a1d1-04fdef666a29.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\693fe686-9844-46b4-8342-2aba76bfbe5a.jpg",
-      "SourceId": "Littera",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
-      "BasePath": "_content/Littera",
-      "RelativePath": "uploads/books/693fe686-9844-46b4-8342-2aba76bfbe5a#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "jcuu5g0ud3",
-      "Integrity": "I9p0WXYRsLczI0d7WURKY2sf4C+FwKkTPtES41ZvJX4=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\books\\693fe686-9844-46b4-8342-2aba76bfbe5a.jpg"
     },
     {
       "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\7a58d05f-cb46-4882-8afa-c79cca6db017.jpg",
@@ -8116,88 +8095,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-VvgLP2sVEdgu2QzgC3eOJdud5aWcSZ4qPwZurMmzlRc="
-        }
-      ]
-    },
-    {
-      "Route": "uploads/books/693fe686-9844-46b4-8342-2aba76bfbe5a.jcuu5g0ud3.jpg",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\693fe686-9844-46b4-8342-2aba76bfbe5a.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "139899"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"I9p0WXYRsLczI0d7WURKY2sf4C+FwKkTPtES41ZvJX4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 27 May 2025 21:00:38 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "jcuu5g0ud3"
-        },
-        {
-          "Name": "label",
-          "Value": "uploads/books/693fe686-9844-46b4-8342-2aba76bfbe5a.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-I9p0WXYRsLczI0d7WURKY2sf4C+FwKkTPtES41ZvJX4="
-        }
-      ]
-    },
-    {
-      "Route": "uploads/books/693fe686-9844-46b4-8342-2aba76bfbe5a.jpg",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\693fe686-9844-46b4-8342-2aba76bfbe5a.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "139899"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"I9p0WXYRsLczI0d7WURKY2sf4C+FwKkTPtES41ZvJX4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 27 May 2025 21:00:38 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-I9p0WXYRsLczI0d7WURKY2sf4C+FwKkTPtES41ZvJX4="
         }
       ]
     },
