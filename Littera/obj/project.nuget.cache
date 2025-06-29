@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "c7nTmZfuU5A=",
+  "dgSpecHash": "H6Czqgk3vLQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\Littera.csproj",
+  "projectFilePath": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\Littera.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\patid\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\patid\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",

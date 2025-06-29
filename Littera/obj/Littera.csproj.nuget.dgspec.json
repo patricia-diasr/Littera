@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\Littera.csproj": {}
+    "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\Littera.csproj": {}
   },
   "projects": {
-    "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\Littera.csproj": {
+    "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\Littera.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\Littera.csproj",
+        "projectUniqueName": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\Littera.csproj",
         "projectName": "Littera",
-        "projectPath": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\Littera.csproj",
+        "projectPath": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\Littera.csproj",
         "packagesPath": "C:\\Users\\patid\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\obj\\",
+        "outputPath": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

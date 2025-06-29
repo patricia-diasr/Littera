@@ -1098,23 +1098,23 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Littera.358u3vwepv.bundle.scp.css'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\avatars\b189e596-2a43-4868-879e-eb39f0201d7d.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\avatars\55c3d211-b944-4926-bf47-2a66b529de8d.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>Littera</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Littera</BasePath>
-      <RelativePath>uploads/avatars/b189e596-2a43-4868-879e-eb39f0201d7d.jpg</RelativePath>
+      <RelativePath>uploads/avatars/55c3d211-b944-4926-bf47-2a66b529de8d.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>oetjvg8aj3</Fingerprint>
-      <Integrity>YCXHp0DBNGOW4hj5vEPCHGLsNz5BqfDtPF+e3l94gOs=</Integrity>
+      <Fingerprint>cwuj5ke7ky</Fingerprint>
+      <Integrity>1EfK2AOCJDGBBLSasAG05ZeD5IwsGUZwVk7chfoeyEQ=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\avatars\b189e596-2a43-4868-879e-eb39f0201d7d.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\avatars\55c3d211-b944-4926-bf47-2a66b529de8d.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\avatars\default.png'))">
       <SourceType>Package</SourceType>

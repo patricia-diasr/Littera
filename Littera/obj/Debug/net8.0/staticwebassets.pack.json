@@ -1,351 +1,351 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Littera.bundle.scp.css",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Littera.bundle.scp.css",
       "PackagePath": "staticwebassets\\Littera.358u3vwepv.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\avatars\\b189e596-2a43-4868-879e-eb39f0201d7d.jpg",
-      "PackagePath": "staticwebassets\\uploads\\avatars\\b189e596-2a43-4868-879e-eb39f0201d7d.jpg"
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\avatars\\55c3d211-b944-4926-bf47-2a66b529de8d.jpg",
+      "PackagePath": "staticwebassets\\uploads\\avatars\\55c3d211-b944-4926-bf47-2a66b529de8d.jpg"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\avatars\\default.png",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\avatars\\default.png",
       "PackagePath": "staticwebassets\\uploads\\avatars\\default.png"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\1cc03f40-9054-4458-8108-48725c4f471c.jpg",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\1cc03f40-9054-4458-8108-48725c4f471c.jpg",
       "PackagePath": "staticwebassets\\uploads\\books\\1cc03f40-9054-4458-8108-48725c4f471c.jpg"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\1e322def-cde8-4026-9b3d-7167d3b738b6.jpg",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\1e322def-cde8-4026-9b3d-7167d3b738b6.jpg",
       "PackagePath": "staticwebassets\\uploads\\books\\1e322def-cde8-4026-9b3d-7167d3b738b6.jpg"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\2f23f60c-d6ba-4cb6-b978-5a3fd7259d30.jpg",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\2f23f60c-d6ba-4cb6-b978-5a3fd7259d30.jpg",
       "PackagePath": "staticwebassets\\uploads\\books\\2f23f60c-d6ba-4cb6-b978-5a3fd7259d30.jpg"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\491d3c13-94d8-4dd9-9d2b-c29e85708bd3.jpg",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\491d3c13-94d8-4dd9-9d2b-c29e85708bd3.jpg",
       "PackagePath": "staticwebassets\\uploads\\books\\491d3c13-94d8-4dd9-9d2b-c29e85708bd3.jpg"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\4f0396b2-36ca-4fa1-8e99-d428f6afc048.jpg",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\4f0396b2-36ca-4fa1-8e99-d428f6afc048.jpg",
       "PackagePath": "staticwebassets\\uploads\\books\\4f0396b2-36ca-4fa1-8e99-d428f6afc048.jpg"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\5160a3a8-9637-423c-9821-ef896e204779.jpg",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\5160a3a8-9637-423c-9821-ef896e204779.jpg",
       "PackagePath": "staticwebassets\\uploads\\books\\5160a3a8-9637-423c-9821-ef896e204779.jpg"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\54cff213-105a-44bd-bfc8-eff59a7f5dba.jpg",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\54cff213-105a-44bd-bfc8-eff59a7f5dba.jpg",
       "PackagePath": "staticwebassets\\uploads\\books\\54cff213-105a-44bd-bfc8-eff59a7f5dba.jpg"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\5a9c222f-b327-427a-aecd-081e15bc1a2f.jpg",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\5a9c222f-b327-427a-aecd-081e15bc1a2f.jpg",
       "PackagePath": "staticwebassets\\uploads\\books\\5a9c222f-b327-427a-aecd-081e15bc1a2f.jpg"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\5fc99535-4a2e-414d-8b4b-4224bc3ec967.jpg",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\5fc99535-4a2e-414d-8b4b-4224bc3ec967.jpg",
       "PackagePath": "staticwebassets\\uploads\\books\\5fc99535-4a2e-414d-8b4b-4224bc3ec967.jpg"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\61021849-adc7-4ba8-87de-a836d1e049fd.jpg",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\61021849-adc7-4ba8-87de-a836d1e049fd.jpg",
       "PackagePath": "staticwebassets\\uploads\\books\\61021849-adc7-4ba8-87de-a836d1e049fd.jpg"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\6173c24e-5f07-4e01-bc43-7ef3a42ae7f5.jpg",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\6173c24e-5f07-4e01-bc43-7ef3a42ae7f5.jpg",
       "PackagePath": "staticwebassets\\uploads\\books\\6173c24e-5f07-4e01-bc43-7ef3a42ae7f5.jpg"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\63455b99-e703-4207-a1d1-04fdef666a29.jpg",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\63455b99-e703-4207-a1d1-04fdef666a29.jpg",
       "PackagePath": "staticwebassets\\uploads\\books\\63455b99-e703-4207-a1d1-04fdef666a29.jpg"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\7a58d05f-cb46-4882-8afa-c79cca6db017.jpg",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\7a58d05f-cb46-4882-8afa-c79cca6db017.jpg",
       "PackagePath": "staticwebassets\\uploads\\books\\7a58d05f-cb46-4882-8afa-c79cca6db017.jpg"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\7eefd3ba-c7d7-48d1-a3fc-f818d590605b.jpg",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\7eefd3ba-c7d7-48d1-a3fc-f818d590605b.jpg",
       "PackagePath": "staticwebassets\\uploads\\books\\7eefd3ba-c7d7-48d1-a3fc-f818d590605b.jpg"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\83ff8cf0-3277-4c15-8ed9-e68e8fbd0218.jpg",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\83ff8cf0-3277-4c15-8ed9-e68e8fbd0218.jpg",
       "PackagePath": "staticwebassets\\uploads\\books\\83ff8cf0-3277-4c15-8ed9-e68e8fbd0218.jpg"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\87dca0c9-990a-4406-ba77-44946f452315.jpg",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\87dca0c9-990a-4406-ba77-44946f452315.jpg",
       "PackagePath": "staticwebassets\\uploads\\books\\87dca0c9-990a-4406-ba77-44946f452315.jpg"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\98acadfb-f73d-4ec8-954f-e8e25e647eb0.jpg",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\98acadfb-f73d-4ec8-954f-e8e25e647eb0.jpg",
       "PackagePath": "staticwebassets\\uploads\\books\\98acadfb-f73d-4ec8-954f-e8e25e647eb0.jpg"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\a455e0f9-cd20-414c-9a8a-c75cbf2c6826.jpg",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\a455e0f9-cd20-414c-9a8a-c75cbf2c6826.jpg",
       "PackagePath": "staticwebassets\\uploads\\books\\a455e0f9-cd20-414c-9a8a-c75cbf2c6826.jpg"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\a52efbf0-2fc4-44ab-b82e-b0782bf9463c.jpg",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\a52efbf0-2fc4-44ab-b82e-b0782bf9463c.jpg",
       "PackagePath": "staticwebassets\\uploads\\books\\a52efbf0-2fc4-44ab-b82e-b0782bf9463c.jpg"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\b2e9e99e-567f-4e29-81f4-cd5675e3a3e3.jpg",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\b2e9e99e-567f-4e29-81f4-cd5675e3a3e3.jpg",
       "PackagePath": "staticwebassets\\uploads\\books\\b2e9e99e-567f-4e29-81f4-cd5675e3a3e3.jpg"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\c24003f1-860c-4d0f-ad94-df8dccc08958.jpg",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\c24003f1-860c-4d0f-ad94-df8dccc08958.jpg",
       "PackagePath": "staticwebassets\\uploads\\books\\c24003f1-860c-4d0f-ad94-df8dccc08958.jpg"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\c3b686c6-87a4-4c3e-b564-e6886d2e9fcd.jpg",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\c3b686c6-87a4-4c3e-b564-e6886d2e9fcd.jpg",
       "PackagePath": "staticwebassets\\uploads\\books\\c3b686c6-87a4-4c3e-b564-e6886d2e9fcd.jpg"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\ceceda9b-4726-4aae-835a-a5cd3e5bb765.jpg",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\ceceda9b-4726-4aae-835a-a5cd3e5bb765.jpg",
       "PackagePath": "staticwebassets\\uploads\\books\\ceceda9b-4726-4aae-835a-a5cd3e5bb765.jpg"
     },
     {
-      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\default.png",
+      "Id": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\default.png",
       "PackagePath": "staticwebassets\\uploads\\books\\default.png"
     },
     {

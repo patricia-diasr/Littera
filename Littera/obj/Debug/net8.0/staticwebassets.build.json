@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "C0B2PSVmPcOkqS0FoDPK8dj/Wj/VXGpDMXHMED+f82A=",
+  "Hash": "u30eqKMgi/25bTVOHtJ1ZNRgLABUWkSwWulq8xJOqiM=",
   "Source": "Littera",
   "BasePath": "_content/Littera",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Littera\\wwwroot",
       "Source": "Littera",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Littera.styles.css",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Littera.styles.css",
       "SourceId": "Littera",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Littera",
       "RelativePath": "Littera#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -35,13 +35,13 @@
       "Integrity": "STxFyJqVW8Taw5NrzyGS+ERkxng3QZATuTQH26ZkdTg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Littera.styles.css"
+      "OriginalItemSpec": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Littera.styles.css"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Littera.bundle.scp.css",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Littera.bundle.scp.css",
       "SourceId": "Littera",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Littera",
       "RelativePath": "Littera#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -56,13 +56,13 @@
       "Integrity": "STxFyJqVW8Taw5NrzyGS+ERkxng3QZATuTQH26ZkdTg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Littera.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Littera.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\css\\site.css",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "css/site#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -80,10 +80,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\favicon.ico",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "favicon#[.{fingerprint}]?.ico",
       "AssetKind": "All",
@@ -101,10 +101,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\js\\site.js",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "js/site#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -122,10 +122,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -143,10 +143,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -164,10 +164,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -185,10 +185,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -206,10 +206,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -227,10 +227,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -248,10 +248,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -269,10 +269,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -290,10 +290,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -311,10 +311,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -332,10 +332,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -353,10 +353,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -395,10 +395,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -437,10 +437,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -458,10 +458,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -479,10 +479,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -500,10 +500,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -521,10 +521,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -542,10 +542,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -563,10 +563,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -584,10 +584,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -605,10 +605,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -626,10 +626,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -647,10 +647,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -668,10 +668,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -689,10 +689,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -710,10 +710,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -752,10 +752,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -773,10 +773,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -794,10 +794,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -815,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -836,10 +836,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -857,10 +857,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -878,10 +878,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -899,10 +899,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -920,10 +920,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -941,10 +941,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -962,10 +962,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -983,10 +983,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1004,10 +1004,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1025,10 +1025,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1046,10 +1046,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "lib/bootstrap/LICENSE#[.{fingerprint}]?",
       "AssetKind": "All",
@@ -1067,10 +1067,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "lib/jquery/dist/jquery#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1109,10 +1109,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1130,10 +1130,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "lib/jquery/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
@@ -1151,10 +1151,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "lib/jquery-validation/dist/additional-methods#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1172,10 +1172,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1193,10 +1193,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1214,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1235,10 +1235,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "lib/jquery-validation/LICENSE#[.{fingerprint}]?.md",
       "AssetKind": "All",
@@ -1256,10 +1256,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1277,10 +1277,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1298,10 +1298,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
@@ -1319,12 +1319,12 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\avatars\\b189e596-2a43-4868-879e-eb39f0201d7d.jpg",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\avatars\\55c3d211-b944-4926-bf47-2a66b529de8d.jpg",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
-      "RelativePath": "uploads/avatars/b189e596-2a43-4868-879e-eb39f0201d7d#[.{fingerprint}]?.jpg",
+      "RelativePath": "uploads/avatars/55c3d211-b944-4926-bf47-2a66b529de8d#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1333,17 +1333,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "oetjvg8aj3",
-      "Integrity": "YCXHp0DBNGOW4hj5vEPCHGLsNz5BqfDtPF+e3l94gOs=",
+      "Fingerprint": "cwuj5ke7ky",
+      "Integrity": "1EfK2AOCJDGBBLSasAG05ZeD5IwsGUZwVk7chfoeyEQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\avatars\\b189e596-2a43-4868-879e-eb39f0201d7d.jpg"
+      "OriginalItemSpec": "wwwroot\\uploads\\avatars\\55c3d211-b944-4926-bf47-2a66b529de8d.jpg"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\avatars\\default.png",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\avatars\\default.png",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "uploads/avatars/default#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -1361,10 +1361,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\avatars\\default.png"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\1cc03f40-9054-4458-8108-48725c4f471c.jpg",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\1cc03f40-9054-4458-8108-48725c4f471c.jpg",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "uploads/books/1cc03f40-9054-4458-8108-48725c4f471c#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1382,10 +1382,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\books\\1cc03f40-9054-4458-8108-48725c4f471c.jpg"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\1e322def-cde8-4026-9b3d-7167d3b738b6.jpg",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\1e322def-cde8-4026-9b3d-7167d3b738b6.jpg",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "uploads/books/1e322def-cde8-4026-9b3d-7167d3b738b6#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1403,10 +1403,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\books\\1e322def-cde8-4026-9b3d-7167d3b738b6.jpg"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\2f23f60c-d6ba-4cb6-b978-5a3fd7259d30.jpg",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\2f23f60c-d6ba-4cb6-b978-5a3fd7259d30.jpg",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "uploads/books/2f23f60c-d6ba-4cb6-b978-5a3fd7259d30#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1424,10 +1424,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\books\\2f23f60c-d6ba-4cb6-b978-5a3fd7259d30.jpg"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\491d3c13-94d8-4dd9-9d2b-c29e85708bd3.jpg",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\491d3c13-94d8-4dd9-9d2b-c29e85708bd3.jpg",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "uploads/books/491d3c13-94d8-4dd9-9d2b-c29e85708bd3#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\books\\491d3c13-94d8-4dd9-9d2b-c29e85708bd3.jpg"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\4f0396b2-36ca-4fa1-8e99-d428f6afc048.jpg",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\4f0396b2-36ca-4fa1-8e99-d428f6afc048.jpg",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "uploads/books/4f0396b2-36ca-4fa1-8e99-d428f6afc048#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1466,10 +1466,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\books\\4f0396b2-36ca-4fa1-8e99-d428f6afc048.jpg"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\5160a3a8-9637-423c-9821-ef896e204779.jpg",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\5160a3a8-9637-423c-9821-ef896e204779.jpg",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "uploads/books/5160a3a8-9637-423c-9821-ef896e204779#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1487,10 +1487,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\books\\5160a3a8-9637-423c-9821-ef896e204779.jpg"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\54cff213-105a-44bd-bfc8-eff59a7f5dba.jpg",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\54cff213-105a-44bd-bfc8-eff59a7f5dba.jpg",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "uploads/books/54cff213-105a-44bd-bfc8-eff59a7f5dba#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1508,10 +1508,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\books\\54cff213-105a-44bd-bfc8-eff59a7f5dba.jpg"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\5a9c222f-b327-427a-aecd-081e15bc1a2f.jpg",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\5a9c222f-b327-427a-aecd-081e15bc1a2f.jpg",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "uploads/books/5a9c222f-b327-427a-aecd-081e15bc1a2f#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1529,10 +1529,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\books\\5a9c222f-b327-427a-aecd-081e15bc1a2f.jpg"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\5fc99535-4a2e-414d-8b4b-4224bc3ec967.jpg",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\5fc99535-4a2e-414d-8b4b-4224bc3ec967.jpg",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "uploads/books/5fc99535-4a2e-414d-8b4b-4224bc3ec967#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1550,10 +1550,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\books\\5fc99535-4a2e-414d-8b4b-4224bc3ec967.jpg"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\61021849-adc7-4ba8-87de-a836d1e049fd.jpg",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\61021849-adc7-4ba8-87de-a836d1e049fd.jpg",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "uploads/books/61021849-adc7-4ba8-87de-a836d1e049fd#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1571,10 +1571,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\books\\61021849-adc7-4ba8-87de-a836d1e049fd.jpg"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\6173c24e-5f07-4e01-bc43-7ef3a42ae7f5.jpg",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\6173c24e-5f07-4e01-bc43-7ef3a42ae7f5.jpg",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "uploads/books/6173c24e-5f07-4e01-bc43-7ef3a42ae7f5#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1592,10 +1592,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\books\\6173c24e-5f07-4e01-bc43-7ef3a42ae7f5.jpg"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\63455b99-e703-4207-a1d1-04fdef666a29.jpg",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\63455b99-e703-4207-a1d1-04fdef666a29.jpg",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "uploads/books/63455b99-e703-4207-a1d1-04fdef666a29#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1613,10 +1613,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\books\\63455b99-e703-4207-a1d1-04fdef666a29.jpg"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\7a58d05f-cb46-4882-8afa-c79cca6db017.jpg",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\7a58d05f-cb46-4882-8afa-c79cca6db017.jpg",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "uploads/books/7a58d05f-cb46-4882-8afa-c79cca6db017#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1634,10 +1634,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\books\\7a58d05f-cb46-4882-8afa-c79cca6db017.jpg"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\7eefd3ba-c7d7-48d1-a3fc-f818d590605b.jpg",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\7eefd3ba-c7d7-48d1-a3fc-f818d590605b.jpg",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "uploads/books/7eefd3ba-c7d7-48d1-a3fc-f818d590605b#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1655,10 +1655,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\books\\7eefd3ba-c7d7-48d1-a3fc-f818d590605b.jpg"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\83ff8cf0-3277-4c15-8ed9-e68e8fbd0218.jpg",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\83ff8cf0-3277-4c15-8ed9-e68e8fbd0218.jpg",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "uploads/books/83ff8cf0-3277-4c15-8ed9-e68e8fbd0218#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1676,10 +1676,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\books\\83ff8cf0-3277-4c15-8ed9-e68e8fbd0218.jpg"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\87dca0c9-990a-4406-ba77-44946f452315.jpg",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\87dca0c9-990a-4406-ba77-44946f452315.jpg",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "uploads/books/87dca0c9-990a-4406-ba77-44946f452315#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1697,10 +1697,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\books\\87dca0c9-990a-4406-ba77-44946f452315.jpg"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\98acadfb-f73d-4ec8-954f-e8e25e647eb0.jpg",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\98acadfb-f73d-4ec8-954f-e8e25e647eb0.jpg",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "uploads/books/98acadfb-f73d-4ec8-954f-e8e25e647eb0#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1718,10 +1718,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\books\\98acadfb-f73d-4ec8-954f-e8e25e647eb0.jpg"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\a455e0f9-cd20-414c-9a8a-c75cbf2c6826.jpg",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\a455e0f9-cd20-414c-9a8a-c75cbf2c6826.jpg",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "uploads/books/a455e0f9-cd20-414c-9a8a-c75cbf2c6826#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1739,10 +1739,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\books\\a455e0f9-cd20-414c-9a8a-c75cbf2c6826.jpg"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\a52efbf0-2fc4-44ab-b82e-b0782bf9463c.jpg",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\a52efbf0-2fc4-44ab-b82e-b0782bf9463c.jpg",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "uploads/books/a52efbf0-2fc4-44ab-b82e-b0782bf9463c#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1760,10 +1760,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\books\\a52efbf0-2fc4-44ab-b82e-b0782bf9463c.jpg"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\b2e9e99e-567f-4e29-81f4-cd5675e3a3e3.jpg",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\b2e9e99e-567f-4e29-81f4-cd5675e3a3e3.jpg",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "uploads/books/b2e9e99e-567f-4e29-81f4-cd5675e3a3e3#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1781,10 +1781,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\books\\b2e9e99e-567f-4e29-81f4-cd5675e3a3e3.jpg"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\c24003f1-860c-4d0f-ad94-df8dccc08958.jpg",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\c24003f1-860c-4d0f-ad94-df8dccc08958.jpg",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "uploads/books/c24003f1-860c-4d0f-ad94-df8dccc08958#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1802,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\books\\c24003f1-860c-4d0f-ad94-df8dccc08958.jpg"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\c3b686c6-87a4-4c3e-b564-e6886d2e9fcd.jpg",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\c3b686c6-87a4-4c3e-b564-e6886d2e9fcd.jpg",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "uploads/books/c3b686c6-87a4-4c3e-b564-e6886d2e9fcd#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1823,10 +1823,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\books\\c3b686c6-87a4-4c3e-b564-e6886d2e9fcd.jpg"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\ceceda9b-4726-4aae-835a-a5cd3e5bb765.jpg",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\ceceda9b-4726-4aae-835a-a5cd3e5bb765.jpg",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "uploads/books/ceceda9b-4726-4aae-835a-a5cd3e5bb765#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1844,10 +1844,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\books\\ceceda9b-4726-4aae-835a-a5cd3e5bb765.jpg"
     },
     {
-      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\default.png",
+      "Identity": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\default.png",
       "SourceId": "Littera",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\",
       "BasePath": "_content/Littera",
       "RelativePath": "uploads/books/default#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -1868,7 +1868,7 @@
   "Endpoints": [
     {
       "Route": "css/site.1i307j6ph7.css",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\css\\site.css",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1913,7 +1913,7 @@
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\css\\site.css",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1950,7 +1950,7 @@
     },
     {
       "Route": "favicon.61n19gt1b8.ico",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\favicon.ico",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1995,7 +1995,7 @@
     },
     {
       "Route": "favicon.ico",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\favicon.ico",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2032,7 +2032,7 @@
     },
     {
       "Route": "js/site.js",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\js\\site.js",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2069,7 +2069,7 @@
     },
     {
       "Route": "js/site.xtxxf3hu2r.js",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\js\\site.js",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2114,7 +2114,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2151,7 +2151,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css.73kdqttayv.map",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2196,7 +2196,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css.map",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2233,7 +2233,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.bpk8xqwxhs.css",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2278,7 +2278,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2315,7 +2315,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css.8inm30yfxf.map",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2360,7 +2360,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css.map",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2397,7 +2397,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.mpyigms19s.css",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2442,7 +2442,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2479,7 +2479,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.4gxs3k148c.map",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2524,7 +2524,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2561,7 +2561,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.9b9oa1qrmt.css",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2606,7 +2606,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2643,7 +2643,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.fctod5rc9n.map",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2688,7 +2688,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2725,7 +2725,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.ve6x09088i.css",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2770,7 +2770,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.agp80tu62r.css",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2815,7 +2815,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2852,7 +2852,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2889,7 +2889,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css.st1cbwfwo5.map",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2934,7 +2934,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2971,7 +2971,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css.5vj65cig9w.map",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3016,7 +3016,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3053,7 +3053,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.unj9p35syc.css",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3098,7 +3098,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3135,7 +3135,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.2q4vfeazbq.map",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3180,7 +3180,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3217,7 +3217,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3254,7 +3254,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3291,7 +3291,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.o371a8zbv2.map",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3336,7 +3336,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.n1oizzvkh6.css",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3381,7 +3381,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.q2ku51ktnl.css",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3426,7 +3426,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.7na4sro3qu.css",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3471,7 +3471,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3508,7 +3508,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css.jeal3x0ldm.map",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3553,7 +3553,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3590,7 +3590,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3627,7 +3627,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3664,7 +3664,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.okkk44j0xs.map",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3709,7 +3709,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.f8imaxxbri.css",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3754,7 +3754,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.0wve5yxp74.css",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3799,7 +3799,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3836,7 +3836,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.cwzlr5n8x4.map",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3881,7 +3881,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3918,7 +3918,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3955,7 +3955,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3992,7 +3992,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.wmug9u23qg.map",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4037,7 +4037,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.npxfuf8dg6.css",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4082,7 +4082,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4119,7 +4119,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css.j75batdsum.map",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4164,7 +4164,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4201,7 +4201,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.16095smhkz.css",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4246,7 +4246,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4283,7 +4283,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4320,7 +4320,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.vy0bq9ydhf.map",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4365,7 +4365,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.b4skse8du6.css",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4410,7 +4410,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4447,7 +4447,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.ab1c3rmv7g.map",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4492,7 +4492,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4529,7 +4529,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4566,7 +4566,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.56d2bn4wt9.map",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4611,7 +4611,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4648,7 +4648,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.u3xrusw2ol.css",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4693,7 +4693,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.tey0rigmnh.css",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4738,7 +4738,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4775,7 +4775,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js.kbynt5jhd9.map",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4820,7 +4820,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4857,7 +4857,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.l2av4jpuoj.js",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4902,7 +4902,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.25iw1kog22.js",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4947,7 +4947,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4984,7 +4984,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.c2nslu3uf3.map",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5029,7 +5029,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5066,7 +5066,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5103,7 +5103,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js.2lgwfvgpvi.map",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5148,7 +5148,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5185,7 +5185,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.m39kt2b5c9.js",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5230,7 +5230,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5267,7 +5267,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5304,7 +5304,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js.wsezl0heh6.map",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5349,7 +5349,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.um2aeqy4ik.js",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5394,7 +5394,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5431,7 +5431,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js.6ukhryfubh.map",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5476,7 +5476,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js.map",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5513,7 +5513,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5550,7 +5550,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js.map",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5587,7 +5587,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js.u33ctipx7g.map",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5632,7 +5632,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.zwph15dxgs.js",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5677,7 +5677,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.o4kw7cc6tf.js",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5722,7 +5722,7 @@
     },
     {
       "Route": "lib/bootstrap/LICENSE",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5759,7 +5759,7 @@
     },
     {
       "Route": "lib/bootstrap/LICENSE.81b7ukuj9c",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\bootstrap\\LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5804,7 +5804,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.fwhahm2icz.js",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5849,7 +5849,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.js",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5886,7 +5886,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.5pze98is44.map",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5931,7 +5931,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.dd6z7egasc.js",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5976,7 +5976,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.js",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6013,7 +6013,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.map",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6050,7 +6050,7 @@
     },
     {
       "Route": "lib/jquery/LICENSE.mlv21k5csn.txt",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6095,7 +6095,7 @@
     },
     {
       "Route": "lib/jquery/LICENSE.txt",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6132,7 +6132,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.ay5nd8zt9x.js",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6177,7 +6177,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.js",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6214,7 +6214,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.min.9oaff4kq20.js",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6259,7 +6259,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.min.js",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6296,7 +6296,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.js",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6333,7 +6333,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.min.b7iojwaux1.js",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6378,7 +6378,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.min.js",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6415,7 +6415,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.pzqfkb6aqo.js",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6460,7 +6460,7 @@
     },
     {
       "Route": "lib/jquery-validation/LICENSE.md",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6497,7 +6497,7 @@
     },
     {
       "Route": "lib/jquery-validation/LICENSE.x0q3zqp4vz.md",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6542,7 +6542,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.47otxtyo56.js",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6587,7 +6587,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6624,7 +6624,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.4v8eqarkd7.js",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6669,7 +6669,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6706,7 +6706,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/LICENSE.356vix0kms.txt",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6751,7 +6751,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/LICENSE.txt",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6788,7 +6788,7 @@
     },
     {
       "Route": "Littera.358u3vwepv.bundle.scp.css",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Littera.bundle.scp.css",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Littera.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6833,7 +6833,7 @@
     },
     {
       "Route": "Littera.358u3vwepv.styles.css",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Littera.styles.css",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Littera.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6878,7 +6878,7 @@
     },
     {
       "Route": "Littera.bundle.scp.css",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Littera.bundle.scp.css",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Littera.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6915,7 +6915,7 @@
     },
     {
       "Route": "Littera.styles.css",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Littera.styles.css",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Littera.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6951,8 +6951,8 @@
       ]
     },
     {
-      "Route": "uploads/avatars/b189e596-2a43-4868-879e-eb39f0201d7d.jpg",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\avatars\\b189e596-2a43-4868-879e-eb39f0201d7d.jpg",
+      "Route": "uploads/avatars/55c3d211-b944-4926-bf47-2a66b529de8d.cwuj5ke7ky.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\avatars\\55c3d211-b944-4926-bf47-2a66b529de8d.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6961,7 +6961,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "893225"
+          "Value": "82590"
         },
         {
           "Name": "Content-Type",
@@ -6969,48 +6969,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"YCXHp0DBNGOW4hj5vEPCHGLsNz5BqfDtPF+e3l94gOs=\""
+          "Value": "\"1EfK2AOCJDGBBLSasAG05ZeD5IwsGUZwVk7chfoeyEQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 24 May 2025 16:01:54 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-YCXHp0DBNGOW4hj5vEPCHGLsNz5BqfDtPF+e3l94gOs="
-        }
-      ]
-    },
-    {
-      "Route": "uploads/avatars/b189e596-2a43-4868-879e-eb39f0201d7d.oetjvg8aj3.jpg",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\avatars\\b189e596-2a43-4868-879e-eb39f0201d7d.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "893225"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"YCXHp0DBNGOW4hj5vEPCHGLsNz5BqfDtPF+e3l94gOs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 24 May 2025 16:01:54 GMT"
+          "Value": "Tue, 03 Jun 2025 12:24:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7020,21 +6983,58 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "oetjvg8aj3"
+          "Value": "cwuj5ke7ky"
         },
         {
           "Name": "label",
-          "Value": "uploads/avatars/b189e596-2a43-4868-879e-eb39f0201d7d.jpg"
+          "Value": "uploads/avatars/55c3d211-b944-4926-bf47-2a66b529de8d.jpg"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-YCXHp0DBNGOW4hj5vEPCHGLsNz5BqfDtPF+e3l94gOs="
+          "Value": "sha256-1EfK2AOCJDGBBLSasAG05ZeD5IwsGUZwVk7chfoeyEQ="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/avatars/55c3d211-b944-4926-bf47-2a66b529de8d.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\avatars\\55c3d211-b944-4926-bf47-2a66b529de8d.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "82590"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1EfK2AOCJDGBBLSasAG05ZeD5IwsGUZwVk7chfoeyEQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Jun 2025 12:24:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1EfK2AOCJDGBBLSasAG05ZeD5IwsGUZwVk7chfoeyEQ="
         }
       ]
     },
     {
       "Route": "uploads/avatars/default.j5w8f6aczt.png",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\avatars\\default.png",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\avatars\\default.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7079,7 +7079,7 @@
     },
     {
       "Route": "uploads/avatars/default.png",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\avatars\\default.png",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\avatars\\default.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7116,7 +7116,7 @@
     },
     {
       "Route": "uploads/books/1cc03f40-9054-4458-8108-48725c4f471c.jpg",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\1cc03f40-9054-4458-8108-48725c4f471c.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\1cc03f40-9054-4458-8108-48725c4f471c.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7153,7 +7153,7 @@
     },
     {
       "Route": "uploads/books/1cc03f40-9054-4458-8108-48725c4f471c.s0lqz6mc35.jpg",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\1cc03f40-9054-4458-8108-48725c4f471c.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\1cc03f40-9054-4458-8108-48725c4f471c.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7198,7 +7198,7 @@
     },
     {
       "Route": "uploads/books/1e322def-cde8-4026-9b3d-7167d3b738b6.7k0dzoj7c1.jpg",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\1e322def-cde8-4026-9b3d-7167d3b738b6.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\1e322def-cde8-4026-9b3d-7167d3b738b6.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7243,7 +7243,7 @@
     },
     {
       "Route": "uploads/books/1e322def-cde8-4026-9b3d-7167d3b738b6.jpg",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\1e322def-cde8-4026-9b3d-7167d3b738b6.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\1e322def-cde8-4026-9b3d-7167d3b738b6.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7280,7 +7280,7 @@
     },
     {
       "Route": "uploads/books/2f23f60c-d6ba-4cb6-b978-5a3fd7259d30.jpg",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\2f23f60c-d6ba-4cb6-b978-5a3fd7259d30.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\2f23f60c-d6ba-4cb6-b978-5a3fd7259d30.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7317,7 +7317,7 @@
     },
     {
       "Route": "uploads/books/2f23f60c-d6ba-4cb6-b978-5a3fd7259d30.m5m9hy5bw0.jpg",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\2f23f60c-d6ba-4cb6-b978-5a3fd7259d30.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\2f23f60c-d6ba-4cb6-b978-5a3fd7259d30.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7362,7 +7362,7 @@
     },
     {
       "Route": "uploads/books/491d3c13-94d8-4dd9-9d2b-c29e85708bd3.jpg",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\491d3c13-94d8-4dd9-9d2b-c29e85708bd3.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\491d3c13-94d8-4dd9-9d2b-c29e85708bd3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7399,7 +7399,7 @@
     },
     {
       "Route": "uploads/books/491d3c13-94d8-4dd9-9d2b-c29e85708bd3.nquib9c8tg.jpg",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\491d3c13-94d8-4dd9-9d2b-c29e85708bd3.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\491d3c13-94d8-4dd9-9d2b-c29e85708bd3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7444,7 +7444,7 @@
     },
     {
       "Route": "uploads/books/4f0396b2-36ca-4fa1-8e99-d428f6afc048.el85z5s3ul.jpg",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\4f0396b2-36ca-4fa1-8e99-d428f6afc048.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\4f0396b2-36ca-4fa1-8e99-d428f6afc048.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7489,7 +7489,7 @@
     },
     {
       "Route": "uploads/books/4f0396b2-36ca-4fa1-8e99-d428f6afc048.jpg",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\4f0396b2-36ca-4fa1-8e99-d428f6afc048.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\4f0396b2-36ca-4fa1-8e99-d428f6afc048.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7526,7 +7526,7 @@
     },
     {
       "Route": "uploads/books/5160a3a8-9637-423c-9821-ef896e204779.2i1z5ucsb1.jpg",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\5160a3a8-9637-423c-9821-ef896e204779.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\5160a3a8-9637-423c-9821-ef896e204779.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7571,7 +7571,7 @@
     },
     {
       "Route": "uploads/books/5160a3a8-9637-423c-9821-ef896e204779.jpg",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\5160a3a8-9637-423c-9821-ef896e204779.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\5160a3a8-9637-423c-9821-ef896e204779.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7608,7 +7608,7 @@
     },
     {
       "Route": "uploads/books/54cff213-105a-44bd-bfc8-eff59a7f5dba.jjtylmn8xa.jpg",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\54cff213-105a-44bd-bfc8-eff59a7f5dba.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\54cff213-105a-44bd-bfc8-eff59a7f5dba.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7653,7 +7653,7 @@
     },
     {
       "Route": "uploads/books/54cff213-105a-44bd-bfc8-eff59a7f5dba.jpg",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\54cff213-105a-44bd-bfc8-eff59a7f5dba.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\54cff213-105a-44bd-bfc8-eff59a7f5dba.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7690,7 +7690,7 @@
     },
     {
       "Route": "uploads/books/5a9c222f-b327-427a-aecd-081e15bc1a2f.jpg",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\5a9c222f-b327-427a-aecd-081e15bc1a2f.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\5a9c222f-b327-427a-aecd-081e15bc1a2f.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7727,7 +7727,7 @@
     },
     {
       "Route": "uploads/books/5a9c222f-b327-427a-aecd-081e15bc1a2f.uz0htaa4fj.jpg",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\5a9c222f-b327-427a-aecd-081e15bc1a2f.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\5a9c222f-b327-427a-aecd-081e15bc1a2f.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7772,7 +7772,7 @@
     },
     {
       "Route": "uploads/books/5fc99535-4a2e-414d-8b4b-4224bc3ec967.e4gqdn7xse.jpg",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\5fc99535-4a2e-414d-8b4b-4224bc3ec967.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\5fc99535-4a2e-414d-8b4b-4224bc3ec967.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7817,7 +7817,7 @@
     },
     {
       "Route": "uploads/books/5fc99535-4a2e-414d-8b4b-4224bc3ec967.jpg",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\5fc99535-4a2e-414d-8b4b-4224bc3ec967.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\5fc99535-4a2e-414d-8b4b-4224bc3ec967.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7854,7 +7854,7 @@
     },
     {
       "Route": "uploads/books/61021849-adc7-4ba8-87de-a836d1e049fd.hg8s5cqk9d.jpg",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\61021849-adc7-4ba8-87de-a836d1e049fd.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\61021849-adc7-4ba8-87de-a836d1e049fd.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7899,7 +7899,7 @@
     },
     {
       "Route": "uploads/books/61021849-adc7-4ba8-87de-a836d1e049fd.jpg",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\61021849-adc7-4ba8-87de-a836d1e049fd.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\61021849-adc7-4ba8-87de-a836d1e049fd.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7936,7 +7936,7 @@
     },
     {
       "Route": "uploads/books/6173c24e-5f07-4e01-bc43-7ef3a42ae7f5.jpg",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\6173c24e-5f07-4e01-bc43-7ef3a42ae7f5.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\6173c24e-5f07-4e01-bc43-7ef3a42ae7f5.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7973,7 +7973,7 @@
     },
     {
       "Route": "uploads/books/6173c24e-5f07-4e01-bc43-7ef3a42ae7f5.wvrojtlmth.jpg",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\6173c24e-5f07-4e01-bc43-7ef3a42ae7f5.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\6173c24e-5f07-4e01-bc43-7ef3a42ae7f5.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8018,7 +8018,7 @@
     },
     {
       "Route": "uploads/books/63455b99-e703-4207-a1d1-04fdef666a29.jpg",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\63455b99-e703-4207-a1d1-04fdef666a29.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\63455b99-e703-4207-a1d1-04fdef666a29.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8055,7 +8055,7 @@
     },
     {
       "Route": "uploads/books/63455b99-e703-4207-a1d1-04fdef666a29.q31buclhda.jpg",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\63455b99-e703-4207-a1d1-04fdef666a29.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\63455b99-e703-4207-a1d1-04fdef666a29.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8100,7 +8100,7 @@
     },
     {
       "Route": "uploads/books/7a58d05f-cb46-4882-8afa-c79cca6db017.2q9xq4y5rn.jpg",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\7a58d05f-cb46-4882-8afa-c79cca6db017.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\7a58d05f-cb46-4882-8afa-c79cca6db017.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8145,7 +8145,7 @@
     },
     {
       "Route": "uploads/books/7a58d05f-cb46-4882-8afa-c79cca6db017.jpg",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\7a58d05f-cb46-4882-8afa-c79cca6db017.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\7a58d05f-cb46-4882-8afa-c79cca6db017.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8182,7 +8182,7 @@
     },
     {
       "Route": "uploads/books/7eefd3ba-c7d7-48d1-a3fc-f818d590605b.dlkt1mrygj.jpg",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\7eefd3ba-c7d7-48d1-a3fc-f818d590605b.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\7eefd3ba-c7d7-48d1-a3fc-f818d590605b.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8227,7 +8227,7 @@
     },
     {
       "Route": "uploads/books/7eefd3ba-c7d7-48d1-a3fc-f818d590605b.jpg",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\7eefd3ba-c7d7-48d1-a3fc-f818d590605b.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\7eefd3ba-c7d7-48d1-a3fc-f818d590605b.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8264,7 +8264,7 @@
     },
     {
       "Route": "uploads/books/83ff8cf0-3277-4c15-8ed9-e68e8fbd0218.9hz52btd1r.jpg",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\83ff8cf0-3277-4c15-8ed9-e68e8fbd0218.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\83ff8cf0-3277-4c15-8ed9-e68e8fbd0218.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8309,7 +8309,7 @@
     },
     {
       "Route": "uploads/books/83ff8cf0-3277-4c15-8ed9-e68e8fbd0218.jpg",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\83ff8cf0-3277-4c15-8ed9-e68e8fbd0218.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\83ff8cf0-3277-4c15-8ed9-e68e8fbd0218.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8346,7 +8346,7 @@
     },
     {
       "Route": "uploads/books/87dca0c9-990a-4406-ba77-44946f452315.jpg",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\87dca0c9-990a-4406-ba77-44946f452315.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\87dca0c9-990a-4406-ba77-44946f452315.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8383,7 +8383,7 @@
     },
     {
       "Route": "uploads/books/87dca0c9-990a-4406-ba77-44946f452315.m86w1xpzc3.jpg",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\87dca0c9-990a-4406-ba77-44946f452315.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\87dca0c9-990a-4406-ba77-44946f452315.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8428,7 +8428,7 @@
     },
     {
       "Route": "uploads/books/98acadfb-f73d-4ec8-954f-e8e25e647eb0.483jevnkto.jpg",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\98acadfb-f73d-4ec8-954f-e8e25e647eb0.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\98acadfb-f73d-4ec8-954f-e8e25e647eb0.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8473,7 +8473,7 @@
     },
     {
       "Route": "uploads/books/98acadfb-f73d-4ec8-954f-e8e25e647eb0.jpg",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\98acadfb-f73d-4ec8-954f-e8e25e647eb0.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\98acadfb-f73d-4ec8-954f-e8e25e647eb0.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8510,7 +8510,7 @@
     },
     {
       "Route": "uploads/books/a455e0f9-cd20-414c-9a8a-c75cbf2c6826.3c1rpc6e7p.jpg",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\a455e0f9-cd20-414c-9a8a-c75cbf2c6826.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\a455e0f9-cd20-414c-9a8a-c75cbf2c6826.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8555,7 +8555,7 @@
     },
     {
       "Route": "uploads/books/a455e0f9-cd20-414c-9a8a-c75cbf2c6826.jpg",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\a455e0f9-cd20-414c-9a8a-c75cbf2c6826.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\a455e0f9-cd20-414c-9a8a-c75cbf2c6826.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8592,7 +8592,7 @@
     },
     {
       "Route": "uploads/books/a52efbf0-2fc4-44ab-b82e-b0782bf9463c.jpg",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\a52efbf0-2fc4-44ab-b82e-b0782bf9463c.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\a52efbf0-2fc4-44ab-b82e-b0782bf9463c.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8629,7 +8629,7 @@
     },
     {
       "Route": "uploads/books/a52efbf0-2fc4-44ab-b82e-b0782bf9463c.r5dnct0jqi.jpg",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\a52efbf0-2fc4-44ab-b82e-b0782bf9463c.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\a52efbf0-2fc4-44ab-b82e-b0782bf9463c.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8674,7 +8674,7 @@
     },
     {
       "Route": "uploads/books/b2e9e99e-567f-4e29-81f4-cd5675e3a3e3.jpg",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\b2e9e99e-567f-4e29-81f4-cd5675e3a3e3.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\b2e9e99e-567f-4e29-81f4-cd5675e3a3e3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8711,7 +8711,7 @@
     },
     {
       "Route": "uploads/books/b2e9e99e-567f-4e29-81f4-cd5675e3a3e3.thuo6wy9i7.jpg",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\b2e9e99e-567f-4e29-81f4-cd5675e3a3e3.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\b2e9e99e-567f-4e29-81f4-cd5675e3a3e3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8756,7 +8756,7 @@
     },
     {
       "Route": "uploads/books/c24003f1-860c-4d0f-ad94-df8dccc08958.24u1dr2sna.jpg",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\c24003f1-860c-4d0f-ad94-df8dccc08958.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\c24003f1-860c-4d0f-ad94-df8dccc08958.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8801,7 +8801,7 @@
     },
     {
       "Route": "uploads/books/c24003f1-860c-4d0f-ad94-df8dccc08958.jpg",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\c24003f1-860c-4d0f-ad94-df8dccc08958.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\c24003f1-860c-4d0f-ad94-df8dccc08958.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8838,7 +8838,7 @@
     },
     {
       "Route": "uploads/books/c3b686c6-87a4-4c3e-b564-e6886d2e9fcd.1hatww9bfm.jpg",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\c3b686c6-87a4-4c3e-b564-e6886d2e9fcd.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\c3b686c6-87a4-4c3e-b564-e6886d2e9fcd.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8883,7 +8883,7 @@
     },
     {
       "Route": "uploads/books/c3b686c6-87a4-4c3e-b564-e6886d2e9fcd.jpg",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\c3b686c6-87a4-4c3e-b564-e6886d2e9fcd.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\c3b686c6-87a4-4c3e-b564-e6886d2e9fcd.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8920,7 +8920,7 @@
     },
     {
       "Route": "uploads/books/ceceda9b-4726-4aae-835a-a5cd3e5bb765.jpg",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\ceceda9b-4726-4aae-835a-a5cd3e5bb765.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\ceceda9b-4726-4aae-835a-a5cd3e5bb765.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8957,7 +8957,7 @@
     },
     {
       "Route": "uploads/books/ceceda9b-4726-4aae-835a-a5cd3e5bb765.wtwhf16guw.jpg",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\ceceda9b-4726-4aae-835a-a5cd3e5bb765.jpg",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\ceceda9b-4726-4aae-835a-a5cd3e5bb765.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9002,7 +9002,7 @@
     },
     {
       "Route": "uploads/books/default.png",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\default.png",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\default.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9039,7 +9039,7 @@
     },
     {
       "Route": "uploads/books/default.us2i1tkk5d.png",
-      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Littera\\Littera\\wwwroot\\uploads\\books\\default.png",
+      "AssetFile": "C:\\Users\\patid\\Área de Trabalho\\Projetos\\Outros\\Littera\\Littera\\wwwroot\\uploads\\books\\default.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
