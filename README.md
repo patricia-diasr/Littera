@@ -1,4 +1,4 @@
-# 📚 Projeto: Littera
+# 📚 Littera
 
 O **Littera** é um sistema desenvolvido para facilitar a administração de leituras pessoais, oferecendo ao usuário uma plataforma intuitiva e funcional para organizar sua experiência com livros. Criado como parte da disciplina de **Projeto de Bloco em Desenvolvimento Back-end**, o sistema busca unir praticidade e controle em uma única aplicação.
 
